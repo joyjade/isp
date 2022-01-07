@@ -1,4 +1,5 @@
 **Inverse Surveillance Project**  
+--
 A site-specific installation, counter archive, and community art project in Bridgeview IL. 
 
 ### Feeling of Being Watched
