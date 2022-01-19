@@ -1,0 +1,114 @@
+/* GLOBAL */
+:root {
+  --nostalgia: #8086AE;
+  --forest: #155C4D;
+  --amber: #C2764E;
+  --moss: #ADB481;
+  --green: #33835E; 
+  --ivory: #ECE9E0;
+  --avg-pad: 0.5rem 0.75rem;
+}
+
+.moss { background-color: var(--moss); color: white;}
+.amber { background-color: var(--amber); color: white;}
+.ivory { background-color: var(--ivory)}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  line-height: 1.25;
+}
+
+*, ::after, ::before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, p {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 0.75rem;
+}
+
+h6 {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.85rem;
+  font-style: italic; 
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+p.large {
+  font-size: 1.7rem;
+}
+
+/* NAV */
+
+nav {
+  background-color: var(--green);
+  display: flex;
+  padding: var(--avg-pad);
+}
+
+nav a {
+  color: white;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  padding-right: 1rem;
+}
+
+nav a:hover {
+  color: var(--moss);
+}
+
+/* LAYOUT */
+
+section {
+  height: 90vh;
+}
+
+section.split {
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+section.split.flush {
+  padding-top: 0;
+}
+
+section.split > div {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+section .content {
+  padding: 2rem;
+}
+
+section.split.divider div:first-of-type {
+  border-right: 2px solid var(--forest);
+}
+
+section.split.divider div:last-of-type {
+  padding-left: 1.5rem;
+}
+
+

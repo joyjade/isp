@@ -1,0 +1,22 @@
+Title: Press
+
+----
+
+Links:
+
+- 
+  name: Meet Co-Creation Studios New Fellow
+  link: >
+    https://cocreationstudio.mit.edu/assia-boundaoui-and-inverse-surveillance-meet-co-creation-studios-new-fellow/
+  subheader: MIT
+- 
+  name: Knight Wallace Reporting Fellowship
+  link: >
+    https://wallacehouse.umich.edu/announcing-the-2021-2022-knight-wallace-reporting-fellows/
+  subheader: Knight
+
+----
+
+Cover:
+
+- assia.png

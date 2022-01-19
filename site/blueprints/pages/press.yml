@@ -1,0 +1,24 @@
+Title: Press
+preset: page
+pages: false
+files: false
+
+fields:
+  links:
+    label: Press links
+    type: structure
+    fields:
+      name:
+        label: Title
+        type: text
+      link:
+        label: Link
+        type: url
+      subheader:
+        label: Organization
+        help: This will show up as a subheader above the press title
+        type: text
+  cover:
+    label: Photo
+    type: files
+    multiple: false
