@@ -5,7 +5,7 @@
 
 <div class="main">
   <section class="split flush">
-    <div class="amber content">
+    <div class="moss content">
       <h2>
         <?= $page -> title() ?>
       </h2>

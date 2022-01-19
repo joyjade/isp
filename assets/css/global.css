@@ -7,11 +7,13 @@
   --green: #33835E; 
   --ivory: #ECE9E0;
   --avg-pad: 0.5rem 0.75rem;
+  --block-pad: 1.5rem;
 }
 
 .moss { background-color: var(--moss); color: white;}
 .amber { background-color: var(--amber); color: white;}
 .ivory { background-color: var(--ivory)}
+.forest { background-color: var(--forest); color: white;}
 
 * {
   padding: 0;
@@ -79,6 +81,26 @@ nav a:hover {
   color: var(--moss);
 }
 
+footer {
+  background-color: var(--amber);
+  height: 10rem;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  padding: var(--block-pad);
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  padding-right: 0.75rem;
+}
+
+footer a {
+  color: white;
+}
+
 /* LAYOUT */
 
 section {
@@ -87,7 +109,7 @@ section {
 
 section.split {
   display: flex;
-  padding-top: 1.5rem;
+  padding-top: var(--block-pad);
 }
 
 section.split.flush {
@@ -108,7 +130,7 @@ section.split.divider div:first-of-type {
 }
 
 section.split.divider div:last-of-type {
-  padding-left: 1.5rem;
+  padding-left: var(--block-pad);
 }
 
 
