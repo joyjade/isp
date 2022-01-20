@@ -1,6 +1,3 @@
-body {
-  --text-color: white;
-}
 .main .ivory {
   display: flex;
   align-items: center;
@@ -9,18 +6,4 @@ body {
 .main .ivory figure {
   width: 100%;
   padding: var(--block-pad);
-}
-
-.main ul a {
-  color: var(--text-color);
-}
-
-.main li {
-  border-bottom: 2px solid var(--text-color);
-  padding: 1rem 0 0.25rem;
-}
-
-
-.main img {
-  width: inherit;
 }

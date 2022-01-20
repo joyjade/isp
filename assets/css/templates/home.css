@@ -1,0 +1,11 @@
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -1px;
+}
+.centered-logo {
+  position: absolute;
+  width: 600px;
+}

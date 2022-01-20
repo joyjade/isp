@@ -14,11 +14,13 @@
 </head>
 <body>
   <nav>
-    <div>
-      <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
+    <div class="title green">
+      <a href="<?= $site->url() ?>"><img src="/assets/icons/isp_horizontal_2.png" alt=""></a>
     </div>
-    <?php foreach ($site->children()->listed() as $item): ?>
-      <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
-    <?php endforeach ?>
+    <div class="nav ivory">
+      <?php foreach ($site->children()->listed() as $item): ?>
+        <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+      <?php endforeach ?>
+    </div>
   </nav>
   

@@ -1,0 +1,14 @@
+title: Project
+type: pages
+icon: 🎨
+
+options:
+  url: false
+  status: false
+  delete: false
+
+
+sections: 
+  elements:
+    type: pages
+    template: piece

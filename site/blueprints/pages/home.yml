@@ -1,0 +1,27 @@
+title: Home
+icon: 🏯
+
+columns: 
+  left:
+    width: 1/2
+    fields:
+      banner: 
+        type: files
+      description:
+        type: textarea
+      contact:
+        type: text
+
+  right:
+    width: 1/2
+    sections:
+      parts:
+        headline: Sections
+        type: pages
+        status: all
+        info: "{{ page.intendedTemplate }}"
+        image: false
+        templates:
+          - section
+
+    

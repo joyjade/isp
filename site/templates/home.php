@@ -2,19 +2,21 @@
 
 <div class="main">
   <div class="section banner">
-    <h1 class="logo">Inverse Surveillance Project</h1>
+    <img src="/assets/icons/isp.svg" alt="" class="centered-logo">
     <div class="newsletter"></div>
     <?php if($image = $page->image('banner.png')): ?>
       <img src="<?= $image->url() ?>">
     <?php endif ?>
   </div>
-  <section class="split">
+  <section class="split flush">
     <div>
-      <?php if($image = $page->image('split.png')): ?>
-        <img src="<?= $image->url() ?>">
-      <?php endif ?>
+      <figure>
+        <?php if($image = $page->image('split.png')): ?>
+          <img src="<?= $image->url() ?>">
+        <?php endif ?>
+      </figure>
     </div>
-    <div class="content moss">
+    <div class="content amber">
       <p class="large">
         <?= $page -> description() ?>
       </p>
@@ -24,11 +26,10 @@
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/cocreation')]) ?>
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/film')]) ?>
   <section class="split">
-    <div class="amber content">
-      <h2>Press</h2>
-    </div>
+    <?php snippet('press', ['press' => page('press'), 'color' => 'moss']) ?>
     <div class="ivory content">
       <h2>Contact</h2>
+      <p><?=$page->contact()->kirbytext() ?></p>
     </div>
   </section>
 
