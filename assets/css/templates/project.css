@@ -1,0 +1,52 @@
+section {
+  padding: 2.5rem;
+  position: relative;
+  height: var(--screen-height);
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+p.large {
+  font-size: 1.8rem;
+  padding-right: 10%;
+}
+
+section.project a {
+  font-family: var(--monospace);
+  font-style: italic;
+}
+
+section.project a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+section figure {
+  
+  position: absolute;
+  width: 50%;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section figure.left {
+  left: 0;
+}
+
+section figure.right {
+  right: 0;
+}
+
+section.project img {
+  width: 500px;
+  object-fit: contain;
+}
+
+.hidden {
+  opacity: 0;
+}

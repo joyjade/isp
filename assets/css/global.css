@@ -11,6 +11,8 @@
   --text-color: white;
   --grotesk: 'Space Grotesk', sans-serif;
   --monospace: 'Space Mono', monospace;
+  --nav-height: 80px;
+  --screen-height: calc(100vh - var(--nav-height));
 }
 
 .moss { background-color: var(--moss); color: white;}
@@ -41,7 +43,7 @@ h1, h2, p {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
@@ -59,7 +61,7 @@ h6 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
 }
 
@@ -135,9 +137,13 @@ footer a {
 
 /* LAYOUT */
 
+section {
+  box-sizing: border-box;
+}
+
 section.split {
   min-height: 70vh;
-  max-height: 85vh;
+  max-height: var(--screen-height);
   height: auto;
 }
 

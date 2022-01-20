@@ -1,0 +1,12 @@
+section.split {
+  padding-bottom: var(--block-pad);
+  height: var(--screen-height);
+}
+
+section.split .content {
+  padding-top: 1rem;
+}
+
+h1 {
+  margin: 1rem 0 1.5rem;
+}

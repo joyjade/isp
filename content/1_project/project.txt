@@ -2,4 +2,4 @@ Title: Project
 
 ----
 
-Header: Inverse Surveillance Project
+Header: The Inverse Surveillance Project
