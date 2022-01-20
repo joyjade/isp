@@ -1,8 +1,8 @@
 <?php snippet('nav')?>
 
-<div class="main">
+<div class="main cocreation">
 
-  <section class="split">
+  <section class="split flush banner">
     <div>
       <?php if($image = $page->image('split.png')): ?>
         <img src="<?= $image->url() ?>">
@@ -16,8 +16,36 @@
       </p>
     </div>
   </section>
-  <section>
+  <section class="split divider">
+    <div class="content">
+      <h2><?= $page -> definition_header() ?></h2>
+      <p><?= $page -> definition()-> kirbytext() ?></p>
+    </div>
+    <div class="image">
+      <?php if($image = $page->image('split.png')): ?>
+        <img src="<?= $image->url() ?>">
+      <?php endif ?>
+    </div>
+  </section>
+  <section class="padded principles">
+    <h4>Guiding Principles</h4>
      <?=$page->principles()?>
+  </section>
+  <section>
+    <h2>
+      Our Vision
+    </h2>
+    <p class="large">The Inverse Surveillance Project strives and is working to model how we as a community can:</p>
+    <ul class="color-blocks">
+      <?php 
+        if ($vision = $page -> vision()->toStructure()):
+        foreach($vision as $value) :?>
+        <li class="<?=$value->color()?>">
+          <h3><?=$value->value()?></h3>
+          <p><?=$value->explanation()?></p>
+        </li>
+      <?php endforeach; endif; ?>
+    </ul>
   </section>
 </div>
 <?php snippet('footer')?>

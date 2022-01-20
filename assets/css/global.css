@@ -9,6 +9,8 @@
   --avg-pad: 0.5rem 0.75rem;
   --block-pad: 1.5rem;
   --text-color: white;
+  --grotesk: 'Space Grotesk', sans-serif;
+  --monospace: 'Space Mono', monospace;
 }
 
 .moss { background-color: var(--moss); color: white;}
@@ -16,6 +18,7 @@
 .ivory { background-color: var(--ivory)}
 .forest { background-color: var(--forest); color: white;}
 .green { background-color: var(--green); color: white;}
+.nostalgia { background-color: var(--nostalgia); color: white;}
 
 * {
   padding: 0;
@@ -34,7 +37,7 @@ ul {
 }
 
 h1, h2, p {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: var(--grotesk);
 }
 
 h1 {
@@ -49,7 +52,7 @@ h2 {
 }
 
 h6 {
-  font-family: 'Space Mono', monospace;
+  font-family: var(--monospace);
   font-size: 0.85rem;
   font-style: italic; 
   font-weight: 400;
@@ -62,6 +65,14 @@ p {
 
 p.large {
   font-size: 1.7rem;
+}
+
+a {
+  color: var(--amber);
+}
+
+a:hover {
+  color: var(--nostalgia);
 }
 
 /* NAV */
@@ -80,11 +91,13 @@ nav .title img {
 
 nav .nav {
   padding: var(--avg-pad);
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 nav a {
   color: black;
-  font-family: 'Space Mono', monospace;
+  font-family: var(--monospace);
   text-transform: uppercase;
   padding-right: 1.5rem;
 }
@@ -96,7 +109,7 @@ nav a:hover {
 footer {
   background-color: var(--amber);
   height: 10rem;
-  font-family: 'Space Mono', monospace;
+  font-family: var(--monospace);
   text-transform: uppercase;
   padding: var(--block-pad);
   display: flex;
@@ -122,7 +135,7 @@ footer a {
 
 /* LAYOUT */
 
-section {
+section.split {
   min-height: 70vh;
   max-height: 85vh;
   height: auto;
@@ -158,6 +171,10 @@ section.split.divider div:first-of-type {
 
 section.split.divider div:last-of-type {
   padding-left: var(--block-pad);
+}
+
+section.padded {
+  padding: var(--block-pad);
 }
 
 /* PRESS */

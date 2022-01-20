@@ -1,0 +1,8 @@
+label: Color
+type: select
+options:
+  forest: Forest
+  moss: Moss
+  nostalgia: Nostalgia Blue
+  amber: Amber
+  green: Frog

@@ -1,0 +1,64 @@
+.banner .content {
+  display: flex;
+  flex-flow: column;
+}
+
+.banner .content h1 {
+ flex-grow: 1;
+}
+
+.principles ul, .principles ol {
+ font-family: var(--grotesk);
+ font-weight: 700;
+ font-size: 2rem;
+ text-transform: uppercase;
+ margin: 0.75rem 0 var(--block-pad);
+}
+
+.principles ol li:first-of-type, .principles ul li:first-of-type {
+  border-top: 2px solid black;
+}
+
+.principles ol li, .principles ul li {
+  border-bottom: 2px solid black;
+  padding: 0.5rem var(--block-pad);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-family: var(--monospace);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-left: var(--block-pad);
+}
+
+.color-blocks {
+  display: flex;
+  height: 300px;
+}
+
+.color-blocks li {
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  padding: var(--block-pad);
+}
+
+h3 {
+  font-family: var(--monospace);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.color-blocks p {
+  border-bottom: 1px solid white; 
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
