@@ -5,7 +5,26 @@
   justify-content: center;
   margin: -1px;
 }
+
 .centered-logo {
   position: absolute;
   width: 30%;
+}
+
+section.divider {
+  padding-bottom: 4rem;
+}
+
+section.split.divider .content p {
+  padding-bottom: 2rem;
+}
+
+section.split.divider .content h6 {
+  padding-bottom: 0.5rem;
+}
+
+section.split.divider .content a {
+  font-family: var(--grotesk);
+  font-size: 1.5rem;
+  font-weight: 500;
 }

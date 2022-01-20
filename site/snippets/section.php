@@ -4,7 +4,7 @@
     <h2><?= $section-> title() ?></h2>
     <p><?= $section-> description() ?></p>
     <h6><?= $section-> more() ?></h6>
-    <a href="/project" class="">Project</a>
+    <a href="<?= $section-> url() ?>" class=""><?= $section-> title() ?></a>
   </div>
   <div class="image">
     <figure>
