@@ -2,9 +2,9 @@
 :root {
   --nostalgia: #8086AE;
   --forest: #155C4D;
-  --amber: #C2764E;
+  --amber: #C0683A;
   --moss: #ADB481;
-  --green: #33835E; 
+  --green: #247448; 
   --ivory: #ECE9E0;
   --avg-pad: 0.5rem 0.75rem;
   --block-pad: 1.5rem;
@@ -142,7 +142,7 @@ section {
 }
 
 section.split {
-  min-height: 70vh;
+  min-height: 80vh;
   max-height: var(--screen-height);
   height: auto;
 }
@@ -187,11 +187,17 @@ section.padded {
 
 .press ul a {
   color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.press h6, .press h2 {
+  padding-bottom: 0.35rem;
 }
 
 .press li {
   border-bottom: 2px solid var(--text-color);
-  padding: 1rem 0 0.25rem;
+  padding: 0.75rem 0 0rem;
 }
 
 .press img {
