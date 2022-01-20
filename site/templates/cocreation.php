@@ -31,21 +31,26 @@
     <h4>Guiding Principles</h4>
      <?=$page->principles()?>
   </section>
-  <section>
-    <h2>
-      Our Vision
-    </h2>
-    <p class="large">The Inverse Surveillance Project strives and is working to model how we as a community can:</p>
-    <ul class="color-blocks">
+  <section class="split">
+    <div class="forest content">
+      <h2>
+        Our Vision
+      </h2>
+      <p class="large">The Inverse Surveillance Project strives and is working to model how we as a community can →</p>
+    </div>
+    <div class="ivory content">
+      <ul class="color-blocks">
       <?php 
         if ($vision = $page -> vision()->toStructure()):
         foreach($vision as $value) :?>
-        <li class="<?=$value->color()?>">
+        <li class="">
           <h3><?=$value->value()?></h3>
           <p><?=$value->explanation()?></p>
         </li>
       <?php endforeach; endif; ?>
-    </ul>
+      </ul>
+    </div>
+      
   </section>
 </div>
 <?php snippet('footer')?>
