@@ -14,13 +14,23 @@
 </head>
 <body>
   <nav>
-    <div class="title green">
+    <div class="title">
       <a href="<?= $site->url() ?>"><img src="/assets/icons/isp_horizontal_2.png" alt=""></a>
     </div>
-    <div class="nav ivory">
-      <?php foreach ($site->children()->listed() as $item): ?>
-        <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
-      <?php endforeach ?>
+    <div class="menu">
+      <img src="/assets/icons/eye_open.svg" alt="">
     </div>
   </nav>
+  <div class="drawer ivory">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <?php foreach ($site->children()->listed() as $item): ?>
+        <li>
+          <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+        </li>
+        <?php endforeach ?>
+    </ul>
+  </div>
   

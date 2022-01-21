@@ -1,3 +1,23 @@
+document.addEventListener("DOMContentLoaded", function () { 
+  menu();
+
+  var nav = document.querySelector("nav");
+  var headroom = new Headroom(nav);
+  console.log(headroom);
+  headroom.init();
+});
+
+
+
+function menu() {
+  let drawer = document.querySelector('.drawer');
+  let menutoggle = document.querySelector('.menu');
+
+  menutoggle.addEventListener('click', function () {
+    drawer.classList.toggle('open');
+  })
+}
+
 function hoverReveal(selector) {
   let titles = document.querySelectorAll(selector);
   

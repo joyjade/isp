@@ -1,6 +1,6 @@
 <?php snippet('nav')?>
 <div class="main about">
-  <section class="split divider">
+  <section class="split divider sticky">
     <div class="content">
       <h6 class="uppercase"><?=$page->subheader()?></h6>
       <h1><?=$page->heading()?></h1>

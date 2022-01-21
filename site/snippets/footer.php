@@ -8,6 +8,6 @@
   </ul>
   <img src="/assets/icons/isp.svg" alt="" class="footer-logo">
 </footer>
-<?= js(['assets/js/global.js', '@auto']) ?>
+<?= js(['assets/js/headroom.js', 'assets/js/global.js', '@auto']) ?>
 </body>
 </html>

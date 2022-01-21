@@ -11,8 +11,8 @@
   --text-color: white;
   --grotesk: 'Space Grotesk', sans-serif;
   --monospace: 'Space Mono', monospace;
-  --nav-height: 80px;
-  --screen-height: calc(100vh - var(--nav-height));
+  --nav-height: 50px;
+  --screen-height: calc(100vh);
 }
 
 .moss { background-color: var(--moss); color: white;}
@@ -101,22 +101,50 @@ a:hover {
 
 /* NAV */
 
-nav div {
+nav, nav .menu {
   display: flex;
-}
-nav .title {
-  justify-content: center;
+  height: var(--nav-height);
   align-items: center;
-}
-nav .title img {
-  width: 375px;
-  padding-top: 2px;
+  justify-content: center;
 }
 
-nav .nav {
-  padding: var(--avg-pad);
-  position: sticky;
-  position: -webkit-sticky;
+nav {
+  background-color: var(--green);
+}
+
+.headroom {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+/* nav.headroom--pinned {
+  transform: translateY(0%);
+}
+
+nav.headroom--unpinned {
+  transform: translateY(-100%);
+} */
+
+nav .title img {
+  max-height: 100%;
+  width: 25rem;
+}
+
+.menu {
+  width: var(--nav-height);
+  background: var(--ivory);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav .menu img {
+  width: 35px;
+  padding: 0.25rem 0.5rem;
 }
 
 nav a {
@@ -128,6 +156,51 @@ nav a {
 
 nav a:hover {
   color: var(--moss);
+}
+
+.drawer {
+  --text-color: var(--amber);
+  --width: 50vw;
+  z-index: 99;
+  position: fixed;
+  box-sizing: border-box;
+  padding-top: var(--nav-height);
+  height: 100vh;
+  width: var(--width);
+  top: 0;
+  right: -50vw;
+  display: flex;
+  flex-flow: column;
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+.drawer.open {
+  transform: translateX(-50vw);
+}
+
+.drawer ul {
+  padding: 2rem;
+}
+.drawer li:first-of-type {
+  border-top: 2px solid var(--text-color);
+}
+.drawer li {
+  font-family: var(--grotesk);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  border-bottom: 2px solid var(--text-color);
+  padding: var(--avg-pad);
+}
+
+.drawer li a {
+  color: var(--text-color);
+  display: flex;
+}
+.drawer li:hover {
+  --text-color: var(--moss);
 }
 
 footer {
@@ -158,6 +231,10 @@ footer a {
 }
 
 /* LAYOUT */
+
+.main {
+  margin-top: var(--nav-height);
+}
 
 section {
   box-sizing: border-box;
@@ -226,6 +303,22 @@ section.padded {
   width: inherit;
 }
 
+/* STICKY */
 
+.sticky .image figure {
+  position: sticky;
+  position: -webkit-sticky;
+  height: inherit;
+  top: calc(var(--nav-height) + 20px);
+}
+
+/* PIXELLATION */
+
+.image figure {
+  position: relative;
+}
+.pixel {
+  position: absolute;
+}
 
 
