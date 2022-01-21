@@ -42,9 +42,15 @@ h1, h2, p {
   font-family: var(--grotesk);
 }
 
+h3, h4, h6 {
+  font-family: var(--monospace);
+  font-style: italic;
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 500;
+  line-height: 1;
 }
 
 h2 {
@@ -53,11 +59,27 @@ h2 {
   padding-bottom: 0.75rem;
 }
 
-h6 {
-  font-family: var(--monospace);
-  font-size: 0.85rem;
-  font-style: italic; 
+h3 {
   font-weight: 400;
+  font-size: 1.35rem;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-bottom: 0.75rem;
+}
+
+h6 {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+h6.uppercase {
+  font-style: normal;
+  text-transform: uppercase;
+  padding-bottom: 0.75rem;
 }
 
 p {

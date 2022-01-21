@@ -1,8 +1,11 @@
 <?php $presslinks = $press->links()->toStructure()?>
 <div class="press content <?=$color?>">
-  <h2>
-    <?= $press -> title() ?>
-  </h2>
+  <h6 class="uppercase">
+    Press
+  </h6>
+  <h1>
+    <?= $press -> header() ?>
+  </h1>
   <ul>
   <?php foreach($presslinks as $presslink) : ?>
     <li>

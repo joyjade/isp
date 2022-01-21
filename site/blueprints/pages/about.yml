@@ -1,0 +1,39 @@
+title: About
+icon: 
+
+columns:
+  main:
+    width: 3/3
+    fields:
+      heading:
+        width: 2/3
+        label: Heading
+        type: text
+      subheader:
+        width: 1/3
+        label: Subheader
+        type: text
+      llc:
+        label: Watched Film LLC
+        type: textarea
+      film:
+        label: The Feeling of Being Watched
+        type: textarea
+      team: 
+        label: Team
+        type: structure
+        fields:
+          person:   
+            label: Team Member
+            type: text
+          bio: 
+            label: Bio
+            type: textarea
+          link: 
+            label: Link
+            type: textarea
+
+          
+
+      
+

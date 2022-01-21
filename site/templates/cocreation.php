@@ -9,7 +9,7 @@
       <?php endif ?>
     </div>
     <div class="content amber">
-      <h6>Process</h6>
+      <h6 class="uppercase">Process</h6>
       <h1><?=$page ->title() ?></h1>
       <p class="large">
         <?= $page -> description() ?>

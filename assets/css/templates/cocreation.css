@@ -31,11 +31,7 @@ h1 {
   font-size: 3rem;
 }
 
-h4 {
-  font-family: var(--monospace);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.1rem;
+h4 {  
   margin-left: var(--block-pad);
 }
 
@@ -49,14 +45,6 @@ h4 {
 .color-blocks li {
   display: flex;
   flex-flow: column;
-}
-
-h3 {
-  font-family: var(--monospace);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.35rem;
-  padding-bottom: 0.5rem;
 }
 
 .color-blocks p {

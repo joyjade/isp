@@ -1,3 +1,102 @@
-Title: About 
+Title: About
 
 ----
+
+Heading: Behind the Inverse Surveillance Project
+
+----
+
+Subheader: About
+
+----
+
+Llc: Watched Film LLC was created in 2015 by journalist and filmmaker Assia Boundaoui to support the development, production and distribution of the documentary film THE FEELING OF BEING WATCHED (2019), the film's ensuing impact campaign and the INVERSE SURVEILLANCE PROJECT. In 2018 the documentary film had its world premiere at the Tribeca Film Festival and in 2019 had its national television broadcast on PBS "POV". Throughout 2019-2020 we launched the film's impact campaign, creating a Community Healing Guide in collaboration with PBS and the Muslim Wellness Foundation and facilitated dozens of community screenings in BIPOC neighborhoods across the country. In mid 2020 development of the Inverse Surveillance Project began in earnest. From its inception in 2015 to date, Watched Film LLC has received financial support in the form of grants from the following foundations and non-profit organizations: Ford Foundation 'JustFilms', Pillars Fund, Chicago Media Project, Firelight Media, New America Foundation, International Documentary Association, Chicken and Egg Pictures, Tribeca Film Institute, San Francisco Film Society, Utah Film Institute and the Sundance Film Institute. Technical support has been provided by the MIT Open Documentary Lab's Co-Creation Studio. Sponsorship for impact campaign screenings has been provided by the MacArthur Foundation.
+
+----
+
+Film:
+
+In the Arab-American neighborhood outside of Chicago where director Assia Boundaoui grew up, most of her neighbors think they have been under surveillance for over a decade. While investigating their experiences, Assia uncovers tens of thousands of pages of FBI documents that prove her hometown was the subject of one of the largest counterterrorism investigations ever conducted in the U.S. before 9/11, code-named “Operation Vulgar Betrayal.” With unprecedented access, The Feeling of Being Watched weaves the personal and the political as it follows the filmmaker’s examination of why her community fell under blanket government surveillance. Assia struggles to disrupt the government secrecy shrouding what happened and takes the FBI to federal court to compel them to make the records they collected about her community public. In the process, she confronts long-hidden truths about the FBI’s relationship to her community. The Feeling of Being Watched follows Assia as she pieces together this secret FBI operation, while grappling with the effects of a lifetime of surveillance on herself and her family. 
+
+(link: http://www.feelingofbeingwatched.com/ text: THE FEELING OF BEING WATCHED) premiered in 2018 at the Tribeca Film Festival and was nationally broadcast on PBS in 2019 with more than 1.7 million viewers around the country. 
+
+VARIETY: (link: http://variety.com/2018/film/reviews/the-feeling-of-being-watched-review-1202801199/ text: Hot Docs Film Review)
+“Boundaoui’s smart, unsettling documentary functions both as a real-world conspiracy thriller and a personal reflection on the psychological strain of being made to feel an outsider in one’s own home.” 
+THE NEW YORK TIMES: (link: https://www.nytimes.com/2018/04/17/movies/tribeca-film-festival-top-movies.html text: 17 Movies to Enjoy for the Tribeca Film Festival's 17th Edition)
+"This riveting film is at once a personal story, a journalistic thriller and an essay on the nature of paranoia.”
+
+----
+
+Team:
+
+- 
+  person: Assia Boundaoui
+  bio: |
+    Assia Boundaoui is an Algerian-American filmmaker, writer and investigative journalist. Her debut short film about *hijabi* hair salons for the HBO Documentary Films the "LENNY" series premiered at the 2018 Sundance Film Festival. Her award-winning feature-length directorial debut, THE FEELING OF BEING WATCHED a documentary investigating a decade of FBI surveillance in Assia's Muslim-American community, had its world premiere at the 2018 Tribeca Film Festival, won the jury prize for Best Documentary at the Woodstock Film Festival and was nationally broadcast on PBS "POV" in 2019. Assia was named one of Filmmaker Magazine's "25 New Faces of Independent Film" and her work has been the recipient of support from the Ford Foundation JustFilms, International Documentary Association, San Francisco Film Society, Impact Partners and Firelight Media and FRONTLINE among others. Assia was a 2019 New America National Fellow and in 2020 was honored to be the recipient of the Livingston Award for national reporting. She is currently a Ford Foundation JustFilms fellow hosted at the MIT Open Documentary Lab Co-Creation Studio where she is iterating a co-created, AI fueled sequel to her film: the Inverse Surveillance Project. She has an M.A. in journalism from New York University and is an Algiers born, Arabic speaking Chicagoan currently based in Chicago,IL.
+  link: ""
+- 
+  person: Yucef Merhi
+  bio: >
+    Yucef Merhi is an artist, coder,
+    researcher, and curator, interested in
+    raising cultural awareness through
+    technology and language. Yucef has
+    produced a wide body of works that
+    engage poetry, hacking, facial
+    recognition, AI, VR and retro video game
+    platforms, towards the formulation of
+    interactive experiences and
+    environments. He is a pioneer of Digital
+    Art, and is known for making the first
+    work of art that included a video game
+    console—the Atari 2600—back in
+    1985.Merhi holds a Master’s from
+    NYU’s Interactive Telecommunications
+    Program (ITP) and has taught Digital Art
+    at numerous universities in the US,
+    Venezuela and Ecuador. Over the past 25
+    years, he has been invited to lecture at
+    ACM-MM, SIGGRAPH, New York University,
+    The New School, Pratt Institute, Pace
+    University, John Jay College of Criminal
+    Justice, California Arts Institute, as
+    well as several museums around the
+    globe.
+  link: ""
+- 
+  person: Shirin Anlen
+  bio: >
+    Shirin Anlen is an artist and creative
+    technologist based in California and New
+    York. Her artistic practice involves
+    creative coding, interaction design,
+    drawings, and data research that form
+    the basis for real-life storytelling in
+    emerging technologies — such as AR,
+    VR, web platforms, and machine learning.
+    shirin was an artist in residence at the
+    National Film Board of Canada and a
+    member at the NEW INC incubator together
+    with Raycaster, an experience design
+    studio she co-founded. She received the
+    best digital story by the Biennial of
+    Medial Arts of Chile; a research grant
+    from the Knight Foundation, and an art
+    commission from IDFA DocLab. She curated
+    the VR program of DocAviv festival in
+    the years 2016-2019, co-founded the
+    first VR and interactive storytelling
+    festival and lab in Israel, Steamer
+    Salon and a member of Women+ Art AI
+    collective. shirin holds an MFA in
+    cinema and television from Tel Aviv
+    University and is a research fellow at
+    MIT Open Documentary Lab. Currently
+    she’s exploring how alternative
+    narratives can design new discourses
+    around mental disability.
+  link: ""
+- 
+  person: Nouha Boundaoui
+  bio: "Nouha Boundaoui is a public health researcher and health justice and anti-surveillance advocate. As a graduate of Northwestern University and the Rollins School of Public Health, Nouha is dedicated to investigating the intersections of race and health and understanding how social determinants of health impact the health and freedoms of communities of color. As an advocate with All Options, a reproductive justice organization, and volunteer with Believer's Bail Out, a community led bail fund freeing Muslims from pre-trial & immigration incarceration, she believes deeply in building a world that prioritizes the health, healing, and liberation of all."
+  link: ""

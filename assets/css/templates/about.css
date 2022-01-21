@@ -1,0 +1,52 @@
+.about section.split {
+ max-height: none;
+ height: auto;
+}
+
+.about .content {
+  padding-top: 1rem;
+}
+
+.about figure {
+  height: var(--screen-height);
+  position: sticky;
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+h4 {
+  padding-top: 2rem;
+}
+
+.image.left {
+  padding-right: var(--block-pad);
+}
+
+.team {
+  padding: 3rem 2rem;
+}
+
+.team h1 {
+  padding-top: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.team h4, .team p {
+  padding-top: 1rem;
+  width: 50%;
+}
+
+.team ul li {
+  display: flex;
+  border-bottom: 2px solid black;
+}
+
+.team p {
+  padding-bottom: 1rem;
+}
