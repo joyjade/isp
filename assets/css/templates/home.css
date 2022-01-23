@@ -4,6 +4,13 @@
   align-items: center;
   justify-content: center;
   margin: -1px;
+  height: var(--screen-height);
+}
+
+.banner .banner-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .centered-logo {
@@ -11,12 +18,45 @@
   width: 30%;
 }
 
-section.divider {
-  padding-bottom: 4rem;
+section h1 {
+  padding-bottom: 1.7rem;
+}
+
+section.statement {
+  height: 75vh;
+  position: relative;
+}
+
+section.statement img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+}
+
+section.statement .content {
+  z-index: 1;
+}
+
+section.split.divider .content, 
+section.split.divider .image {
+  padding-top: 0;
+}
+
+section.split.divider .content {
+  padding-right: 8rem;
+  position: sticky;
+  top: var(--nav-height);
+}
+
+section.divider.split {
+  position: relative; 
+  padding: 8rem 0 2rem;
+  height: 100vh;
 }
 
 section.split.divider .content p {
-  padding-bottom: 2rem;
+  padding-bottom: 1.2rem;
 }
 
 section.split.divider .content h6 {
@@ -24,7 +64,10 @@ section.split.divider .content h6 {
 }
 
 section.split.divider .content a {
-  font-family: var(--grotesk);
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.contact h1 {
+  padding-top: 1.4rem;
 }

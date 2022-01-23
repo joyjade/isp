@@ -9,8 +9,8 @@
   <ul>
   <?php foreach($presslinks as $presslink) : ?>
     <li>
-      <h6><?=$presslink->subheader() ?></h6>
-      <h2><a href="<?=$presslink->link()?>"><?=$presslink->name() ?></a></h2>
+      <h3 class="uppercase"><?=$presslink->subheader() ?></h3>
+      <h3><a href="<?=$presslink->link()?>" target="_blank"><?=$presslink->name() ?></a></h2>
     </li>
   <?php endforeach; ?>
   </ul>

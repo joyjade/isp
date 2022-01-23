@@ -1,6 +1,6 @@
 <?php snippet('nav')?>
 <div class="main about">
-  <section class="split divider sticky">
+  <section class="split divider">
     <div class="content">
       <h6 class="uppercase"><?=$page->subheader()?></h6>
       <h1><?=$page->heading()?></h1>
@@ -10,8 +10,8 @@
       <p><?=$page->film()->kirbytext() ?></p>
     </div>
     <div class="image">
-      <figure>
-        <?php if($image = $page->image('split.png')): ?>
+      <figure class="sticky">
+        <?php if($image = $page->image()): ?>
           <img src="<?= $image->url()?>">
         <?php endif ?>
       </figure>

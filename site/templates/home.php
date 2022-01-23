@@ -1,22 +1,16 @@
 <?php snippet('nav')?>
 
-<div class="main">
+<div class="">
   <div class="section banner">
     <img src="/assets/icons/isp.svg" alt="" class="centered-logo">
     <div class="newsletter"></div>
-    <?php if($image = $page->image('banner.png')): ?>
-      <img src="<?= $image->url() ?>">
+    <?php if($image = $page->image('banner_3.jpg')): ?>
+      <img class="banner-img" src="<?= $image->url() ?>">
     <?php endif ?>
   </div>
-  <section class="split flush">
-    <div>
-      <figure>
-        <?php if($image = $page->image('split.png')): ?>
-          <img src="<?= $image->url() ?>">
-        <?php endif ?>
-      </figure>
-    </div>
-    <div class="content amber">
+  <section class="flush statement amber">
+    <img src="/assets/icons/pixels_4.svg" alt="">
+    <div class="content ">
       <p class="large">
         <?= $page -> description() ?>
       </p>
@@ -27,8 +21,9 @@
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/film')]) ?>
   <section class="split">
     <?php snippet('press', ['press' => page('press'), 'color' => 'moss']) ?>
-    <div class="ivory content">
-      <h2>Contact</h2>
+    <div class="ivory content contact">
+      <h6></h6>
+      <h1>Contact</h1>
       <p><?=$page->contact()->kirbytext() ?></p>
     </div>
   </section>

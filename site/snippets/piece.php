@@ -3,6 +3,6 @@
   data-id="<?=$piece-> id()?>"
   class="reveal">
     <?=$term?>
-</a> 
+</a><?=$punctuation?>
 
 

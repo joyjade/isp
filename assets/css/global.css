@@ -6,6 +6,7 @@
   --moss: #ADB481;
   --green: #247448; 
   --ivory: #ECE9E0;
+  --mustard: #CF811D;
   --avg-pad: 0.5rem 0.75rem;
   --block-pad: 1.5rem;
   --text-color: white;
@@ -21,6 +22,7 @@
 .forest { background-color: var(--forest); color: white;}
 .green { background-color: var(--green); color: white;}
 .nostalgia { background-color: var(--nostalgia); color: white;}
+.mustard { background-color: var(--mustard);}
 
 * {
   padding: 0;
@@ -33,6 +35,8 @@
   background-repeat: no-repeat;
   box-sizing: inherit;
 }
+
+::selection { background-color: black; color: white;}
 
 ul {
   list-style-type: none;
@@ -61,8 +65,15 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   padding-bottom: 0.5rem;
+}
+
+h3.uppercase {
+  font-family: var(--grotesk);
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -83,12 +94,12 @@ h6.uppercase {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
 p.large {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 a {
@@ -96,16 +107,17 @@ a {
 }
 
 a:hover {
-  color: var(--nostalgia);
+  color: var(--moss);
 }
 
 /* NAV */
 
-nav, nav .menu {
+nav, .menu {
   display: flex;
   height: var(--nav-height);
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 nav {
@@ -120,14 +132,18 @@ nav {
   will-change: transform;
   transition: transform 200ms linear;
 }
+/* 
+.headroom--top {
+  opacity: 0;
+} */
 
-/* nav.headroom--pinned {
+nav.headroom--pinned {
   transform: translateY(0%);
 }
 
 nav.headroom--unpinned {
   transform: translateY(-100%);
-} */
+}
 
 nav .title img {
   max-height: 100%;
@@ -137,15 +153,29 @@ nav .title img {
 .menu {
   width: var(--nav-height);
   background: var(--ivory);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  z-index: 102  ;
 }
 
-nav .menu img {
+.menu img {
   width: 35px;
-  padding: 0.25rem 0.5rem;
+  position: absolute;
 }
+
+.menu .eye.wide, .menu.open .eye.closed {
+  opacity: 1;
+}
+
+.menu .eye, .menu.open .eye.wide {
+  opacity: 0;
+}
+
+.menu:hover .eye.half { opacity: 1 }
+.menu:hover .eye.wide, .menu:hover .eye.closed  { opacity: 0 }
+
+
 
 nav a {
   color: black;
@@ -232,10 +262,6 @@ footer a {
 
 /* LAYOUT */
 
-.main {
-  margin-top: var(--nav-height);
-}
-
 section {
   box-sizing: border-box;
 }
@@ -264,17 +290,11 @@ section .content {
   padding: 2rem;
 }
 
-section figure, section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+section.split.divider > div:first-of-type {
+  border-right: 1.5px solid black;
 }
 
-section.split.divider div:first-of-type {
-  border-right: 2px solid var(--forest);
-}
-
-section.split.divider div:last-of-type {
+section.split.divider > div:last-of-type {
   padding-left: var(--block-pad);
 }
 
@@ -284,10 +304,12 @@ section.padded {
 
 /* PRESS */
 
-.press ul a {
+.press ul a, .press ul h3 {
   color: var(--text-color);
-  text-transform: uppercase;
-  font-weight: 700;
+}
+
+.press ul li:hover {
+  --text-color: var(--forest);
 }
 
 .press h6, .press h2 {
@@ -297,20 +319,14 @@ section.padded {
 .press li {
   border-bottom: 2px solid var(--text-color);
   padding: 0.75rem 0 0rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .press img {
   width: inherit;
 }
 
-/* STICKY */
-
-.sticky .image figure {
-  position: sticky;
-  position: -webkit-sticky;
-  height: inherit;
-  top: calc(var(--nav-height) + 20px);
-}
 
 /* PIXELLATION */
 
@@ -321,4 +337,23 @@ section.padded {
   position: absolute;
 } */
 
+/* IMAGES, HOVER EFFECT AND STICKY */
+
+section figure, section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sticky {
+  position: sticky;
+  top: var(--nav-height);
+}
 

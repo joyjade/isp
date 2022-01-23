@@ -8,7 +8,7 @@
     </div>
     <div class="image">
       <figure>
-        <?php if($image = $page->image('project.jpg')): ?>
+        <?php if($image = $page->image()): ?>
           <img src="<?= $image->url() ?>">
           <?php endif ?>
         </figure>

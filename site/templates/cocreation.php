@@ -4,7 +4,7 @@
 
   <section class="split flush banner">
     <div>
-      <?php if($image = $page->image('split.png')): ?>
+      <?php if($image = $page->image('sisters.jpg')): ?>
         <img src="<?= $image->url() ?>">
       <?php endif ?>
     </div>
@@ -18,11 +18,13 @@
   </section>
   <section class="split divider">
     <div class="content">
-      <h2><?= $page -> definition_header() ?></h2>
-      <p><?= $page -> definition()-> kirbytext() ?></p>
+      <div class="sticky">
+        <h2><?= $page -> definition_header() ?></h2>
+        <p><?= $page -> definition()-> kirbytext() ?></p>
+      </div>
     </div>
     <div class="image">
-      <?php if($image = $page->image('split.png')): ?>
+      <?php if($image = $page->image('hugs.jpg')): ?>
         <img src="<?= $image->url() ?>">
       <?php endif ?>
     </div>

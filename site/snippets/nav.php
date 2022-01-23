@@ -17,10 +17,12 @@
     <div class="title">
       <a href="<?= $site->url() ?>"><img src="/assets/icons/isp_horizontal_2.png" alt=""></a>
     </div>
-    <div class="menu">
-      <img src="/assets/icons/eye_open.svg" alt="">
-    </div>
   </nav>
+  <div class="menu">
+    <img src="/assets/icons/eye_open.svg" alt="" class="eye wide">
+    <img src="/assets/icons/eye_halfopen.svg" class="eye half" alt="">
+    <img src="/assets/icons/eye_closed.svg" class="eye closed" alt="">
+  </div>
   <div class="drawer ivory">
     <ul>
       <li>

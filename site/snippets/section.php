@@ -1,10 +1,13 @@
 <!-- <?php  ?> -->
 <section class="split <?=$class?>">
   <div class="content">
-    <h2><?= $section-> title() ?></h2>
-    <p><?= $section-> description() ?></p>
-    <h6><?= $section-> more() ?></h6>
-    <a href="<?= $section-> url() ?>" class=""><?= $section-> title() ?></a>
+    <div class="sticky">
+      <h1><?= $section-> title() ?></h1>
+      <p><?= $section-> description() ?></p>
+      <h6>
+        <a href="<?= $section-> url() ?>" class=""><?= $section-> more() ?></a>
+      </h6>
+    </div>
   </div>
   <div class="image">
     <figure>

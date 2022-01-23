@@ -1,6 +1,13 @@
 section.split {
   padding-bottom: var(--block-pad);
-  height: var(--screen-height);
+  height: calc(var(--screen-height) - var(--nav-height));
+}
+
+section figure {
+}
+section img {
+  height: auto;
+  width: 80%;
 }
 
 section.split .content {
@@ -9,4 +16,9 @@ section.split .content {
 
 h1 {
   margin: 1rem 0 1.5rem;
+}
+
+.main {
+  margin-top: var(--nav-height);
+  background: center / 100% no-repeat url("/assets/icons/pixels_3.svg"), var(--ivory);
 }

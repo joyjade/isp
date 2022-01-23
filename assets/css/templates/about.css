@@ -3,13 +3,17 @@
  height: auto;
 }
 
+.main {
+  margin-top: var(--nav-height);
+}
+
 .about .content {
   padding-top: 1rem;
+  padding-right: 8rem;
 }
 
 .about figure {
-  height: var(--screen-height);
-  position: sticky;
+  height: calc(var(--screen-height) - var(--nav-height) - var(--block-pad) - var(--block-pad));
 }
 
 h1 {
@@ -49,4 +53,12 @@ h4 {
 
 .team p {
   padding-bottom: 1rem;
+}
+
+.about .sticky {
+  top: calc(var(--nav-height) + var(--block-pad));
+
+}
+section.split.divider {
+  position: relative;
 }

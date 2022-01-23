@@ -1,9 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () { 
   menu();
 
+  var options = {
+    // vertical offset in px before element is first unpinned
+    offset : 0,
+    // or you can specify offset individually for up/down scroll
+    offset: {
+        up: 100,
+        down: 50
+    },
+    // scroll tolerance in px before state changes
+    tolerance : 10,
+    // or you can specify tolerance individually for up/down scroll
+    tolerance : {
+        up : 5,
+        down : 0
+    }
+  };
+  
   var nav = document.querySelector("nav");
-  var headroom = new Headroom(nav);
-  console.log(headroom);
+  var headroom = new Headroom(nav, options);
   headroom.init();
 });
 
@@ -12,10 +28,18 @@ document.addEventListener("DOMContentLoaded", function () {
 function menu() {
   let drawer = document.querySelector('.drawer');
   let menutoggle = document.querySelector('.menu');
+  let eyes = document.querySelectorAll('.eye');
 
-  menutoggle.addEventListener('click', function () {
-    drawer.classList.toggle('open');
+  document.addEventListener('click', function (e) {
+    if (menutoggle.contains(e.target)){
+      drawer.classList.toggle('open');
+      menutoggle.classList.toggle('open');
+    } else if (drawer.classList.contains('open') && !drawer.contains(e.target)) {
+      drawer.classList.remove('open');
+      menutoggle.classList.remove('open');
+    }
   })
+
 }
 
 function hoverReveal(selector) {

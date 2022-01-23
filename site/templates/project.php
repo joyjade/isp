@@ -11,14 +11,14 @@
       <h1><?= $page->header() ?></h1>
       <p class="large">
         is an interactive new media installation coming to Bridgeview, IL. 
-        <?php snippet('piece', ['term' => 'Cocreated', 'piece' => $cocreation]) ?>
+        <?php snippet('piece', ['term' => 'Cocreated', 'piece' => $cocreation, 'punctuation' => '']) ?>
         with the local Arab and Muslim communities and a team of 
         artists led by Assia Boundaoui, the installation will take the form of a forty-foot 
-        <?php snippet('piece', ['term' => 'labyrinth', 'piece' => $labyrinth]) ?>
-        , guiding participants through an immersive AR 
-        <?php snippet('piece', ['term' => 'counter archive', 'piece' => $archive]) ?>
+        <?php snippet('piece', ['term' => 'labyrinth', 'piece' => $labyrinth, 'punctuation' => ',']) ?>
+        guiding participants through an immersive AR 
+        <?php snippet('piece', ['term' => 'counter archive', 'piece' => $archive, 'punctuation' => '']) ?>
         and a communal arts  
-        <?php snippet('piece', ['term' => 'center', 'piece' => $tatreez]) ?>
+        <?php snippet('piece', ['term' => 'center', 'piece' => $tatreez, 'punctuation' => '.']) ?> 
       </p>
     </div>
     <div class="image">
@@ -28,10 +28,10 @@
       <figure class="hidden right nostalgia" id="labyrinth">
         <img src="<?= $labyrinth ->image()-> url() ?>" alt="">
       </figure>
-      <figure class="hidden right forest" id="counterarchive">
+      <figure class="hidden left moss" id="counterarchive">
         <img src="<?=  $archive ->image()-> url() ?>" alt="">
       </figure>
-      <figure class="hidden left moss" id="tatreez">
+      <figure class="hidden right ivory" id="tatreez">
         <img src="<?=  $tatreez->image()-> url() ?>" alt="">
       </figure>
     </div>

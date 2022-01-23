@@ -1,6 +1,11 @@
+section.banner.split {
+  height: var(--screen-height);
+}
+
 .banner .content {
   display: flex;
   flex-flow: column;
+  padding-top: calc(var(--block-pad) +var(--nav-height));
 }
 
 .banner .content h1 {
@@ -8,7 +13,8 @@
 }
 
 section.principles {
-  padding-top: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .principles ul, .principles ol {
  font-family: var(--grotesk);
