@@ -5,7 +5,12 @@
       <h1><?= $section-> title() ?></h1>
       <p><?= $section-> description() ?></p>
       <h6>
-        <a href="<?= $section-> url() ?>" class=""><?= $section-> more() ?></a>
+        <?php if($section->linkedpage()->toPage()) {
+          $url = $section->linkedpage()->toPage()->url();
+        } else {
+          $url = $section->externallink();
+        }?>
+          <a href="<?= $url?>" class=""><?= $section-> more() ?></a>
       </h6>
     </div>
   </div>

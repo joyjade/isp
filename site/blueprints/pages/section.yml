@@ -1,0 +1,24 @@
+title: Home
+icon: 🏯
+
+columns: 
+  left:
+    width: 1/2
+    fields:
+      banner: 
+        type: files
+      description:
+        type: textarea
+
+  right:
+    width: 1/2
+    fields:
+      linkedpage:
+        type: pages
+        label: Page Link
+        query: site.children.listed
+        help: Please select which internal page this section should link to
+      externallink:
+        type: url 
+        label: External Link
+        help: If you'd like to link to an external link input it here

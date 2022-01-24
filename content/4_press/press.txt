@@ -2,10 +2,6 @@ Title: Press
 
 ----
 
-Header: In the News
-
-----
-
 Links:
 
 - 
@@ -18,9 +14,18 @@ Links:
   link: >
     https://wallacehouse.umich.edu/announcing-the-2021-2022-knight-wallace-reporting-fellows/
   subheader: Knight
+- 
+  name: A suburban filmmaker sued to the FBI...
+  link: >
+    https://www.chicagotribune.com/news/breaking/ct-bridgeview-muslims-fbi-surveillance-20200130-eoyicwf4vvhulhhyej6r4nnjeq-story.html
+  subheader: Chicago Tribune
 
 ----
 
 Cover:
 
 - assia.png
+
+----
+
+Header: In the News

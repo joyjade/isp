@@ -2,9 +2,17 @@ Title: The Project
 
 ----
 
-Description: 
+Banner: 
 
-The site-specific installation will be built and co- created in Bridgeview, Illinois. It will repurpose thousands of FBI documents collected during a decade of surveillance of the community and take the shape of a forty-foot labyrinth. Within the labyrinth, the redacted spaces in the documents — white holes where the government has violently disappeared information from the record — will be transformed into spaces of possibility. Spaces where a glitch, so to speak, in the bureaucratic documents can become a catalyst that initiates the community’s counter archive.
+----
+
+Description: The site-specific installation will be built and co- created in Bridgeview, Illinois. It will repurpose thousands of FBI documents collected during a decade of surveillance of the community and take the shape of a forty-foot labyrinth. Within the labyrinth, the redacted spaces in the documents — white holes where the government has violently disappeared information from the record — will be transformed into spaces of possibility. Spaces where a glitch, so to speak, in the bureaucratic documents can become a catalyst that initiates the community’s counter archive.
+
+----
+
+Linkedpage:
+
+- project
 
 ----
 
@@ -12,5 +20,4 @@ More: See Project
 
 ----
 
-Link:
-
+Link: 

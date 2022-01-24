@@ -49,13 +49,17 @@ section.split.divider .content {
   top: var(--nav-height);
 }
 
+section.split.divider .content.wide { 
+  padding-right: 2rem
+}
+
 section.divider.split {
   position: relative; 
   padding: 8rem 0 2rem;
   height: 100vh;
 }
 
-section.split.divider .content p {
+section.split .content p {
   padding-bottom: 1.2rem;
 }
 
@@ -70,4 +74,9 @@ section.split.divider .content a {
 
 .contact h1 {
   padding-top: 1.4rem;
+}
+
+hr {
+  border: 1px solid var(--moss);
+  margin: 1.5rem 0;
 }

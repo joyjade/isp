@@ -11,7 +11,7 @@
       <h1><?= $page->header() ?></h1>
       <p class="large">
         is an interactive new media installation coming to Bridgeview, IL. 
-        <?php snippet('piece', ['term' => 'Cocreated', 'piece' => $cocreation, 'punctuation' => '']) ?>
+        <?php snippet('piece', ['term' => 'Co-created', 'piece' => $cocreation, 'punctuation' => '']) ?>
         with the local Arab and Muslim communities and a team of 
         artists led by Assia Boundaoui, the installation will take the form of a forty-foot 
         <?php snippet('piece', ['term' => 'labyrinth', 'piece' => $labyrinth, 'punctuation' => ',']) ?>

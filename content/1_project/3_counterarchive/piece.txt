@@ -1,7 +1,5 @@
-Title: Counter Archive 
+Title: Counter Archive
 
 ----
 
-Description: 
-
-The counter archive comprises fragments of collective memory in the form of home videos and audio testimonials from members of the community. Augmented reality (AR) becomes the tool that a participant, on a journey to uncovering a hidden story, uses to catalyze the glitch and mediate access to the community’s narrative. Video and audio compose the counter-archive, and together with 3D graphic animation techniques, direct the participants' bodies through the labyrinth, moving cyclically from alienation and constriction towards the center, a place of healing, community, and expansion.  Participants are invited to explore the labyrinth using their mobile phones to unearth and uncover layers of the hidden story, until they near the center of the labyrinth, at which point the counter-archive exits the AR frame and projects directly onto the walls of the labyrinth. 
+Description: The counter archive comprises fragments of collective memory in the form of home videos and audio testimonials from members of the community. Augmented reality (AR) becomes the tool that a participant, on a journey to uncovering a hidden story, uses to catalyze the glitch and mediate access to the community’s narrative. Video and audio compose the counter-archive, and together with 3D graphic animation techniques, direct the participants' bodies through the labyrinth, moving cyclically from alienation and constriction towards the center, a place of healing, community, and expansion.  Participants are invited to explore the labyrinth using their mobile phones to unearth and uncover layers of the hidden story, until they near the center of the labyrinth, at which point the counter-archive exits the AR frame and projects directly onto the walls of the labyrinth.
