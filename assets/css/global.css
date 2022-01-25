@@ -198,7 +198,7 @@ nav a:hover {
   height: 100vh;
   width: var(--width);
   top: 0;
-  right: -50vw;
+  right: calc(0px - var(--width));
   display: flex;
   flex-flow: column;
   will-change: transform;
@@ -206,7 +206,7 @@ nav a:hover {
 }
 
 .drawer.open {
-  transform: translateX(-50vw);
+  transform: translateX(calc(0px - var(--width)));
 }
 
 .drawer ul {

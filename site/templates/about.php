@@ -24,7 +24,9 @@
         foreach($members as $member): ?>
         <li>
           <h4><?=$member->person()?></h4>
-          <p><?=$member->bio()?></p>
+          <div class="bio">
+            <?=$member->bio()->kirbytext()?>
+          </div>
         </li>
       <?php endforeach; endif ?>
     </ul>

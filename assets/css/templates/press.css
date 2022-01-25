@@ -4,6 +4,7 @@
 .main .ivory {
   display: flex;
   align-items: center;
+  min-height: 60vh;
 }
 
 .main .ivory figure {

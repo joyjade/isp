@@ -37,18 +37,18 @@ h4 {
   font-weight: 700;
   font-size: 2rem;
   text-transform: uppercase;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid var(--amber);
+  border-bottom: 2px solid var(--amber);
 }
 
-.team h4, .team p {
+.team h4, .team .bio {
   padding-top: 1rem;
   width: 50%;
 }
 
 .team ul li {
   display: flex;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--amber);
 }
 
 .team p {

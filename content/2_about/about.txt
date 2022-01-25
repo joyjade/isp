@@ -32,36 +32,16 @@ Team:
 - 
   person: Assia Boundaoui
   bio: |
-    Assia Boundaoui is an Algerian-American filmmaker, writer and investigative journalist. Her debut short film about *hijabi* hair salons for the HBO Documentary Films the "LENNY" series premiered at the 2018 Sundance Film Festival. Her award-winning feature-length directorial debut, THE FEELING OF BEING WATCHED a documentary investigating a decade of FBI surveillance in Assia's Muslim-American community, had its world premiere at the 2018 Tribeca Film Festival, won the jury prize for Best Documentary at the Woodstock Film Festival and was nationally broadcast on PBS "POV" in 2019. Assia was named one of Filmmaker Magazine's "25 New Faces of Independent Film" and her work has been the recipient of support from the Ford Foundation JustFilms, International Documentary Association, San Francisco Film Society, Impact Partners and Firelight Media and FRONTLINE among others. Assia was a 2019 New America National Fellow and in 2020 was honored to be the recipient of the Livingston Award for national reporting. She is currently a Ford Foundation JustFilms fellow hosted at the MIT Open Documentary Lab Co-Creation Studio where she is iterating a co-created, AI fueled sequel to her film: the Inverse Surveillance Project. She has an M.A. in journalism from New York University and is an Algiers born, Arabic speaking Chicagoan currently based in Chicago,IL.
+    Assia Boundaoui is an Algerian-American filmmaker, writer and investigative journalist. Her debut short film about *hijabi* hair salons for the HBO Documentary Films the "LENNY" series premiered at the 2018 Sundance Film Festival. Her award-winning feature-length directorial debut, THE FEELING OF BEING WATCHED a documentary investigating a decade of FBI surveillance in Assia's Muslim-American community, had its world premiere at the 2018 Tribeca Film Festival, won the jury prize for Best Documentary at the Woodstock Film Festival and was nationally broadcast on PBS "POV" in 2019. Assia was named one of Filmmaker Magazine's "25 New Faces of Independent Film" and her work has been the recipient of support from the Ford Foundation JustFilms, International Documentary Association, San Francisco Film Society, Impact Partners and Firelight Media and FRONTLINE among others. Assia was a 2019 New America National Fellow and in 2020 was honored to be the recipient of the Livingston Award for national reporting.
+    
+    She is currently a Ford Foundation JustFilms fellow hosted at the MIT Open Documentary Lab Co-Creation Studio where she is iterating a co-created, AI fueled sequel to her film: the Inverse Surveillance Project. She has an M.A. in journalism from New York University and is an Algiers born, Arabic speaking Chicagoan currently based in Chicago,IL.
   link: ""
 - 
   person: Yucef Merhi
-  bio: >
-    Yucef Merhi is an artist, coder,
-    researcher, and curator, interested in
-    raising cultural awareness through
-    technology and language. Yucef has
-    produced a wide body of works that
-    engage poetry, hacking, facial
-    recognition, AI, VR and retro video game
-    platforms, towards the formulation of
-    interactive experiences and
-    environments. He is a pioneer of Digital
-    Art, and is known for making the first
-    work of art that included a video game
-    console—the Atari 2600—back in
-    1985.Merhi holds a Master’s from
-    NYU’s Interactive Telecommunications
-    Program (ITP) and has taught Digital Art
-    at numerous universities in the US,
-    Venezuela and Ecuador. Over the past 25
-    years, he has been invited to lecture at
-    ACM-MM, SIGGRAPH, New York University,
-    The New School, Pratt Institute, Pace
-    University, John Jay College of Criminal
-    Justice, California Arts Institute, as
-    well as several museums around the
-    globe.
+  bio: |
+    Yucef Merhi is an artist, coder, researcher, and curator, interested in raising cultural awareness through technology and language. Yucef has produced a wide body of works that engage poetry, hacking, facial recognition, AI, VR and retro video game platforms, towards the formulation of interactive experiences and environments. He is a pioneer of Digital Art, and is known for making the first work of art that included a video game console—the Atari 2600—back in 1985.
+    
+    Merhi holds a Master’s from NYU’s Interactive Telecommunications Program (ITP) and has taught Digital Art at numerous universities in the US, Venezuela and Ecuador. Over the past 25 years, he has been invited to lecture at ACM-MM, SIGGRAPH, New York University, The New School, Pratt Institute, Pace University, John Jay College of Criminal Justice, California Arts Institute, as well as several museums around the globe.
   link: ""
 - 
   person: Shirin Anlen
