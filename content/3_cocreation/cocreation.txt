@@ -2,15 +2,23 @@ Title: Co-Creation
 
 ----
 
-Description: We are a collective of sisters, neighbors, artists, khaltos and ammos, organizers, and educators rooted in Bridgeview, IL and connected by our collective desire to heal, build, and cultivate community through art.
+Description: We are a collective of sisters, neighbors, artists, grandparents, khaltos and ammos, organizers, and educators rooted in Bridgeview, IL and connected by our collective desire to heal, build, and cultivate community.
 
 ----
 
-Definition-header: “Alternative to a Single-Author Vision"
+Definition-header: “Co-creation is a living process…”
 
 ----
 
-Definition: Using the definition found in (link: https://wip.mitpress.mit.edu/collectivewisdom text: Collective Wisdom), a field study spear-headed by our friend and mentor (link: https://wip.mitpress.mit.edu/user/katerina-cizek text: Katerina Cizek) we understand co-creation to be an “alternative to a single-author vision, and involves a constellation of media production methods, frameworks, and feedback systems. In co-creation, projects emerge from a process, and evolve from within communities and with people, rather than for or about them. Co-creation also spans across and beyond disciplines and organizations, and can also involve non-human or beyond human systems. The concept of co-creation reframes the ethics of who creates, how, and why. Our research shows that co-creation interprets the world, and seeks to change it, through a lens of equity and justice.”
+Definition:
+
+According to (link: https://wip.mitpress.mit.edu/collectivewisdom text: Collective Wisdom target: _blank), a field study spear-headed by the MIT Open Documentary Lab and co-authored by our friend and mentor (link: https://wip.mitpress.mit.edu/user/katerina-cizek text: Katerina Cizek target: _blank) we understand co-creation to be: “an alternative to a single-author vision… a process that involves a constellation of media production methods, frameworks, and feedback systems.
+
+In co-creation projects emerge from a process, they **evolve from within communities** and **with people**, rather than for or about them. 
+
+The concept of co-creation reframes the ethics of who creates, how, and why. 
+
+Our research shows that co-creation interprets the world, and seeks to change it, through a lens of equity and justice.”
 
 ----
 
@@ -18,7 +26,7 @@ Mission: We are a collective of sisters, neighbors, artists, khaltos and ammos, 
 
 ----
 
-Principles: <ul><li>Non-hierarchical and consensus-based</li><li>counter-extractive and a benefit to the community</li><li>defying all notions of single authorship</li><li>centering the most marginalized</li><li>prioritizing care and wellness in every way.</li></ul>
+Principles: <ul><li>Non-hierarchical and consensus-based</li><li>Counter-extractive and a benefit to the community</li><li>Defying all notions of single authorship</li><li>Centering the most marginalized</li><li>Prioritizing care and wellness in every way.</li></ul>
 
 ----
 
@@ -47,6 +55,6 @@ Vision:
   value: Thrive
   explanation: >
     as a community by practicing our sacred
-    traditions of togetherness, hospitality,
-    creating art
+    traditions of togetherness, hospitality
+    and creating art
   color: moss

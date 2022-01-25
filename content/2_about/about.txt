@@ -1,4 +1,4 @@
-Title: About
+Title: Team
 
 ----
 
@@ -6,7 +6,7 @@ Heading: Behind the Inverse Surveillance Project
 
 ----
 
-Subheader: About
+Subheader: Team
 
 ----
 

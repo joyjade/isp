@@ -57,6 +57,10 @@ h1 {
   line-height: 1;
 }
 
+h1.large {
+  font-size: 3rem;
+}
+
 h2 {
   font-size: 1.8rem;
   font-weight: 500;
@@ -269,7 +273,7 @@ section {
 }
 
 section.split {
-  min-height: 80vh;
+  min-height: 85vh;
   max-height: var(--screen-height);
   height: auto;
 }

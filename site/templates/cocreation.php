@@ -12,37 +12,20 @@
     </div>
     <div class="content amber">
       <h6 class="uppercase">Process</h6>
-      <h1><?=$page ->title() ?></h1>
+      <h1 class="large"><?=$page ->title() ?></h1>
       <p class="large">
         <?= $page -> description() ?>
       </p>
     </div>
   </section>
   <section class="split flush">
-    <div class="content ivory">
-      <div class="sticky">
-        <h2><?= $page -> definition_header() ?></h2>
-        <p><?= $page -> definition()-> kirbytext() ?></p>
-      </div>
-    </div>
-    <div class="image moss">
-      <?php if($image = $page->image('hugs.jpg')): ?>
-        <figure class="collage">
-          <img src="<?= $image->url() ?>">
-        </figure>
-      <?php endif ?>
-    </div>
-  </section>
-  <section class="padded principles">
-    <h4>Guiding Principles</h4>
-     <?=$page->principles()?>
-  </section>
-  <section class="split">
     <div class="forest content">
-      <h2>
-        Our Vision
-      </h2>
-      <p class="large">The Inverse Surveillance Project strives and is working to model how we as a community can →</p>
+      <div class="sticky">
+        <h1>
+          Our Vision
+        </h1>
+        <p class="large">The Inverse Surveillance Project strives to model how we as a community can… →</p>
+      </div>
     </div>
     <div class="ivory content">
       <ul class="color-blocks">
@@ -56,7 +39,23 @@
       <?php endforeach; endif; ?>
       </ul>
     </div>
-      
+  </section>
+  <section class="padded principles">
+    <h4>Guiding Principles</h4>
+     <?=$page->principles()?>
+  </section>
+  <section class="split flush">
+    <div class="content ivory">
+      <h1><?= $page -> definition_header() ?></h1>
+      <p><?= $page -> definition()-> kirbytext() ?></p>
+    </div>
+    <div class="image moss">
+      <?php if($image = $page->image('hugs.jpg')): ?>
+        <figure class="collage">
+          <img src="<?= $image->url() ?>">
+        </figure>
+      <?php endif ?>
+    </div>
   </section>
 </div>
 <?php snippet('footer')?>
