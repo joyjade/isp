@@ -2,11 +2,13 @@
 
 <div class="main cocreation">
 
-  <section class="split flush banner">
+  <section class="split flush banner m-reverse">
     <div>
-      <?php if($image = $page->image('coche.jpg')): ?>
-        <img src="<?= $image->url() ?>">
-      <?php endif ?>
+      <figure>
+        <?php if($image = $page->image('coche.jpg')): ?>
+          <img src="<?= $image->url() ?>">
+        <?php endif ?>
+      </figure>
     </div>
     <div class="content amber">
       <h6 class="uppercase">Process</h6>

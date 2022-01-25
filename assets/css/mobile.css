@@ -2,6 +2,14 @@
 
   /* LAYOUT */
 
+  :root {
+    --block-pad: 1rem;
+  }
+
+  section, section.banner.split {
+    height: auto;
+  }
+
   section.split {
     flex-flow: column;
     max-height: 100%;
@@ -14,10 +22,15 @@
 
   section.divider.split {
     height: 100%;
+    padding: var(--block-pad) 0; 
   }
 
   section.split.divider > div:first-of-type {
     border: none;
+  }
+
+  section.split.divider > div:last-of-type {
+    padding-right: var(--block-pad);
   }
 
   section.split.divider .content {
@@ -29,9 +42,17 @@
     position: unset;
   }
 
+  figure.collage {
+    height: 70vh;
+  }
+
   /* NAV */
   nav {
     justify-content: left;
+  }
+
+  nav .title {
+    padding-left: 1rem;
   }
   nav .title img {
     max-width: 80vw;
@@ -40,6 +61,12 @@
   .drawer {
     --width: 100vw;
   }
+
+  footer ul {
+    flex-flow: column;
+  }
+
+  /* PAGE STYLES */
 
   .centered-logo {
     width: 80vw;
@@ -55,7 +82,49 @@
   }
 
   .press, .contact {
-    height: 60vh;
+    height: auto;
+    min-height: 75vh;
   }
   
+  .home section.split.divider, section.m-reverse {
+    flex-flow: column-reverse;
+  }
+
+  .home section h1 {
+    padding-top: 0.5rem;
+  }
+
+  section.project  {
+    padding: 2rem var(--block-pad);
+  }
+
+  .project p.large {
+    font-size: 1.6rem;
+    padding-right: 0;
+  }
+
+  .cocreation section img {
+    width: auto;
+  }
+
+  .cocreation figure, .about figure {
+    min-height: 75vh;
+    height: 80vh;
+  }
+
+  .team {
+    padding: var(--block-pad);
+  }
+
+  .team ul li {
+    flex-flow: column;
+  }
+
+  .team h4, .team .bio {
+    width: 100%;
+  }
+
+  .drawer ul {
+    padding: var(--block-pad);
+  }
 }

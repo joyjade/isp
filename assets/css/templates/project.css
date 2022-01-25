@@ -1,6 +1,6 @@
 section {
   padding: 2rem;
-  padding-top: calc(2rem + var(--nav-height));
+  padding-top: calc(2rem + var(--nav-height)) !important;
   position: relative;
   height: var(--screen-height);
 }

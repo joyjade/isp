@@ -1,6 +1,6 @@
 <?php snippet('nav')?>
 
-<div class="">
+<div class="home">
   <div class="section banner">
     <img src="/assets/icons/isp.svg" alt="" class="centered-logo">
     <div class="newsletter"></div>
@@ -40,12 +40,6 @@
 
     </div>
   </section>
-
-  
-  <div class="split section">
-
-  </div>
-  <div class="split section"></div>
 </div>
 
 <?php snippet('footer')?>

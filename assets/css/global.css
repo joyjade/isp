@@ -132,10 +132,6 @@ nav {
   will-change: transform;
   transition: transform 200ms linear;
 }
-/* 
-.headroom--top {
-  opacity: 0;
-} */
 
 nav.headroom--pinned {
   transform: translateY(0%);
@@ -235,7 +231,7 @@ nav a:hover {
 
 footer {
   background-color: var(--amber);
-  height: 10rem;
+  height: 7rem;
   font-family: var(--monospace);
   text-transform: uppercase;
   padding: var(--block-pad);
@@ -255,9 +251,15 @@ footer a {
   color: white;
 }
 
+footer a:hover {
+  color: white;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid white;
+}
+
 .footer-logo {
   width: 170px;
-  transform: translateY(-40px);
+  transform: translate(10px, -20px);
 }
 
 /* LAYOUT */
@@ -300,6 +302,15 @@ section.split.divider > div:last-of-type {
 
 section.padded {
   padding: var(--block-pad);
+}
+
+.error section {
+  height: var(--screen-height);
+  padding: var(--nav-height) var(--block-pad) 0;
+}
+
+.error section h1 {
+  padding-top: var(--block-pad);
 }
 
 /* PRESS */
