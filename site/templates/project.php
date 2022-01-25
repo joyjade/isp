@@ -19,8 +19,8 @@
         displaying 33,000 redacted documents from Operation Vulgar Betrayal and using augmented reality will bring a 
         <?php snippet('piece', ['term' => 'community counter archive', 'piece' => $archive, 'punctuation' => '']) ?>
          consisting of fragments of collective memory and dreams in the form of archival home videos to life. 
-        <?php snippet('piece', ['term' => 'center', 'piece' => $tatreez, 'punctuation' => '.']) ?> 
       </p>
+      <!-- <?php snippet('piece', ['term' => 'center', 'piece' => $tatreez, 'punctuation' => '.'])?>  -->
     </div>
     <div class="image">
       <figure class="hidden left amber" id="cocreation">
