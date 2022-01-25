@@ -16,6 +16,21 @@
   height: calc(var(--screen-height) - var(--nav-height) - var(--block-pad) - var(--block-pad));
 }
 
+.about p {
+  padding-bottom: 1rem;
+}
+
+.about em {
+  font-family: var(--monospace);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.about .company li {
+  font-family: var(--monospace);
+  text-transform: uppercase;
+}
+
 h1 {
   padding-bottom: 1rem;
 }

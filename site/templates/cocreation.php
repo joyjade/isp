@@ -4,7 +4,7 @@
 
   <section class="split flush banner">
     <div>
-      <?php if($image = $page->image('sisters.jpg')): ?>
+      <?php if($image = $page->image('coche.jpg')): ?>
         <img src="<?= $image->url() ?>">
       <?php endif ?>
     </div>
@@ -16,16 +16,18 @@
       </p>
     </div>
   </section>
-  <section class="split divider">
-    <div class="content">
+  <section class="split flush">
+    <div class="content ivory">
       <div class="sticky">
         <h2><?= $page -> definition_header() ?></h2>
         <p><?= $page -> definition()-> kirbytext() ?></p>
       </div>
     </div>
-    <div class="image">
+    <div class="image moss">
       <?php if($image = $page->image('hugs.jpg')): ?>
-        <img src="<?= $image->url() ?>">
+        <figure class="collage">
+          <img src="<?= $image->url() ?>">
+        </figure>
       <?php endif ?>
     </div>
   </section>

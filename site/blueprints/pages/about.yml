@@ -1,4 +1,4 @@
-title: About
+title: Team
 icon: 
 
 columns:
@@ -13,12 +13,10 @@ columns:
         width: 1/3
         label: Subheader
         type: text
-      llc:
-        label: Watched Film LLC
+      description:
         type: textarea
-      film:
-        label: The Feeling of Being Watched
-        type: textarea
+        label: Blurb
+
       team: 
         label: Team
         type: structure

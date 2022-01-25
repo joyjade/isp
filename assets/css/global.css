@@ -357,3 +357,15 @@ section figure {
   top: var(--nav-height);
 }
 
+
+figure.collage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure.collage img {
+  width: 70%;
+  height: auto;
+}
+

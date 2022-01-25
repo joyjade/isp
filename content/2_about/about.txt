@@ -10,20 +10,7 @@ Subheader: About
 
 ----
 
-Llc: Watched Film LLC was created in 2015 by journalist and filmmaker Assia Boundaoui to support the development, production and distribution of the documentary film THE FEELING OF BEING WATCHED (2019), the film's ensuing impact campaign and the INVERSE SURVEILLANCE PROJECT. In 2018 the documentary film had its world premiere at the Tribeca Film Festival and in 2019 had its national television broadcast on PBS "POV". Throughout 2019-2020 we launched the film's impact campaign, creating a Community Healing Guide in collaboration with PBS and the Muslim Wellness Foundation and facilitated dozens of community screenings in BIPOC neighborhoods across the country. In mid 2020 development of the Inverse Surveillance Project began in earnest. From its inception in 2015 to date, Watched Film LLC has received financial support in the form of grants from the following foundations and non-profit organizations: Ford Foundation 'JustFilms', Pillars Fund, Chicago Media Project, Firelight Media, New America Foundation, International Documentary Association, Chicken and Egg Pictures, Tribeca Film Institute, San Francisco Film Society, Utah Film Institute and the Sundance Film Institute. Technical support has been provided by the MIT Open Documentary Lab's Co-Creation Studio. Sponsorship for impact campaign screenings has been provided by the MacArthur Foundation.
-
-----
-
-Film:
-
-In the Arab-American neighborhood outside of Chicago where director Assia Boundaoui grew up, most of her neighbors think they have been under surveillance for over a decade. While investigating their experiences, Assia uncovers tens of thousands of pages of FBI documents that prove her hometown was the subject of one of the largest counterterrorism investigations ever conducted in the U.S. before 9/11, code-named “Operation Vulgar Betrayal.” With unprecedented access, The Feeling of Being Watched weaves the personal and the political as it follows the filmmaker’s examination of why her community fell under blanket government surveillance. Assia struggles to disrupt the government secrecy shrouding what happened and takes the FBI to federal court to compel them to make the records they collected about her community public. In the process, she confronts long-hidden truths about the FBI’s relationship to her community. The Feeling of Being Watched follows Assia as she pieces together this secret FBI operation, while grappling with the effects of a lifetime of surveillance on herself and her family. 
-
-(link: http://www.feelingofbeingwatched.com/ text: THE FEELING OF BEING WATCHED) premiered in 2018 at the Tribeca Film Festival and was nationally broadcast on PBS in 2019 with more than 1.7 million viewers around the country. 
-
-VARIETY: (link: http://variety.com/2018/film/reviews/the-feeling-of-being-watched-review-1202801199/ text: Hot Docs Film Review)
-“Boundaoui’s smart, unsettling documentary functions both as a real-world conspiracy thriller and a personal reflection on the psychological strain of being made to feel an outsider in one’s own home.” 
-THE NEW YORK TIMES: (link: https://www.nytimes.com/2018/04/17/movies/tribeca-film-festival-top-movies.html text: 17 Movies to Enjoy for the Tribeca Film Festival's 17th Edition)
-"This riveting film is at once a personal story, a journalistic thriller and an essay on the nature of paranoia.”
+Description: Our team is made up of..... statement here
 
 ----
 
@@ -80,3 +67,11 @@ Team:
   person: Nouha Boundaoui
   bio: "Nouha Boundaoui is a public health researcher and health justice and anti-surveillance advocate. As a graduate of Northwestern University and the Rollins School of Public Health, Nouha is dedicated to investigating the intersections of race and health and understanding how social determinants of health impact the health and freedoms of communities of color. As an advocate with All Options, a reproductive justice organization, and volunteer with Believer's Bail Out, a community led bail fund freeing Muslims from pre-trial & immigration incarceration, she believes deeply in building a world that prioritizes the health, healing, and liberation of all."
   link: ""
+
+----
+
+Llc: 
+
+----
+
+Film: 

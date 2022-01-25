@@ -1,16 +1,15 @@
 <?php snippet('nav')?>
 <div class="main about">
   <section class="split divider">
-    <div class="content">
-      <h6 class="uppercase"><?=$page->subheader()?></h6>
-      <h1><?=$page->heading()?></h1>
-      <h4>Watched Film LLC</h4>
-      <p><?=$page->llc()->kirbytext() ?></p>
-      <h4>The Feeling of Being Watched</h4>
-      <p><?=$page->film()->kirbytext() ?></p>
+    <div class="content company">
+      <div class="sticky">
+        <h6 class="uppercase"><?=$page->subheader()?></h6>
+        <h1><?=$page->heading()?></h1>
+        <p><?=$page->description()?></p>
+      </div>
     </div>
     <div class="image">
-      <figure class="sticky">
+      <figure>
         <?php if($image = $page->image()): ?>
           <img src="<?= $image->url()?>">
         <?php endif ?>
