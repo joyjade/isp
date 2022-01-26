@@ -7,15 +7,6 @@
   min-height: 60vh;
 }
 
-.main .ivory figure {
-  width: 100%;
-  padding: var(--block-pad);
-}
-
 .press.content h1 {
   padding-bottom: 1.5rem;
-}
-
-.main section figure, .main section img {
-  object-fit: contain;
 }

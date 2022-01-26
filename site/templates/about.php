@@ -2,18 +2,18 @@
 <div class="main about">
   <section class="split divider">
     <div class="content company">
-      <div class="sticky">
         <h6 class="uppercase"><?=$page->subheader()?></h6>
         <h1><?=$page->heading()?></h1>
-        <p><?=$page->description()?></p>
-      </div>
+        <p><?=$page->description()->kirbytext()?></p>
     </div>
     <div class="image">
-      <figure>
-        <?php if($image = $page->image()): ?>
-          <img src="<?= $image->url()?>">
-        <?php endif ?>
-      </figure>
+      <div class="sticky">
+        <figure>
+          <?php if($image = $page->image()): ?>
+            <img src="<?= $image->url()?>">
+          <?php endif ?>
+        </figure>
+      </div>
     </div>
   </section>
   <section class="team">

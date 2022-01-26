@@ -22,9 +22,12 @@
     <div class="forest content">
       <div class="sticky">
         <h1>
-          Our Vision
+          <span>Our Vision</span>
         </h1>
-        <p class="large">The Inverse Surveillance Project strives to model how we as a community can… →</p>
+        <p class="large">
+          The Inverse Surveillance Project strives to model how we as a community can...    
+        </p>
+        <img class="inline-arrow" src="/assets/icons/arrow.svg" alt="">
       </div>
     </div>
     <div class="ivory content">
@@ -44,7 +47,7 @@
     <h4>Guiding Principles</h4>
      <?=$page->principles()?>
   </section>
-  <section class="split flush">
+  <section class="split flush m-reverse">
     <div class="content ivory">
       <h1><?= $page -> definition_header() ?></h1>
       <p><?= $page -> definition()-> kirbytext() ?></p>

@@ -19,6 +19,22 @@ Links:
   link: >
     https://www.chicagotribune.com/news/breaking/ct-bridgeview-muslims-fbi-surveillance-20200130-eoyicwf4vvhulhhyej6r4nnjeq-story.html
   subheader: Chicago Tribune
+- 
+  name: >
+    The FBI’s ‘Vulgar Betrayal’ of
+    Muslim Americans
+  link: >
+    http://www.nybooks.com/daily/2018/04/21/the-fbis-vulgar-betrayal-of-muslim-americans/
+  subheader: THE NEW YORK REVIEW OF BOOKS
+- 
+  name: 'Review: FBI surveillance of Muslims hits home in ‘The Feeling of Being Watched’'
+  link: >
+    https://www.latimes.com/entertainment/movies/la-et-mn-mini-feeling-of-being-watched-review-20190619-story.html
+  subheader: LA TIMES
+
+----
+
+Photo: 
 
 ----
 

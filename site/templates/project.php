@@ -10,15 +10,16 @@
     <div>
       <h1><?= $page->header() ?></h1>
       <p class="large">
-        is an interactive new media installation 
-        <?php snippet('piece', ['term' => 'co-created', 'piece' => $cocreation, 'punctuation' => '']) ?>
-        with the Arab and Muslim American communities in the Chicagoland area.
-        The project will repurpose thousands of FBI documents collected during a decade of surveillance, as a site of collective disruption and a reclaiming of narrative. 
-        The installation will take the shape of a 40-foot 
+        is a new-media project that includes designing and producing a
+        <?php snippet('piece', ['term' => 'co-creation', 'piece' => $cocreation, 'punctuation' => '']) ?>
+        process with with the Arab and Muslim American community in the Chicagoland area.  This process will result in a site specific installation and the creation of a community counter-archive. 
+        The project will repurpose thousands of FBI documents collected during a decade of state surveillance, as a site of collective disruption and a reclaiming of narrative. 
+        <br/><br/>
+        The installation will take the shape of a 50-foot
         <?php snippet('piece', ['term' => 'labyrinth', 'piece' => $labyrinth, 'punctuation' => ',']) ?>
-        displaying 33,000 redacted documents from Operation Vulgar Betrayal and using augmented reality will bring a 
+        displaying 33,000 redacted documents from the FBI’s “Operation Vulgar Betrayal.” Augmented reality is the vehicle that triggers the
         <?php snippet('piece', ['term' => 'community counter archive', 'piece' => $archive, 'punctuation' => '']) ?>
-         consisting of fragments of collective memory and dreams in the form of archival home videos to life. 
+        and gives access to fragments of collective memory and emotional truths — in the form of family home videos and photographs shared by the community — buried within the redacted spaces of the government’s official record. 
       </p>
       <!-- <?php snippet('piece', ['term' => 'center', 'piece' => $tatreez, 'punctuation' => '.'])?>  -->
     </div>

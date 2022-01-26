@@ -10,7 +10,15 @@ Subheader: Team
 
 ----
 
-Description: Our team is made up of..... statement here
+Description:
+
+The Inverse Surveillance Project team has assembled an interdisciplinary team of artists, community organizers, researchers, creative technologists, educators, and valued community members to design, produce, and co-create this project. 
+
+The sensitivity, care, and specific cultural competency needed to create meaningful change, and facilitate true healing is of the utmost importance to us. We looked within our community for the brilliant mentors, creators and change-makers to help us bring this vision to light and formed a community advisory board. Our intergenerational, multi-ethnic and inter-disciplinary community advisory board is more robust and wonderful than these buzzwords can ever convey.
+
+Our trusted consulting partners and subject-matter experts include, Dr. Kameelah Mu’min Rashad & the Muslim Wellness Foundation, Wafa Ghanim & Tatreez and Tea, Jumana Qawasmi & Watan.
+
+We have received invaluable support from the MIT Open Documentary Lab and Co-Creation Studio, the University of Michigan Wallace House, Ford Foundation JustFilms, the Field Foundation, Pillars Fund, Sundance Institute Documentary Film Program and the Luminate Foundation.
 
 ----
 

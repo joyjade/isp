@@ -1,13 +1,27 @@
-@media screen and (max-width: 700px){
-
-  /* LAYOUT */
-
-  :root {
-    --block-pad: 1rem;
+/* TABLET DOWN */
+@media screen and (max-width: 900px){
+  /* NAV */
+  nav {
+    justify-content: left;
   }
 
-  section, section.banner.split {
-    height: auto;
+  nav .title {
+    padding-left: 1rem;
+  }
+  nav .title img {
+    max-width: 80vw;
+  }
+
+  .drawer {
+    --width: 100%;
+  }
+
+  footer ul {
+    flex-flow: column;
+  }
+
+  footer a {
+    padding-bottom: 0;
   }
 
   section.split {
@@ -33,6 +47,23 @@
     padding-right: var(--block-pad);
   }
 
+  .home section.split.divider, section.m-reverse {
+    flex-flow: column-reverse;
+  }
+
+  figure.collage {
+    height: 70vh;
+    padding: 3rem 0;
+  }
+
+  figure.collage img {
+    width: 50%;
+  }
+
+  section, section.banner.split {
+    height: auto;
+  }
+
   section.split.divider .content {
     padding: var(--block-pad);
     padding-bottom: var(--block-pad);
@@ -42,29 +73,35 @@
     position: unset;
   }
 
-  figure.collage {
-    height: 70vh;
+  .cocreation section.split {
+    min-height: auto;
   }
 
-  /* NAV */
-  nav {
-    justify-content: left;
+  .principles ul, .principles ol {
+    font-size: 1.6rem;
+  }
+  .inline-arrow {
+    display: none;
   }
 
-  nav .title {
-    padding-left: 1rem;
+  .color-blocks {
+    padding-top: 0rem;
   }
-  nav .title img {
-    max-width: 80vw;
+}
+
+/* MOBILE DOWN */
+@media screen and (max-width: 700px){
+
+  /* LAYOUT */
+  :root {
+    --block-pad: 1rem;
   }
 
-  .drawer {
-    --width: 100vw;
+  figure.collage img, .cocreation figure.collage img {
+    width: 70%;
+    padding: 0;
   }
-
-  footer ul {
-    flex-flow: column;
-  }
+  
 
   /* PAGE STYLES */
 
@@ -85,10 +122,6 @@
     height: auto;
     min-height: 75vh;
   }
-  
-  .home section.split.divider, section.m-reverse {
-    flex-flow: column-reverse;
-  }
 
   .home section h1 {
     padding-top: 0.5rem;
@@ -101,6 +134,10 @@
   .project p.large {
     font-size: 1.6rem;
     padding-right: 0;
+  }
+
+  section.project figure {
+    width: 100%;
   }
 
   .cocreation section img {

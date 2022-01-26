@@ -18,7 +18,7 @@ fields:
         label: Organization
         help: This will show up as a subheader above the press title
         type: text
-  cover:
+  photo:
     label: Photo
     type: files
     multiple: false
