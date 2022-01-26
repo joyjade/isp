@@ -16,7 +16,7 @@
 <body>
   <nav>
     <div class="title">
-      <a href="<?= $site->url() ?>"><img src="/assets/icons/isp_horizontal_2.png" alt=""></a>
+      <a href="<?= $site->url() ?>"><img src="/assets/icons/isp_horizontal.svg" alt=""></a>
     </div>
   </nav>
   <div class="menu">

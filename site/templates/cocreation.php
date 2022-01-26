@@ -29,6 +29,9 @@
         </p>
         <img class="inline-arrow" src="/assets/icons/arrow.svg" alt="">
       </div>
+      <figure class="tatreez-bg">
+        <img src="/assets/icons/pixels_square_2.svg" alt="" class="tatreez-icon m-hide">
+      <figure class="tatreez-bg">
     </div>
     <div class="ivory content">
       <ul class="color-blocks">
@@ -58,6 +61,9 @@
           <img src="<?= $image->url() ?>">
         </figure>
       <?php endif ?>
+      <figure class="tatreez-bg">
+        <img src="/assets/icons/pixels_square.svg" alt="" class="tatreez-icon rotate">
+      <figure class="tatreez-bg">
     </div>
   </section>
 </div>

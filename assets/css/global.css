@@ -150,6 +150,10 @@ nav .title img {
   width: 25rem;
 }
 
+nav .title a {
+  padding: 0;
+}
+
 .menu {
   width: var(--nav-height);
   background: var(--ivory);
@@ -350,12 +354,24 @@ section.padded {
 
 /* PIXELLATION */
 
-/* .image figure {
+.tatreez-icon {
+  position: absolute;
+  height: auto;
+}
+
+div.image, div.content {
   position: relative;
 }
-.pixel {
+
+figure.tatreez-bg {
   position: absolute;
-} */
+  bottom: -10px;
+  right: 0;
+}
+
+.tatreez-icon.rotate {
+  transform: rotate(270deg);
+}
 
 /* IMAGES, HOVER EFFECT AND STICKY */
 

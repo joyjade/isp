@@ -15,6 +15,9 @@
           <img src="<?= $image->url() ?>">
         </figure>
       <?php endif ?>
+      <figure class="tatreez-bg">
+        <img src="/assets/icons/pixels_square.svg" alt="" class="tatreez-icon">
+      <figure class="tatreez-bg">
     </div>
     <div class="content ivory statement">
       <div class="sticky">
@@ -22,6 +25,7 @@
           <?= $page -> heading() ?>
         </h2>
       </div>
+      <img src="/assets/icons/icon_pxls.png" alt="" class="tatreez-icon">
     </div>
   </section>
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/project')]) ?>
@@ -37,6 +41,9 @@
     
       <h3>Support Our Work</h3>
       <p>Need a link here for people to donate!</p>
+      <figure class="tatreez-bg">
+        <img src="/assets/icons/pixels_square_3.svg" alt="" class="tatreez-icon">
+      <figure class="tatreez-bg">
 
     </div>
   </section>

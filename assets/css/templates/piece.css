@@ -3,8 +3,6 @@ section.split {
   height: calc(var(--screen-height) - var(--nav-height));
 }
 
-section figure {
-}
 section img {
   height: auto;
   width: 80%;
@@ -21,4 +19,10 @@ h1 {
 .main {
   margin-top: var(--nav-height);
   background: center / 100% no-repeat url("/assets/icons/pixels_3.svg"), var(--ivory);
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    background: right / 1200px no-repeat url("/assets/icons/pixels_3.svg"), var(--ivory);
+  }
 }

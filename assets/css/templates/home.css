@@ -68,3 +68,10 @@ hr {
   border: 1px solid var(--moss);
   margin: 1.5rem 0;
 }
+
+.statement .tatreez-icon {
+  top: 75%;
+  right: 20%;
+  width: 40px;
+}
+

@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-  background: center / 100% no-repeat url("/assets/icons/pixels_2.svg");
+  background: center / 100% no-repeat url("/assets/icons/pixels_5.svg");
 }
 
 h1 {
@@ -32,7 +32,6 @@ section.project a:hover {
 }
 
 section figure {
-  
   position: absolute;
   width: 50%;
   top: 0;
@@ -57,4 +56,10 @@ section.project img {
 
 .hidden {
   opacity: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    background: right / 1200px no-repeat url("/assets/icons/pixels_5.svg");
+  }
 }

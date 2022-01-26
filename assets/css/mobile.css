@@ -73,6 +73,10 @@
     position: unset;
   }
 
+  .statement {
+    min-height: 70vh;
+  }
+
   .cocreation section.split {
     min-height: auto;
   }
@@ -87,6 +91,10 @@
   .color-blocks {
     padding-top: 0rem;
   }
+
+  .cocreation figure.tatreez-bg img {
+    width: 100%;
+  }
 }
 
 /* MOBILE DOWN */
@@ -100,6 +108,10 @@
   figure.collage img, .cocreation figure.collage img {
     width: 70%;
     padding: 0;
+  }
+
+  .m-hide {
+    display: none;
   }
   
 
