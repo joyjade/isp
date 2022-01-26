@@ -37,7 +37,7 @@ Team:
     Yucef Merhi is an artist, coder, researcher, and curator, interested in raising cultural awareness through technology and language. Yucef has produced a wide body of works that engage poetry, hacking, facial recognition, AI, VR and retro video game platforms, towards the formulation of interactive experiences and environments. He is a pioneer of Digital Art, and is known for making the first work of art that included a video game console—the Atari 2600—back in 1985.
     
     Merhi holds a Master’s from NYU’s Interactive Telecommunications Program (ITP) and has taught Digital Art at numerous universities in the US, Venezuela and Ecuador. Over the past 25 years, he has been invited to lecture at ACM-MM, SIGGRAPH, New York University, The New School, Pratt Institute, Pace University, John Jay College of Criminal Justice, California Arts Institute, as well as several museums around the globe.
-  link: ""
+  link: http://yucef.com/
 - 
   person: Shirin Anlen
   bio: >
