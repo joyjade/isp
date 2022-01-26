@@ -81,8 +81,21 @@
     min-height: auto;
   }
 
+  .cocreation h4 {
+    margin-left: 0;
+  }
+
+  .cocreation .forest {
+    padding-bottom: 2.5rem;
+  }
+
   .principles ul, .principles ol {
     font-size: 1.6rem;
+  }
+
+  .principles ol li, .principles ul li {
+    padding-left
+    : 0;
   }
   .inline-arrow {
     display: none;
@@ -112,6 +125,10 @@
 
   .m-hide {
     display: none;
+  }
+
+  section .content {
+    padding: 1.5rem var(--block-pad);
   }
   
 

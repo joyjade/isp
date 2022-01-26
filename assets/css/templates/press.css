@@ -10,3 +10,9 @@
 .press.content h1 {
   padding-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 700px){
+  section img {
+    width: 110%;
+  }
+}

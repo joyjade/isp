@@ -12,7 +12,7 @@ section.banner.split {
  flex-grow: 1;
 }
 
-.content p {
+.ivory.content p {
   padding-bottom: 1.5rem;
 }
 
@@ -75,6 +75,7 @@ h1:not(.large) {
   height: auto;
   display: inline;
   object-fit: contain;
+  padding: var(--block-pad) 0;
 }
 
 
