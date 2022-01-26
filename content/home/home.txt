@@ -2,23 +2,19 @@ Title: Home
 
 ----
 
-Banner: 
+Heading:
 
-----
-
-Heading: 
-
-The Inverse Surveillance Project takes its name from the concept of citizen under-sight, an action undertaken by the subjects of surveillance, of the systems of surveillance. It is a hybrid documentary project co-created with the Arab and Muslim American communities in the Chicagoland area, which uses government FOIA records as canvas to build community power, compel government transparency and co-create new narratives of our American Muslim experience.
+## The Inverse Surveillance Project takes its name from the concept of citizen under-sight, an action undertaken *by* the subjects of surveillance, *of* the systems of surveillance. 
+## It is an art project co-created with the Arab and Muslim American communities in Chicago, which seeks to build power, compel government transparency and co-create new narratives of our American Muslim experience through the creation of a site-specific, AR-fueled, counter-archive.
 
 ----
 
 Description: 
 
-During the five year investigation of surveillance in her community documented in the award winning film, THE FEELING OF BEING WATCHED (2018), Assia sought to disrupt government secrecy and took the FBI to federal court to compel them to make the records they collected about her community public. 
+----
 
-In the process of making the film, Assia filed a FOIA lawsuit against the FBI and won. A federal judge compelled the DOJ to release over 33,000 documents related to the FBI's surveillance of her community. The Inverse Surveillance Project will repurpose these documents as a site of collective disruption and a reclaiming of narrative. The overwhelming response from the community to 1) address and heal from the harm of years of stifling paranoia and violent surveillance and 2) use this experience to courageously build community power through the arts,  fuel our drive to undertake this project. 
-
+Contact: To learn more and support our work reach out at (email: surveillancedoc@gmail.com)
 
 ----
 
-Contact: To learn more and support our work reach out at (email: boundaoui@gmail.com)
+Banner: 

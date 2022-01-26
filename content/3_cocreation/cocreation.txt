@@ -12,13 +12,9 @@ Definition-header: “Co-creation is a living process…”
 
 Definition:
 
-According to (link: https://wip.mitpress.mit.edu/collectivewisdom text: Collective Wisdom target: _blank), a field study spear-headed by the MIT Open Documentary Lab and co-authored by our friend and mentor (link: https://wip.mitpress.mit.edu/user/katerina-cizek text: Katerina Cizek target: _blank) we understand co-creation to be: “an alternative to a single-author vision… a process that involves a constellation of media production methods, frameworks, and feedback systems.
+In (link: https://wip.mitpress.mit.edu/collectivewisdom text: Collective Wisdom target: _blank), a field study spear-headed by the MIT Open Documentary Lab and co-authored by our friend and mentor (link: https://wip.mitpress.mit.edu/user/katerina-cizek text: Katerina Cizek target: _blank) we understand co-creation to be: “an alternative to a single-author vision… a process that involves a constellation of media production methods, frameworks, and feedback systems.
 
-In co-creation projects emerge from a process, they **evolve from within communities** and **with people**, rather than for or about them. 
-
-The concept of co-creation reframes the ethics of who creates, how, and why. 
-
-Our research shows that co-creation interprets the world, and seeks to change it, through a lens of equity and justice.”
+In co-creation projects emerge from a process, they **evolve from within communities** and **with people**, rather than for or about them. The concept of co-creation reframes the ethics of who creates, how, and why. Our research shows that co-creation interprets the world, and seeks to change it, through a lens of equity and justice.”
 
 ----
 

@@ -6,7 +6,7 @@ Banner:
 
 ----
 
-Description: The site-specific installation will be built and co- created in Bridgeview, Illinois. It will repurpose thousands of FBI documents collected during a decade of surveillance of the community and take the shape of a forty-foot labyrinth. Within the labyrinth, the redacted spaces in the documents — white holes where the government has violently disappeared information from the record — will be transformed into spaces of possibility. Spaces where a glitch, so to speak, in the bureaucratic documents can become a catalyst that initiates the community’s counter archive.
+Description: The installation will take the shape of a full-scale labyrinth, containing more than 33,000 pages of FOIA documents collected during a decade of FBI surveillance of the community. Augmented reality is the catalyst that triggers the community archive within the labyrinth and gives access to the community’s collective memory— in the form of family home videos and photographs — hidden in between the redacted spaces of the government’s official record. Designed as AR for a mobile device, the project repurposes a familiar surveillance tool and invites participants on an immersive journey through a labyrinth of state narratives, community memory and the formation of a counter narrative.
 
 ----
 
@@ -16,7 +16,11 @@ Linkedpage:
 
 ----
 
-More: See Project
+Externallink: 
+
+----
+
+More: Explore Project
 
 ----
 

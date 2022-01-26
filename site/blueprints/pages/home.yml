@@ -5,8 +5,8 @@ columns:
   left:
     width: 1/2
     fields:
-      banner: 
-        type: files
+      heading: 
+        type: textarea
       description:
         type: textarea
       contact:

@@ -5,6 +5,10 @@ section {
   height: var(--screen-height);
 }
 
+div.image, div.content {
+  position: unset;
+}
+
 body {
   background-color: var(--ivory);
 }
@@ -18,7 +22,7 @@ h1 {
 }
 
 p.large {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 section.project a {

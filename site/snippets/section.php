@@ -3,7 +3,7 @@
   <div class="content">
     <div class="sticky">
       <h1><?= $section-> title() ?></h1>
-      <p><?= $section-> description() ?></p>
+      <?= $section-> description()->kirbytext() ?>
       <h6>
         <?php if($section->linkedpage()->toPage()) {
           $url = $section->linkedpage()->toPage()->url();
