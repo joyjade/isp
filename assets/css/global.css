@@ -153,6 +153,7 @@ nav.headroom--unpinned {
 nav .title img {
   max-height: 100%;
   width: 25rem;
+  transform: translatey(2px);
 }
 
 nav .title a {
