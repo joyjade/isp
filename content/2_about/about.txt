@@ -70,10 +70,14 @@ Team:
     she’s exploring how alternative
     narratives can design new discourses
     around mental disability.
-  link: ""
+  link: https://shirin.works/
 - 
   person: Nouha Boundaoui
   bio: "Nouha Boundaoui is a public health researcher and health justice and anti-surveillance advocate. As a graduate of Northwestern University and the Rollins School of Public Health, Nouha is dedicated to investigating the intersections of race and health and understanding how social determinants of health impact the health and freedoms of communities of color. As an advocate with All Options, a reproductive justice organization, and volunteer with Believer's Bail Out, a community led bail fund freeing Muslims from pre-trial & immigration incarceration, she believes deeply in building a world that prioritizes the health, healing, and liberation of all."
+  link: ""
+- 
+  person: Katerina Cizek
+  bio: 'Katerina Cizek is a two-time Emmy and Peabody-winning documentarian working with emergent technologies. She is the artistic director and co-founder of the (link: http://cocreationstudio.mit.edu/ text: Co-Creation Studio) at (link: http://opendoclab.mit.edu/ text: MIT Open Documentary Lab.) At the studio, she wrote (with Uricchio et al.) the world’s first field study on co-creating media called (link: https://wip.mitpress.mit.edu/collectivewisdom text: Collective Wisdom) (forthcoming with MIT Press in 2022). At the studio, she designs and facilitates co-creation workshops, research, delegations and fellowships fusing art, documentary and journalism together with emergent tech and science through the practice of collective creation. For over a decade, Cizek worked as a documentary director at the National Film Board of Canada, transforming the organization into a world-leading digital hub, with the projects (link: http://highrise.nfb.ca/ text: HIGHRISE) and (link: http://filmmakerinresidence.nfb.ca/ text: Filmmaker-in-Residence.) Both community-based and globally recognized, these two ground-breaking long-form digital projects garnered international awards and critical acclaim. Cizek’s earlier award-winning human rights documentary film projects instigated criminal investigations, changed UN policies, and screened as evidence at an International Criminal Tribunal. Cizek is a member of the Directors’ Guild of Canada, and serves as an advisor at the Sundance Institutes’ Interdisciplinary Lab and CPH:LAB, based in Copenhagen. She is a founding member of the Guild of Future Architects, a member of the editorial collective at (link: https://immerse.news/ text: IMMERSE), as well as a member of the Interactive Board of jurors for the Peabody Awards.'
   link: ""
 - 
   person: Joy / Jade
@@ -83,7 +87,7 @@ Team:
     organizers, collectives, and projects
     invested in abolition, critical inquiry,
     art, and something more sustainable.
-  link: joy-jade.com
+  link: https://joy-jade.com/
 
 ----
 

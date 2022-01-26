@@ -13,7 +13,15 @@ Description:
 
 ----
 
-Contact: To learn more and support our work reach out at (email: surveillancedoc@gmail.com)
+Contact-header: Connect
+
+----
+
+Contact:
+
+(email: surveillancedoc@gmail.com text: Email)
+(twitter: beingwatcheddoc text: Twitter)
+(link: https://www.facebook.com/BeingWatchedDOC text: Facebook)
 
 ----
 

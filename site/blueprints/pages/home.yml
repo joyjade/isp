@@ -9,8 +9,12 @@ columns:
         type: textarea
       description:
         type: textarea
-      contact:
+      contact_header: 
         type: text
+        label: Header
+      contact:
+        label: Connect Links
+        type: textarea
 
   right:
     width: 1/2

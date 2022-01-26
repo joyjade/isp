@@ -37,14 +37,16 @@
       </figure>
       <div class="content contact">
         <h6></h6>
-        <h1>Contact</h1>
-        <p><?=$page->contact()->kirbytext() ?></p>
-        <br>
+        <h1>Connect</h1>
         <h3>Support Our Work</h3>
         <p>
-          Your support in bringing this vision to life is invaluable. You can make a tax-deductible donationvia our fiscal sponsor, 
+          Your support in bringing this vision to life is invaluable. You can make a tax-deductible donation via our fiscal sponsor, 
           <a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" target="_blank">Women Make Movies.</a> Thank you for your support!
         </p>
+        <br>
+        <h3>Contact</h3>
+        <?=$page->contact()->kirbytext() ?>
+        <br>
       </div>
     </div>
   </section>

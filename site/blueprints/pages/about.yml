@@ -29,7 +29,7 @@ columns:
             type: textarea
           link: 
             label: Link
-            type: textarea
+            type: url
 
           
 

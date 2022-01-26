@@ -31,6 +31,13 @@ Links:
   link: >
     https://www.latimes.com/entertainment/movies/la-et-mn-mini-feeling-of-being-watched-review-20190619-story.html
   subheader: LA TIMES
+- 
+  name: >
+    Six Chicago-area artists awarded $50,000
+    grants
+  link: >
+    https://chicago.suntimes.com/entertainment-and-culture/2022/1/26/22894451/usa-fellowship-chicago-artists-grants-t-ayo-alston-assia-boundaoui
+  subheader: Chicago Sun Times
 
 ----
 

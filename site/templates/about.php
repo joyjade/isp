@@ -22,7 +22,17 @@
       <?php if ($members = $page->team()->toStructure()):
         foreach($members as $member): ?>
         <li>
-          <h4><?=$member->person()?></h4>
+          
+          <h4>
+            <?php if($member->link()->isNotEmpty()) : ?>
+            <a href="<?=$member->link()?>">
+              <?=$member->person()?>
+            </a>
+            <?php else: ?>
+              <?=$member->person()?>
+            <?php endif ?>
+          
+          </h4>
           <div class="bio">
             <?=$member->bio()->kirbytext()?>
           </div>

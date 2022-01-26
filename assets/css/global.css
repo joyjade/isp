@@ -285,7 +285,7 @@ section {
 
 section.split {
   min-height: 85vh;
-  max-height: var(--screen-height);
+  max-height: 100%;
   height: auto;
 }
 
