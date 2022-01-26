@@ -357,6 +357,10 @@ section.padded {
   width: inherit;
 }
 
+.press ul {
+  padding-bottom: 2rem;
+}
+
 
 /* PIXELLATION */
 
