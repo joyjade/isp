@@ -75,6 +75,15 @@ Team:
   person: Nouha Boundaoui
   bio: "Nouha Boundaoui is a public health researcher and health justice and anti-surveillance advocate. As a graduate of Northwestern University and the Rollins School of Public Health, Nouha is dedicated to investigating the intersections of race and health and understanding how social determinants of health impact the health and freedoms of communities of color. As an advocate with All Options, a reproductive justice organization, and volunteer with Believer's Bail Out, a community led bail fund freeing Muslims from pre-trial & immigration incarceration, she believes deeply in building a world that prioritizes the health, healing, and liberation of all."
   link: ""
+- 
+  person: Joy / Jade
+  bio: >
+    Joy / Jade is a designer and developer
+    based in Los Angeles. She works with
+    organizers, collectives, and projects
+    invested in abolition, critical inquiry,
+    art, and something more sustainable.
+  link: joy-jade.com
 
 ----
 
