@@ -7,11 +7,14 @@
   --green: #247448; 
   --ivory: #ECE9E0;
   --mustard: #CF811D;
-  --avg-pad: 0.5rem 0.75rem;
-  --block-pad: 1.5rem;
   --text-color: white;
   --grotesk: 'Space Grotesk', sans-serif;
   --monospace: 'Space Mono', monospace;
+
+  --avg-pad: 0.5rem 0.75rem;
+  --block-pad: 1.5rem;
+  --content-pad: 2rem;
+  --paragraph-pad: 1.1rem;
   --nav-height: 50px;
   --screen-height: calc(100vh);
 }
@@ -303,8 +306,25 @@ section.split > div {
   box-sizing: border-box;
 }
 
+/* CONTENT BLOCK */
 section .content {
-  padding: 2rem;
+  padding: var(--content-pad);
+}
+
+section.top .content {
+  padding-top: calc(var(--nav-height) + var(--content-pad));
+}
+
+section.split .content h1 {
+  padding-bottom: var(--block-pad);
+}
+
+section.split .content p, section.split .content h3, section.split .content ul {
+  padding-bottom: var(--paragraph-pad);
+}
+
+section.split .content ul p {
+  padding-bottom: 0;
 }
 
 section.split.divider > div:first-of-type {
@@ -318,6 +338,8 @@ section.split.divider > div:last-of-type {
 section.padded {
   padding: var(--block-pad);
 }
+
+/* ERROR */
 
 .error section {
   height: var(--screen-height);
@@ -362,6 +384,20 @@ section.padded {
   padding-bottom: 2rem;
 }
 
+
+/* CONTACT */
+
+.contact .content h3 {
+  padding-top: 0.75rem;
+}
+
+.contact .content p {
+  padding-right: var(--content-pad);
+}
+
+.contact .content > div {
+  padding-bottom: 1rem;
+}
 
 /* PIXELLATION */
 
@@ -420,3 +456,42 @@ figure.collage img {
   height: auto;
 }
 
+/* NEWSLETTER SIGNUP */
+
+#mc_embed_signup .flex {
+  display: flex;
+  flex-flow: wrap;
+}
+#mc_embed_signup input {
+  border: none;
+  background: none;
+  font-family: var(--monospace);
+  padding: var(--avg-pad);
+}
+#mc_embed_signup input:not(.button){
+  border-bottom: 1px solid black;
+  margin-right: 0.5rem;
+}
+
+#mc_embed_signup .email {
+  flex-grow: 1;
+}
+
+#mc_embed_signup input.button {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--amber);
+}
+
+#mc_embed_signup input.button:hover {
+  color: var(--moss);
+}
+
+#mc_embed_signup .response {
+  margin-top: 0.5rem;
+  background: var(--moss);
+  padding: var(--avg-pad);
+  border-radius: 6.5px;
+  color: white;
+  font-family: var(--grotesk);
+}

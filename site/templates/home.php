@@ -31,24 +31,7 @@
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/film')]) ?>
   <section class="split">
     <?php snippet('press', ['press' => page('press'), 'color' => 'moss']) ?>
-    <div class="container ivory">
-      <figure class="tatreez-bg">
-        <img src="/assets/icons/pixels_square_3.svg" alt="" class="tatreez-icon">
-      </figure>
-      <div class="content contact">
-        <h6></h6>
-        <h1>Connect</h1>
-        <h3>Support Our Work</h3>
-        <p>
-          Your support in bringing this vision to life is invaluable. You can make a tax-deductible donation via our fiscal sponsor, 
-          <a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" target="_blank">Women Make Movies.</a> Thank you for your support!
-        </p>
-        <br>
-        <h3>Contact</h3>
-        <?=$page->contact()->kirbytext() ?>
-        <br>
-      </div>
-    </div>
+    <?php snippet('connect', ['contact' => page('connect')]) ?>
   </section>
 </div>
 

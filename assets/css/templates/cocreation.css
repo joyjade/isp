@@ -12,7 +12,7 @@ section.banner.split {
  flex-grow: 1;
 }
 
-.ivory.content p {
+section.split .ivory.content ul p  {
   padding-bottom: 1.5rem;
 }
 
