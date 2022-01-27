@@ -1,0 +1,30 @@
+title: Connect
+icon: ☎
+
+columns: 
+  main: 
+    width: 1/2
+    fields:
+      header:
+        label: Header
+        type: text
+      line:
+        type: line
+      section_header:
+        type: text
+        label: Donate
+        help: Header for the donate section
+      section_body:
+        type: writer
+        label: Description
+      follow_header:
+        label: Social
+        type: text
+        help: Header for social links
+      social:
+        label: Social and Contact
+        help: List of social links
+        type: writer
+  side:
+    width: 1/2
+    fields:
