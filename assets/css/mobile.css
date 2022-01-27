@@ -193,4 +193,12 @@
   .drawer ul {
     padding: var(--block-pad);
   }
+
+  #mc_embed_signup input:not(.button) {
+    width: 100%;
+  }
+  #mc_embed_signup input.button {
+    padding-top: 1rem;
+    padding-left:0;
+  }
 }

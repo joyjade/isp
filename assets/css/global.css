@@ -248,12 +248,13 @@ nav a:hover {
 
 footer {
   background-color: var(--amber);
-  height: 7rem;
+  min-height: 7rem;
   font-family: var(--monospace);
   text-transform: uppercase;
   padding: var(--block-pad);
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 footer ul {
@@ -268,6 +269,7 @@ footer li {
 footer a {
   color: white;
   padding-bottom: 0.25rem;
+  word-break: keep-all;
 }
 
 footer a:hover {
@@ -277,7 +279,10 @@ footer a:hover {
 
 .footer-logo {
   width: 170px;
-  transform: translate(10px, -20px);
+  max-width: 50vw;
+  position: absolute;
+  right: 10px;
+  top: -2px;
 }
 
 /* LAYOUT */
@@ -478,8 +483,8 @@ figure.collage img {
 }
 
 #mc_embed_signup input.button {
-  font-style: italic;
-  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
   color: var(--amber);
 }
 
