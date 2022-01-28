@@ -23,3 +23,7 @@ Social: <ul><li><p><a href="mailto:surveillancedoc@gmail.com" title="Email">Emai
 ----
 
 Color: ivory
+
+----
+
+Featured: true

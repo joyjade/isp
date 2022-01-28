@@ -2,14 +2,34 @@ Title: Home
 
 ----
 
-Heading:
+Banner:
 
-## The Inverse Surveillance Project takes its name from the concept of citizen under-sight, an action undertaken *by* the subjects of surveillance, *of* the systems of surveillance. 
-## It is an art project co-created with the Arab and Muslim American communities in Chicago, which seeks to build power, compel government transparency and co-create new narratives of our American Muslim experience through the creation of a site-specific, AR-fueled, counter-archive.
+- banner_final.jpg
 
 ----
 
-Description: 
+Logo: 
+
+----
+
+Heading: <h2>The Inverse Surveillance Project takes its name from the concept of citizen under-sight, an action undertaken <em>by</em> the subjects of surveillance, <em>of</em> the systems of surveillance.</h2><h2>It is an art project co-created with the Arab and Muslim American communities in Chicago, which seeks to build power, compel government transparency and co-create new narratives of our American Muslim experience through the creation of a site-specific, AR-fueled, counter-archive.</h2>
+
+----
+
+Photo:
+
+- collage_4.png
+
+----
+
+Color: amber
+
+----
+
+Footer:
+
+- press
+- connect
 
 ----
 
@@ -25,4 +45,12 @@ Contact:
 
 ----
 
-Banner: 
+Parts: 
+
+----
+
+Cover: 
+
+----
+
+Description: 

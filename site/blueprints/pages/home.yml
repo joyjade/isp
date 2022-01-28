@@ -2,30 +2,70 @@ title: Home
 icon: 🏯
 
 columns: 
-  left:
+  overall:
     width: 1/2
+    type: fields
+    fields:
+      banner: 
+        type: files
+        label: Banner
+        layout: cards
+        template: banner
+        multiple: false
+        size: medium
+        image: 
+          cover: true
+      logo:
+        type: files
+        label: Logo
+        multiple: false
+  intro: 
+    width: 1/2
+    type: fields
     fields:
       heading: 
-        type: textarea
-      description:
-        type: textarea
-      contact_header: 
-        type: text
-        label: Header
-      contact:
-        label: Connect Links
-        type: textarea
+        label: Intro
+        width: 1/1
+        type: writer
+        help: Please keep this statement in "H2" in order to maintain its style and look 
+      photo:
+        width: 1/2
+        extends: fields/cover
+        layout: cardlets
+        image:
+          cover: false
+      color: 
+        width: 1/2
+        extends: fields/color
 
-  right:
+  sections:
     width: 1/2
-    sections:
+    sections: 
       parts:
-        headline: Sections
+        width: 1/2
+        headline: Main Sections
         type: pages
         status: all
-        info: "{{ page.intendedTemplate }}"
-        image: false
         templates:
           - section
+
+  
+  footer: 
+    width: 1/2
+    fields: 
+      footer:
+        label: Connect and Press
+        type: pages
+        parent: site
+        query: site.children.filterBy("featured", true)
+        max: 2
+        
+    # fields: 
+    #   contact_header: 
+    #     type: text
+    #     label: Header
+    #   contact:
+    #     label: Connect Links
+    #     type: textarea
 
     

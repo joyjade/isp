@@ -2,23 +2,42 @@ title: Home
 icon: 🏯
 
 columns: 
-  left:
-    width: 1/2
+  main:
+    width: 1/1
     fields:
-      banner: 
-        type: files
+      photo: 
+        width: 1/2
+        extends: fields/cover
+        size: medium
       description:
-        type: textarea
-
-  right:
-    width: 1/2
+        width: 1/2
+        type: writer
+  settings:
+    width: 1/1
     fields:
+      linktype:
+        width: 1/2
+        label: Link Type
+        type: select
+        help: Select whether this section will link to another page in the site, or an external link
+        options:
+          - Internal Page
+          - External Link
+      linktext:
+        type: text
+        width: 1/2
+        label: Learn More Button
+        help: Customize the "Learn More" link
       linkedpage:
         type: pages
-        label: Page Link
+        label: Internal Page
         query: site.children.listed
-        help: Please select which internal page this section should link to
+        help: Select which page this will link to 
+        when: 
+          linktype: Internal Page
       externallink:
         type: url 
         label: External Link
-        help: If you'd like to link to an external link input it here
+        help: Add an external link
+        when: 
+          linktype: External Link

@@ -22,3 +22,6 @@ fields:
     label: Photo
     type: files
     multiple: false
+  featured:
+    type: toggle
+    label: On Home Page

@@ -2,7 +2,6 @@
   $cocreation =page('cocreation');
   $labyrinth = page('project/labyrinth');
   $archive = page('project/communityarchive');
-  $tatreez = page('project/tatreez');
 ?>
 
 <div class="main">
@@ -19,7 +18,6 @@
         <?php snippet('piece', ['term' => 'community counter archive', 'piece' => $archive, 'punctuation' => ',']) ?>
         repurposing thousands of records collected during a decade of FBI surveillance, as a site of collective disruption and a reclaiming of narrative.
       </p>
-      <!-- <?php snippet('piece', ['term' => 'center', 'piece' => $tatreez, 'punctuation' => '.'])?>  -->
     </div>
     <div class="image">
       <figure class="hidden left amber" id="cocreation">
@@ -30,9 +28,6 @@
       </figure>
       <figure class="hidden right moss" id="communityarchive">
         <img src="<?=  $archive ->image()-> url() ?>" alt="">
-      </figure>
-      <figure class="hidden right ivory" id="tatreez">
-        <img src="<?=  $tatreez->image()-> url() ?>" alt="">
       </figure>
     </div>
   </section>

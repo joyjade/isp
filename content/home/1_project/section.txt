@@ -2,11 +2,17 @@ Title: The Installation
 
 ----
 
-Banner: 
+Photo:
+
+- bball.jpg
 
 ----
 
 Description: The installation will take the shape of a full-scale labyrinth, containing more than 33,000 pages of FOIA documents collected during a decade of FBI surveillance of the community. Augmented reality is the catalyst that triggers the community archive within the labyrinth and gives access to the community’s collective memory— in the form of family home videos and photographs — hidden in between the redacted spaces of the government’s official record. Designed as AR for a mobile device, the project repurposes a familiar surveillance tool and invites participants on an immersive journey through a labyrinth of state narratives, community memory and the formation of a counter narrative.
+
+----
+
+Linktype: Internal Page
 
 ----
 
@@ -18,9 +24,10 @@ Linkedpage:
 
 Externallink: 
 
+
 ----
 
-More: Explore Project
+Linktext: Explore Project
 
 ----
 

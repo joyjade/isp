@@ -35,16 +35,14 @@ columns:
     width: 1/3
     sections:
       image:
-        headline: Image
-        type: files
-        template: cover
-        multiple: false
-        layout: cards
-        cover: true
-        uploads: cover
+        extends: fields/cover
       style:
         type: fields
         fields:
           color: 
-            extends: sections/color
+            extends: fields/color
             label: Background Color
+          featured:
+            type: toggle
+            label: On Home Page
+            
