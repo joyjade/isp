@@ -4,7 +4,7 @@
     <div class="content company">
         <h6 class="uppercase"><?=$page->subheader()?></h6>
         <h1><?=$page->heading()?></h1>
-        <p><?=$page->description()->kirbytext()?></p>
+        <p><?=$page->description()?></p>
     </div>
     <div class="image">
       <div class="sticky">
@@ -34,7 +34,7 @@
           
           </h4>
           <div class="bio">
-            <?=$member->bio()->kirbytext()?>
+            <?=$member->bio()?>
           </div>
         </li>
       <?php endforeach; endif ?>
