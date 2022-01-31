@@ -1,4 +1,4 @@
-<div class="contact container <?=$contact-> color()?>">
+<div class="contact container ivory">
   <figure class="tatreez-bg">
     <img src="/assets/icons/pixels_square_3.svg" alt="" class="tatreez-icon">
   </figure>
