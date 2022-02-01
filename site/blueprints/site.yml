@@ -1,2 +1,24 @@
-preset: pages
-unlisted: true
+tabs:
+  content:
+    label: Content
+    icon: text
+    sections:
+      home:
+        headline: Home
+        status: unlisted
+        type: pages
+      pages:
+        type: pages
+        headline: Pages
+        status: listed
+        help: This order is reflected in the main nav and footer
+          
+  stats:  
+    label: Stats
+    icon: search
+
+    fields:
+      info:
+        label: Info
+        type: info
+        text: Coming Soon

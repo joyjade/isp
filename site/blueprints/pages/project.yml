@@ -1,13 +1,85 @@
 title: Project
-type: pages
 
-options:
-  url: false
-  status: false
-  delete: false
+columns: 
+  main:
+    width: 1/1
+    sections:
+      project: 
+        type: fields
+        fields:
+          info:
+            type: info
+            label: 
+            text: Proceed with caution. In order to edit this page, you'll need to add all the parts correctly in order to establish the right links, hover effects, and pages. 
+          header:
+            type: text
+            headline: Header
+          elements:
+            label: Piece by Piece
+            help: Main paragraph that brings all the elements together
+            type: structure
+            columns:
+              before:
+                width: 1/4
+              word:
+                width: 1/6
+              after:
+                width: 1/4
+              linked_page:
+                width: 1/6
+              color:
+                width: 1/10
+              side:
+                width: 1/10
+            fields:
+              info: 
+                type: info
+                label: 
+                text: Each row represents one sentence or phrase, with a highlighted word that will both activate the hover effect and link to a different page.
+              before:
+                label: Before
+                type: text
+                help: Any part of the phrase that precedes the highlighted word
+              word: 
+                label: Word
+                type: text
+                help: The highlighted word
+              after:
+                label: After
+                type: textarea
+                help: Anything that comes after the highlighted word
+              linked_page:
+                width: 1/2
+                label: Link To
+                help: Select which page this word will link to. Most likely, it will be a project element. If the project element doesn't exist yet, please create one below under 'Elements' before moving forward. 
+                type: pages
+                status: listed
+                multiple: false
+                template: 
+                  - piece
+              color:
+                width: 1/4
+                extends: fields/color
+                label: Background Color
+                help: Choose a color that will appear behind the image when hovering over the word. The image will be pulled directly from the linked page. You cannot select one here. 
+              side:
+                width: 1/4
+                type: select
+                help: Choose which side the hover effect will appear on. 
+                options:
+                  - left
+                  - right
 
 
-sections: 
-  elements:
-    type: pages
-    template: piece
+
+              
+  sidebar:
+    width: 1/1
+    sections: 
+      elements:
+        type: pages
+        template: piece
+        status: listed
+      drafts:
+        type: pages
+        status: draft

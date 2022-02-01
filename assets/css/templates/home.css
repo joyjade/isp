@@ -47,7 +47,7 @@ section.split.divider .content h6 {
   padding-bottom: 0.5rem;
 }
 
-section.split.divider .content a {
+section.split .content a {
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -63,6 +63,17 @@ hr {
   width: 40px;
 }
 
+section .press {
+  display: flex;
+  flex-flow: column;
+}
+
+.press ul {
+  flex-grow: 1;
+}
+.press a {
+  color: white;
+}
 .contact h1 {
   padding-top: 1.2rem;
 }

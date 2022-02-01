@@ -47,7 +47,6 @@ function hoverReveal(selector) {
   
   titles.forEach(title => {
     let id = title.dataset.id 
-    if (id.includes('/')) { id = id.split('/')[1]} 
     let img = document.getElementById(id);
 
     title.onmouseover = function () {

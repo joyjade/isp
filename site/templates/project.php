@@ -1,7 +1,5 @@
 <?php snippet('nav');
-  $cocreation =page('cocreation');
-  $labyrinth = page('project/labyrinth');
-  $archive = page('project/communityarchive');
+  $elements = $page -> elements() -> toStructure();
 ?>
 
 <div class="main">
@@ -9,26 +7,21 @@
     <div>
       <h1><?= $page->header() ?></h1>
       <p class="large">
-      is a new-media project that includes designing a
-        <?php snippet('piece', ['term' => 'co-creation', 'piece' => $cocreation, 'punctuation' => '']) ?>
-        process with the Arab and Muslim American community in the Chicagoland area.
-        This process will result in a site-specific installation that takes the form of a
-        <?php snippet('piece', ['term' => 'labyrinth', 'piece' => $labyrinth, 'punctuation' => '']) ?>
-        and the creation of a
-        <?php snippet('piece', ['term' => 'community counter archive', 'piece' => $archive, 'punctuation' => ',']) ?>
-        repurposing thousands of records collected during a decade of FBI surveillance, as a site of collective disruption and a reclaiming of narrative.
+        <?php foreach( $elements as $element) :?>
+          <span><?=$element->before()?></span>
+          <?php snippet('piece', ['term' => $element->word(), 'piece' => $element->linked_page()->toPage()]) ?>
+          <span> <?=$element->after()?></span>
+        <?php endforeach ?>
       </p>
     </div>
     <div class="image">
-      <figure class="hidden left amber" id="cocreation">
-        <img src="<?= $cocreation->image()->url() ?>" alt="">
-      </figure>
-      <figure class="hidden left nostalgia" id="labyrinth">
-        <img src="<?= $labyrinth ->image()-> url() ?>" alt="">
-      </figure>
-      <figure class="hidden right moss" id="communityarchive">
-        <img src="<?=  $archive ->image()-> url() ?>" alt="">
-      </figure>
+      <?php foreach( $elements as $element) :
+        $piece = $element->linked_page()->toPage();
+        ?>
+        <figure class="hidden <?= $element->side() ?> <?= $element->color() ?>" id="<?= $piece->id() ?>">
+          <img src="<?= $piece->image()->url() ?>" alt="">
+        </figure>
+      <?php endforeach?>
     </div>
   </section>
 </div>

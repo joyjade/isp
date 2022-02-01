@@ -1,4 +1,4 @@
-<?php $presslinks = $press->links()->toStructure()?>
+<?php $presslinks = $press->links()->toStructure()->filterBy('featured', true);?>
 <div class="press content <?=$color?>">
   <h6 class="uppercase">
     Press
@@ -14,4 +14,7 @@
     </li>
   <?php endforeach; ?>
   </ul>
+  <h6>
+    <a href="/press">See All</a>
+  </h6>
 </div>

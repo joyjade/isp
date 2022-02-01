@@ -3,3 +3,45 @@ Title: Project
 ----
 
 Header: The Inverse Surveillance Project
+
+----
+
+Elements:
+
+- 
+  before: >
+    is a new-media project that includes
+    designing a
+  word: co-creation
+  linked_page:
+    - cocreation
+  after: >
+    process with the Arab and Muslim
+    American community in the Chicagoland
+    area.
+  color: amber
+  side: left
+- 
+  before: >
+    This process will result in a
+    site-specific installation that takes
+    the form of a
+  word: labyrinth
+  linked_page:
+    - project/labyrinth
+  after: ""
+  color: nostalgia
+  side: left
+- 
+  before: and the creation of a
+  word: community counter archive,
+  linked_page:
+    - project/communityarchive
+  after: >
+    repurposing thousands of records
+    collected during a decade of FBI
+    surveillance, as a site of collective
+    disruption and a reclaiming of
+    narrative.
+  color: moss
+  side: right
