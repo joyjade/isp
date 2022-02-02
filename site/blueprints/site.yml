@@ -14,11 +14,17 @@ tabs:
         help: This order is reflected in the main nav and footer
           
   stats:  
-    label: Stats
+    label: Settings
     icon: search
 
     fields:
       info:
-        label: Info
+        label: Coming Soon
         type: info
-        text: Coming Soon
+        text: Reach out if you'd like to build a "stats" page that includes page views and traffic. 
+      opengraph:
+        label: Opengraph
+        help: A banner image that will show up when the link is shared over social
+        type: files
+        extends: fields/cover
+        size: medium
