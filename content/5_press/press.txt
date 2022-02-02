@@ -10,11 +10,11 @@ Header: In the News
 
 ----
 
-Color: moss
+Subtitle: Features, Fellowships, and Interviews on the Inverse Surveillance Project, Feeling of Being Watched, and Assia Boundaoui
 
 ----
 
-Subtitle: 
+Color: moss
 
 ----
 

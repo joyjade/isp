@@ -74,6 +74,9 @@ section .press {
 .press a {
   color: white;
 }
+.press a:hover {
+  color: var(--forest);
+}
 .contact h1 {
   padding-top: 1.2rem;
 }
