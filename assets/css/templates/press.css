@@ -4,7 +4,6 @@
 .main .ivory {
   display: flex;
   align-items: center;
-  min-height: 60vh;
 }
 
 section.split {
@@ -27,11 +26,24 @@ section.split {
 }
 
 .press.ivory ul {
-  padding: 3rem 3rem 5rem;
+  padding: 3rem 3rem 6rem;
 }
 
 @media screen and (max-width: 700px){
   section img {
     width: 110%;
+  }
+
+  .split.flush figure {
+    display: none;
+  }
+
+  section.split.flush {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  .press.ivory ul {
+    padding: 1rem 1rem 3rem;
   }
 }

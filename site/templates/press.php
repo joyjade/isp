@@ -12,7 +12,7 @@
         <?= $page -> header() ?>
       </h1>
       <p class="large">
-        Maybe two sentences along the lines of "check out all the good things others have been saying about us"...
+        <?= $page->subtitle() ?>
       </p>
     </div>
 

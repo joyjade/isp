@@ -31,7 +31,7 @@
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/film')]) ?>
   <section class="split">
     <?php snippet('press', ['press' => page('press'), 'color' => 'moss']) ?>
-    <?php snippet('connect', ['contact' => page('connect')]) ?>
+    <?php snippet('connect', ['contact' => page('connect'), 'home'=> true]) ?>
   </section>
 </div>
 

@@ -20,6 +20,11 @@ columns:
           section_body:
             type: writer
             label: Description
+          hide:
+            type: toggle
+            label: Hide Donate on Homepage
+          line_b:
+            type: line
       social: 
         type: fields
         fields:
@@ -44,5 +49,6 @@ columns:
             label: Background Color
           featured:
             type: toggle
-            label: On Home Page
+            label: Homepage
+            disabled: true
             

@@ -4,10 +4,12 @@
   </figure>
   <div class="content">
     <h1><?=$contact-> header()?></h1>
-    <div>
-      <h3><?=$contact-> section_header()?></h3>
-      <?= $contact -> section_body() ?>
-    </div>
+    <?php if(!$home && $contact->hide()->bool()) :?>
+      <div>
+        <h3><?=$contact-> section_header()?></h3>
+        <?= $contact -> section_body() ?>
+      </div>
+    <?php endif ?>
     <div>
       <h3><?=$contact-> follow_header()?></h3>
       <?= $contact -> social() ?>

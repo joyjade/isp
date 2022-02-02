@@ -3,7 +3,7 @@
 
 <div class="main">
   <section class="split flush top">
-    <?php snippet('connect', ['contact' => $page]) ?>
+    <?php snippet('connect', ['contact' => $page, 'home'=> false]) ?>
     <div class="image <?=$page-> color()?>">  
       <?php if($cover = $page->image()) :?>
        <figure class="collage">
