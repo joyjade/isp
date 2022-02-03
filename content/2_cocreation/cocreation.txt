@@ -2,27 +2,29 @@ Title: Co-Creation
 
 ----
 
+Banner-image:
+
+- coche.jpg
+
+----
+
+Subheader: Process
+
+----
+
 Description: We are a collective of sisters, neighbors, artists, grandparents, khaltos and ammos, organizers, and educators rooted in Bridgeview, IL and connected by our collective desire to heal, build, and cultivate community.
 
 ----
 
-Definition-header: “Co-creation is a living process…”
+Banner-color: amber
 
 ----
 
-Definition:
-
-In (link: https://wip.mitpress.mit.edu/collectivewisdom text: Collective Wisdom target: _blank), a field study spear-headed by the MIT Open Documentary Lab and co-authored by our friend and mentor (link: https://wip.mitpress.mit.edu/user/katerina-cizek text: Katerina Cizek target: _blank) we understand co-creation to be: “an alternative to a single-author vision… a process that involves a constellation of media production methods, frameworks, and feedback systems.
-
-In co-creation projects emerge from a process, they **evolve from within communities** and **with people**, rather than for or about them. The concept of co-creation reframes the ethics of who creates, how, and why. Our research shows that co-creation interprets the world, and seeks to change it, through a lens of equity and justice.”
+Vision-header: Our Vision
 
 ----
 
-Mission: We are a collective of sisters, neighbors, artists, khaltos and ammos, organizers, and educators rooted in Bridgeview, IL and connected by our collective desire to heal, build, and cultivate community through art.
-
-----
-
-Principles: <ul><li>Non-hierarchical and consensus-based</li><li>Counter-extractive and a benefit to the community</li><li>Defying all notions of single authorship</li><li>Centering the most marginalized</li><li>Prioritizing care and wellness in every way</li></ul>
+Vision-description: The Inverse Surveillance Project strives to model how we as a community can...
 
 ----
 
@@ -33,24 +35,46 @@ Vision:
   explanation: >
     collectively from years of traumatic and
     violent state-sponsored surveillance
-  color: forest
 - 
   value: Center
   explanation: >
     those most impacted by years of
     surveillance in a non-extractive way
-  color: nostalgia
 - 
   value: Create
   explanation: >
     an intentional process of co-creation
     that benefits the community and
     reimagines power and culture building
-  color: amber
 - 
   value: Thrive
   explanation: >
     as a community by practicing our sacred
     traditions of togetherness, hospitality
     and creating art
-  color: moss
+
+----
+
+Vision-color: forest
+
+----
+
+Principles: <ul><li>Non-hierarchical and consensus-based</li><li>Counter-extractive and a benefit to the community</li><li>Defying all notions of single authorship</li><li>Centering the most marginalized</li><li>Prioritizing care and wellness in every way</li></ul>
+
+----
+
+Definition-header: “Co-creation is a living process…”
+
+----
+
+Definition: <p>In <a href="https://wip.mitpress.mit.edu/collectivewisdom" target="_blank" rel="noopener noreferrer">Collective Wisdom</a>, a field study spear-headed by the MIT Open Documentary Lab and co-authored by our friend and mentor <a href="https://wip.mitpress.mit.edu/user/katerina-cizek%20" target="_blank" rel="noopener noreferrer">Katerina Cizek</a> we understand co-creation to be: “an alternative to a single-author vision… a process that involves a constellation of media production methods, frameworks, and feedback systems. </p><p>In co-creation projects emerge from a process, they <strong>evolve from within communities</strong> and <strong>with people</strong>, rather than for or about them. The concept of co-creation reframes the ethics of who creates, how, and why. Our research shows that co-creation interprets the world, and seeks to change it, through a lens of equity and justice.”</p>
+
+----
+
+Block-color: moss
+
+----
+
+Cover-image:
+
+- hugs.jpg

@@ -2,8 +2,17 @@ title: Team
 icon: 
 
 columns:
+  banner:
+    width: 1/3
+    fields:
+      banner_image:
+        type: files
+        label: Banner Image
+        multiple: false
+        layout: cards
+        size: medium
   main:
-    width: 3/3
+    width: 2/3
     fields:
       heading:
         width: 2/3
@@ -14,19 +23,28 @@ columns:
         label: Subheader
         type: text
       description:
-        type: textarea
+        type: writer
         label: Blurb
-
+  team:
+    width: 1/1
+    fields: 
       team: 
         label: Team
         type: structure
+        columns:
+          person:
+              width: 1/6
+          link:
+              width: 1/6
+          bio:
+              width: 2/3
         fields:
           person:   
             label: Team Member
             type: text
           bio: 
             label: Bio
-            type: textarea
+            type: writer
           link: 
             label: Link
             type: url

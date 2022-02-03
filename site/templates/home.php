@@ -4,12 +4,12 @@
   <div class="section banner">
     <img src="/assets/icons/isp.svg" alt="" class="centered-logo">
     <div class="newsletter"></div>
-    <?php if($image = $page->image('banner_final.jpg')): ?>
-      <img class="banner-img" src="<?= $image->url() ?>">
+    <?php if($banner = $page->banner()->toFile()): ?>
+      <img class="banner-img" src="<?= $banner->url() ?>">
     <?php endif ?>
   </div>
   <section class="split flush">
-    <div class="image amber">
+    <div class="image <?=$page->color()?>">
       <?php if($image = $page->image('collage_4.png')): ?>
         <figure class="collage">
           <img src="<?= $image->url() ?>">
@@ -31,7 +31,7 @@
   <?php snippet('section', ['class' => 'divider', 'section' => page('home/film')]) ?>
   <section class="split">
     <?php snippet('press', ['press' => page('press'), 'color' => 'moss']) ?>
-    <?php snippet('connect', ['contact' => page('connect')]) ?>
+    <?php snippet('connect', ['contact' => page('connect'), 'home'=> true]) ?>
   </section>
 </div>
 

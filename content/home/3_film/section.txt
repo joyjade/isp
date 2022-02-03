@@ -2,11 +2,21 @@ Title: The Feeling of Being Watched
 
 ----
 
-Banner: 
+Photo:
+
+- sisters.jpg
 
 ----
 
 Description: In 2013 investigative  journalist and filmmaker Assia Boundaoui began a five-year investigation into the surveillance of her community and documented it in her award-winning feature-length film, THE FEELING OF BEING WATCHED (Tribeca 2018). Assia sought to disrupt government secrecy and took the FBI to federal court to compel them to make public the surveillance records they collected about her community for nearly a decade. In the process Assia filed a FOIA lawsuit against the FBI and won, a federal judge compelled the DOJ to release an archive of over 33,000 documents related to the FBI's surveillance of her community. These heavily redacted government records are where Inverse Surveillance Project begins…
+
+----
+
+Linktype: External Link
+
+----
+
+Linktext: Learn More
 
 ----
 
@@ -15,6 +25,10 @@ Linkedpage:
 ----
 
 Externallink: http://www.feelingofbeingwatched.com/
+
+----
+
+Banner: 
 
 ----
 

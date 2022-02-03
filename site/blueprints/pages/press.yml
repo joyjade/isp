@@ -1,24 +1,44 @@
 Title: Press
-preset: page
-pages: false
-files: false
 
-fields:
-  links:
-    label: Press links
-    type: structure
+columns:
+  heading:
+    width: 1/2
     fields:
-      name:
-        label: Title
+      subheader: 
         type: text
-      link:
-        label: Link
-        type: url
-      subheader:
-        label: Organization
-        help: This will show up as a subheader above the press title
+      header:
         type: text
-  photo:
-    label: Photo
-    type: files
-    multiple: false
+      subtitle:
+        type: textarea
+        label: Description
+      color:
+        extends: fields/color
+  banner:
+    width: 1/2
+    fields:
+      cover:
+        extends: fields/cover
+        size: medium
+
+
+  press:
+    fields:
+      line_a: 
+        type: line
+      links:
+        label: Press links
+        type: structure
+        fields:
+          name:
+            label: Title
+            type: text
+          link:
+            label: Link
+            type: url
+          subheader:
+            label: Organization
+            help: This will show up as a subheader above the press title
+            type: text          
+          featured:
+            type: toggle
+            label: Featured

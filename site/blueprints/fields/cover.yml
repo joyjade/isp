@@ -1,0 +1,10 @@
+headline: Photo
+type: files
+template: cover
+multiple: false
+uploads: cover
+layout: cards
+image: 
+  back: white
+  ratio: 3/2	
+  cover: true

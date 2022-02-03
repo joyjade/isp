@@ -1,2 +1,30 @@
-preset: pages
-unlisted: true
+tabs:
+  content:
+    label: Content
+    icon: text
+    sections:
+      home:
+        headline: Home
+        status: unlisted
+        type: pages
+      pages:
+        type: pages
+        headline: Pages
+        status: listed
+        help: This order is reflected in the main nav and footer
+          
+  stats:  
+    label: Settings
+    icon: search
+
+    fields:
+      info:
+        label: Coming Soon
+        type: info
+        text: Reach out if you'd like to build a "stats" page that includes page views and traffic. 
+      opengraph:
+        label: Opengraph
+        help: A banner image that will show up when the link is shared over social
+        type: files
+        extends: fields/cover
+        size: medium

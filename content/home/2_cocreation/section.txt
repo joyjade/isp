@@ -2,17 +2,21 @@ Title: Co-Creation
 
 ----
 
-Banner: 
+Photo:
+
+- hvcollage.jpg
 
 ----
 
-Description:
+Description: <p><em>“The opposite of surveillance is not privacy… its community.”</em> </p><p>— Deepa Kumar </p><p></p><p>This project includes designing a co-creation process with Chicagoland Arab and Muslim communities. The core of this project is developing a new arts-based model to address trauma from state surveillance and facilitate healing and care for our community, as a tool for liberation and power building. In cultivating intergenerational and interracial spaces to connect our histories to our present and ongoing conditions of surveillance, this project will work towards breaking barriers of class, race, age, and gender within our vastly diverse Muslim communities and in its place build shared experiences that begin to weave our communities forward together.</p>
 
-*“The opposite of surveillance is not privacy… its community.” *
+----
 
-— Deepa Kumar 
+Linktype: Internal Page
 
-This project includes designing a co-creation process with Chicagoland Arab and Muslim communities. The core of this project is developing a new arts-based model to address trauma from state surveillance and facilitate healing and care for our community, as a tool for liberation and power building. In cultivating intergenerational and interracial spaces to connect our histories to our present and ongoing conditions of surveillance, this project will work towards breaking barriers of class, race, age, and gender within our vastly diverse Muslim communities and in its place build shared experiences that begin to weave our communities forward together.
+----
+
+Linktext: Learn More
 
 ----
 
@@ -25,9 +29,3 @@ Linkedpage:
 Externallink: 
 
 ----
-
-More: Learn More
-
-----
-
-Link: 

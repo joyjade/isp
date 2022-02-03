@@ -10,7 +10,7 @@
         } else {
           $url = $section->externallink();
         }?>
-          <a href="<?= $url?>" class=""><?= $section-> more() ?></a>
+          <a href="<?= $url?>" class=""><?= $section-> linktext() ?></a>
       </h6>
     </div>
   </div>

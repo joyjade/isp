@@ -500,3 +500,9 @@ figure.collage img {
   color: white;
   font-family: var(--grotesk);
 }
+
+.credit  {
+  font-size: 0.8rem;
+  text-align: right;
+  padding: 2rem 2rem 0;
+}

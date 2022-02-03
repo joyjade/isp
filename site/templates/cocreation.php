@@ -5,13 +5,13 @@
   <section class="split flush banner m-reverse">
     <div>
       <figure>
-        <?php if($image = $page->image('coche.jpg')): ?>
+        <?php if($image = $page->banner_image()->toFile()): ?>
           <img src="<?= $image->url() ?>">
         <?php endif ?>
       </figure>
     </div>
-    <div class="content amber">
-      <h6 class="uppercase">Process</h6>
+    <div class="content <?= $page->banner_color() ?>">
+      <h6 class="uppercase"><?= $page->subheader() ?></h6>
       <h1 class="large"><?=$page ->title() ?></h1>
       <p class="large">
         <?= $page -> description() ?>
@@ -19,13 +19,15 @@
     </div>
   </section>
   <section class="split flush">
-    <div class="forest content">
+    <div class=" <?= $page -> vision_color() ?> content">
       <div class="sticky">
         <h1>
-          <span>Our Vision</span>
+          <span>
+            <?= $page->vision_header()?>    
+          </span>
         </h1>
         <p class="large">
-          The Inverse Surveillance Project strives to model how we as a community can...    
+          <?= $page->vision_description()?>    
         </p>
         <img class="inline-arrow" src="/assets/icons/arrow.svg" alt="">
       </div>
@@ -55,8 +57,8 @@
       <h1><?= $page -> definition_header() ?></h1>
       <p><?= $page -> definition()-> kirbytext() ?></p>
     </div>
-    <div class="image moss">
-      <?php if($image = $page->image('hugs.jpg')): ?>
+    <div class="image <?=$page->block_color()?>">
+      <?php if($image = $page->cover_image()->toFile()): ?>
         <figure class="collage">
           <img src="<?= $image->url() ?>">
         </figure>

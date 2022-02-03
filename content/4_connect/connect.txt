@@ -14,6 +14,10 @@ Section-body: <p>Your support in bringing this vision to life is invaluable. You
 
 ----
 
+Hide: true
+
+----
+
 Follow-header: Follow us
 
 ----
@@ -22,4 +26,8 @@ Social: <ul><li><p><a href="mailto:surveillancedoc@gmail.com" title="Email">Emai
 
 ----
 
-Color: ivory
+Color: moss
+
+----
+
+Featured: true
