@@ -40,6 +40,11 @@
       <?php endforeach; endif ?>
     </ul>
   </section>
+  <div class="credit">
+    <p>
+      Website: Made with <a href="https://getkirby.com/">Kirby</a>
+    </p>  
+  </div>
 
 </div>
 <?php snippet('footer')?>
