@@ -22,7 +22,7 @@ Follow-header: Follow us
 
 ----
 
-Social: <ul><li><p><a href="mailto:surveillancedoc@gmail.com" title="Email">Email</a></p></li><li><p><a href="https://twitter.com/beingwatcheddoc" target="_blank" title="Twitter" rel="noopener noreferrer">Twitter</a></p></li><li><p><a href="https://www.facebook.com/BeingWatchedDOC" target="_blank" title="Facebook" rel="noopener noreferrer">Facebook</a></p></li><li><p><a href="https://www.instagram.com/beingwatcheddoc/?hl=en" target="_blank" title="Instagram" rel="noopener noreferrer">Instagram</a></p></li></ul>
+Social: <p><a href="https://www.instagram.com/beingwatcheddoc/?hl=en" target="_blank" title="Instagram" rel="noopener noreferrer">Instagram</a></p><p><a href="https://twitter.com/beingwatcheddoc" target="_blank" title="Twitter" rel="noopener noreferrer">Twitter</a></p><p><a href="https://www.facebook.com/BeingWatchedDOC" target="_blank" title="Facebook" rel="noopener noreferrer">Facebook</a></p><p><a href="mailto:surveillancedoc@gmail.com" title="Email">Email</a></p>
 
 ----
 
