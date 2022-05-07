@@ -26,9 +26,11 @@
       <img src="/assets/icons/icon_pxls.png" alt="" class="tatreez-icon">
     </div>
   </section>
-  <?php snippet('section', ['class' => 'divider', 'section' => page('home/project')]) ?>
-  <?php snippet('section', ['class' => 'divider', 'section' => page('home/cocreation')]) ?>
-  <?php snippet('section', ['class' => 'divider', 'section' => page('home/film')]) ?>
+
+  <?php foreach($page->children() as $subpage): $sectionurl = $subpage->uri() ?>
+    <?php snippet('section', ['class' => 'divider', 'section' => page($sectionurl)]) ?>
+  <?php endforeach ?>
+  
   <section class="split">
     <?php snippet('press', ['press' => page('press'), 'color' => 'moss']) ?>
     <?php snippet('connect', ['contact' => page('connect'), 'home'=> true]) ?>
