@@ -27,7 +27,7 @@
     </div>
   </section>
 
-  <?php foreach($page->children() as $subpage): $sectionurl = $subpage->uri() ?>
+  <?php foreach($page->children()->listed() as $subpage): $sectionurl = $subpage->uri() ?>
     <?php snippet('section', ['class' => 'divider', 'section' => page($sectionurl)]) ?>
   <?php endforeach ?>
   
