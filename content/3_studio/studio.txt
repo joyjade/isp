@@ -1,0 +1,58 @@
+Title: Studio
+
+----
+
+Banner-image:
+
+- basketball.jpg
+
+----
+
+Subheader: Co-Creation
+
+----
+
+Description: An art studio
+
+----
+
+Banner-color: nostalgia
+
+----
+
+Purpose-header: About the Art Studio
+
+----
+
+Purpose-description: This art studio is about
+
+----
+
+Purpose:
+
+- 
+  value: One thing
+  explanation: >
+    collectively from years of traumatic and
+    violent state-sponsored surveillance
+- 
+  value: Two things
+  explanation: >
+    those most impacted by years of
+    surveillance in a non-extractive way
+- 
+  value: Three things
+  explanation: >
+    an intentional process of co-creation
+    that benefits the community and
+    reimagines power and culture building
+- 
+  value: Four things
+  explanation: >
+    as a community by practicing our sacred
+    traditions of togetherness, hospitality
+    and creating art
+
+----
+
+Purpose-color: forest

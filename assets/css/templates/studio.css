@@ -1,0 +1,139 @@
+
+section.banner.split {
+  height: var(--screen-height);
+}
+
+.banner .content {
+  display: flex;
+  flex-flow: column;
+  padding-top: calc(var(--block-pad) +var(--nav-height));
+}
+
+.banner .content h1 {
+ flex-grow: 1;
+}
+
+section.split .ivory.content ul p  {
+  padding-bottom: 1.5rem;
+}
+
+.content b {
+  font-weight: 700;
+}
+
+section.events {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+section.events h3.header {
+  padding-left: var(--block-pad);
+}
+
+.events ul {
+ font-family: var(--grotesk);
+ font-weight: 500;
+ font-size: 2rem;
+ margin: 0.75rem 0 var(--block-pad);
+}
+
+.events ul li:first-of-type, .events ul.upcoming li:nth-of-type(2) {
+  border-top: 2px solid black;
+}
+
+.events ul li {
+  border-bottom: 2px solid black;
+  display: flex;
+}
+
+.events ul li > div {
+  width: inherit;
+}
+
+.events li .image {
+  max-width: 300px;
+}
+
+.events li img {
+  padding: 1rem;
+}
+
+.events li .copy {
+  padding: 0 1rem;
+}
+
+.events .details {
+  padding-bottom: 1rem;
+}
+
+.events h6 {
+  padding: 0.75rem 0.25rem;
+}
+
+/* UPCOMING */
+.events ul.upcoming {
+  display: flex;
+}
+
+.events ul.upcoming li {
+  width: 50%;
+  margin: 0.5rem;
+}
+
+/* PAST */
+
+.events ul.past li {
+  align-items: center;
+}
+.events ul.past li p, .events ul.past li a {
+  margin-bottom: -0.4rem;
+}
+
+.events ul.past li h2 {
+  padding: 1rem var(--block-pad);
+  flex-grow: 1;
+}
+
+.events ul.past h6 {
+  padding: 0 var(--block-pad);
+  font-size: 1rem;
+}
+
+h4 {  
+  margin-left: var(--block-pad);
+}
+
+.color-blocks {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.color-blocks li {
+  display: flex;
+  flex-flow: column;
+}
+
+.color-blocks p {
+  border-bottom: 2px solid var(--moss); 
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+h1.large {
+  padding-bottom: 1rem;
+}
+h1:not(.large) {
+  padding: 1rem 2rem 1rem 0;
+}
+
+.inline-arrow {
+  width: 120px;
+  height: auto;
+  display: inline;
+  object-fit: contain;
+  padding: var(--block-pad) 0;
+}
+

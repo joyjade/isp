@@ -1,0 +1,27 @@
+Title: An Afternoon with Tatreez
+
+----
+
+Event-image:
+
+- event-photo-test.png
+
+----
+
+Short-description: Joing us for an afternoon of tatreez. We'll be sewing our names into
+
+----
+
+Date: 2022-06-25
+
+----
+
+Start-time: 17:00:00
+
+----
+
+End-time: 19:00:00
+
+----
+
+Description: 
