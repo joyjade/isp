@@ -11,14 +11,13 @@ Elements:
 - 
   before: >
     is a new-media project that includes
-    designing a
-  word: co-creation
+    designing a co-creation
+  word: process
+  after: >
+    with the Arab and Muslim American
+    community in the Chicagoland area.
   linked_page:
     - cocreation
-  after: >
-    process with the Arab and Muslim
-    American community in the Chicagoland
-    area.
   color: amber
   side: left
 - 
@@ -27,21 +26,29 @@ Elements:
     site-specific installation that takes
     the form of a
   word: labyrinth
+  after: ""
   linked_page:
     - project/labyrinth
-  after: ""
   color: nostalgia
   side: left
 - 
   before: and the creation of a
   word: community counter archive,
-  linked_page:
-    - project/communityarchive
   after: >
     repurposing thousands of records
     collected during a decade of FBI
     surveillance, as a site of collective
     disruption and a reclaiming of
     narrative.
+  linked_page:
+    - project/communityarchive
   color: moss
+  side: right
+- 
+  before: 'A sentence about the '
+  word: co-creation studio
+  after: that has events and programming.
+  linked_page:
+    - studio
+  color: forest
   side: right
