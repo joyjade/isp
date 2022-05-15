@@ -4,11 +4,7 @@ Title: Community Archive
 
 Photo:
 
-- hv_collage_2.png
-
-----
-
-Color: moss
+- test-video.mov
 
 ----
 
@@ -16,4 +12,12 @@ Heading: Community Archive
 
 ----
 
-Description: This project involves inviting dozens of families in the Bridgeview Arab and Muslim community to share their personal home videos and photographs in an attempt to gather and preserve the community's own archive of itself. After decades of state surveillance and thousands of pages of declassified records collected by the U.S. government about us, we think it is a cultural imperative that our community's stories and collective memories are preserved by the community itself. Through our community advisory board we have designed a non-extractive and generative process for gathering archival material and creating an enduring benefit for the community.
+Description: <p>This project involves inviting dozens of families in the Bridgeview Arab and Muslim community to share their personal home videos and photographs in an attempt to gather and preserve the community's own archive of itself. After decades of state surveillance and thousands of pages of declassified records collected by the U.S. government about us, we think it is a cultural imperative that our community's stories and collective memories are preserved by the community itself. Through our community advisory board we have designed a non-extractive and generative process for gathering archival material and creating an enduring benefit for the community.</p>
+
+----
+
+Embed: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeg17Ka76ByHXVekY5CVwqk9tctOHZDM7bstdY5_IaJZ6ezrg/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+----
+
+Color: moss

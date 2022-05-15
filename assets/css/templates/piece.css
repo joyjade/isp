@@ -1,6 +1,5 @@
 section.split {
   padding-bottom: var(--block-pad);
-  height: calc(var(--screen-height) - var(--nav-height));
 }
 
 section img {
@@ -19,6 +18,11 @@ h1 {
 .main {
   margin-top: var(--nav-height);
   background: center / 100% no-repeat url("/assets/icons/pixels_3.svg"), var(--ivory);
+}
+
+.sticky {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {

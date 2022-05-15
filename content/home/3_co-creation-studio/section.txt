@@ -1,0 +1,29 @@
+Title: Studio
+
+----
+
+Photo:
+
+- hv_collage_2.png
+
+----
+
+Description: <p>A co-creation studio with events</p>
+
+----
+
+Linktype: Internal Page
+
+----
+
+Linktext: See Studio
+
+----
+
+Linkedpage:
+
+- studio
+
+----
+
+Externallink: 

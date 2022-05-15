@@ -22,18 +22,20 @@
       <?php $events = $page -> children() -> listed(); foreach($events as $event): ?>
         <li>
           <div class="image">
+            <a href="<?=$event -> url() ?>">
             <?php if($photo = $event->event_image()->toFile()) :?>  
               <img src="<?= $photo->url() ?>" alt="<>">
-            <?php endif ?>
+            <?php endif ?></a>
           </div>
           <div class="copy">
+            <a href="<?=$event -> url() ?>">
             <h2><?= $event-> title()?> </h2>
             <div class="details">
               <p><?= $event-> start_time()->toDate('g:i a')?> - <?= $event-> end_time()->toDate('g:i a')?></p>  
               <p><?= $event-> date()->toDate('l, F d, Y')?></p>  
             </div>
             <p><?= $event-> short_description()?></p>  
-            <a href="<?=$event -> url() ?>"><h6>See More</h6></a>
+            </a>
           </div>
         </li>    
       <?php endforeach ?>
@@ -43,9 +45,10 @@
     <ul class="past">
     <?php $events = $page -> children() -> listed(); foreach($events as $event): ?>
         <li>
-          <h2><?= $event-> title()?> </h2>
-          <p><?= $event-> date()->toDate('l, F d, Y')?></p>  
-          <a href="<?=$event -> url() ?>"><h6>See More</h6></a>
+          <a href="<?=$event -> url() ?>">
+            <h2><?= $event-> title()?> </h2>
+            <p><?= $event-> date()->toDate('l, F d, Y')?></p>  
+          </a>
         </li>    
       <?php endforeach ?>
     </ul>

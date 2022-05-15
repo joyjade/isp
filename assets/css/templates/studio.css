@@ -50,26 +50,6 @@ section.events h3.header {
   width: inherit;
 }
 
-.events li .image {
-  max-width: 300px;
-}
-
-.events li img {
-  padding: 1rem;
-}
-
-.events li .copy {
-  padding: 0 1rem;
-}
-
-.events .details {
-  padding-bottom: 1rem;
-}
-
-.events h6 {
-  padding: 0.75rem 0.25rem;
-}
-
 /* UPCOMING */
 .events ul.upcoming {
   display: flex;
@@ -80,23 +60,51 @@ section.events h3.header {
   margin: 0.5rem;
 }
 
+.events li .image {
+  max-width: 300px;
+}
+
+.events li img {
+  padding: 1rem;
+}
+
+.events ul.upcoming h6 {
+  padding: 1rem 0;
+}
+
+.events h2 {
+  padding: 1rem 0;
+}
+
+.events li .copy {
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.events li .copy a {
+  align-self: baseline;
+}
+
+.events .details {
+  padding-bottom: 1rem;
+}
+
 /* PAST */
 
-.events ul.past li {
+.events ul.past li a {
+  display: flex;
   align-items: center;
-}
-.events ul.past li p, .events ul.past li a {
-  margin-bottom: -0.4rem;
+  width: 100%;
 }
 
-.events ul.past li h2 {
+.events ul.past li a h2 {
   padding: 1rem var(--block-pad);
   flex-grow: 1;
 }
 
-.events ul.past h6 {
+.events ul.past p {
   padding: 0 var(--block-pad);
-  font-size: 1rem;
 }
 
 h4 {  
