@@ -28,37 +28,6 @@ columns:
           banner_color:
             label: Banner Color 
             extends: fields/color
-  purpose:
-      width: 1/1
-      fields:
-        line_a:
-          type: line
-        purpose_header: 
-          label: Header
-          type: text
-          width: 1/2
-        purpose_description: 
-          type: text
-          label: Description
-          width: 1/2
-
-        purpose:
-          label: List of Vision Values 
-          type: structure
-          fields:
-            value: 
-              label: Value
-              type: text
-            explanation:
-              label: Value Description
-              type: text
-            color:
-              extends: sections/color
-        purpose_color:
-          extends: fields/color
-          width: 1/2
-        line_b: 
-          type: line
 
   events: 
     width: 1/1
@@ -70,4 +39,30 @@ columns:
         status: all
         template: 
           - studio-event
+
+  notes:
+      width: 1/1
+      fields:
+        line_a:
+          type: line
+        notes_header: 
+          label: Header
+          type: text
+          width: 1/2
+        notes_color:
+          extends: fields/color
+          width: 1/2
+
+        notes:
+          label: Notes section
+          help: Each line will have a green line underneath it. 
+          type: structure
+          fields:
+            note: 
+              label: Line
+              type: writer
+
+        line_b: 
+          type: line
+
         

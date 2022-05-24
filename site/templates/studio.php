@@ -4,9 +4,7 @@
     <div class="content <?= $page->banner_color() ?>">
       <h6 class="uppercase"><?= $page->subheader() ?></h6>
       <h1 class="large"><?=$page ->title() ?></h1>
-      <p class="large">
-        <?= $page -> description() ?>
-      </p>
+      <p class="large"><?= $page -> description() ?></p>
     </div>
     <div>
       <figure>
@@ -54,16 +52,11 @@
     </ul>
   </section>
   <section class="split flush">
-    <div class=" <?= $page -> purpose_color() ?> content">
-      <div class="sticky">
-        <h1>
-          <span>
-            <?= $page->purpose_header()?>    
-          </span>
-        </h1>
-        <p class="large">
-          <?= $page->purpose_description()?>    
-        </p>
+    <div class=" <?= $page -> notes_color() ?> content">
+      <div class="sticky arrow">
+        <h3>
+          <?= $page->notes_header()?>    
+        </h3>
         <img class="inline-arrow" src="/assets/icons/arrow.svg" alt="">
       </div>
       <figure class="tatreez-bg">
@@ -73,12 +66,9 @@
     <div class="ivory content">
       <ul class="color-blocks">
         <?php 
-          if ($purpose = $page -> purpose()->toStructure()):
-          foreach($purpose as $value) :?>
-          <li class="">
-            <h3><?=$value->value()?></h3>
-            <p><?=$value->explanation()?></p>
-          </li>
+          if ($notes = $page -> notes()->toStructure()):
+          foreach($notes as $note) :?>
+          <li class=""><?=$note->note()?></li>
         <?php endforeach; endif; ?>
       </ul>
     </div> 

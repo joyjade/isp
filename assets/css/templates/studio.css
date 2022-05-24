@@ -111,25 +111,27 @@ h4 {
   margin-left: var(--block-pad);
 }
 
+.sticky.arrow {
+  padding-top: 2rem;
+  display: flex;
+  align-content: center;
+}
+.sticky.arrow h3 {
+  padding-bottom: 0.2rem !important;
+}
 .color-blocks {
   display: flex;
   flex-flow: column;
   height: 100%;
-  justify-content: space-between;
-  padding-top: 5rem;
 }
 
 .color-blocks li {
   display: flex;
   flex-flow: column;
+  border-bottom: 2px solid var(--moss); 
+  padding-top: var(--block-pad);
 }
 
-.color-blocks p {
-  border-bottom: 2px solid var(--moss); 
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  flex-grow: 1;
-}
 h1.large {
   padding-bottom: 1rem;
 }
@@ -142,6 +144,6 @@ h1:not(.large) {
   height: auto;
   display: inline;
   object-fit: contain;
-  padding: var(--block-pad) 0;
+  padding-left: 2rem;
 }
 

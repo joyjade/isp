@@ -122,6 +122,10 @@ em, i {
   font-style: italic;
 }
 
+u {
+  border-bottom: 1.5px solid black;
+}
+
 /* NAV */
 
 nav, .menu {

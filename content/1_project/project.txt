@@ -32,8 +32,8 @@ Elements:
   color: nostalgia
   side: left
 - 
-  before: and the creation of a
-  word: community counter archive,
+  before: and the creation of an
+  word: immersive community archive,
   after: >
     repurposing thousands of records
     collected during a decade of FBI

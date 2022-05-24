@@ -1,4 +1,4 @@
-Title: Community Archive Workshop
+Title: Arts and Power
 
 ----
 
@@ -6,10 +6,9 @@ Event-image:
 
 - audio-active.png
 
-
 ----
 
-Short-description: 
+Short-description: Join us every Wednesday for Arts and Power building workshops
 
 ----
 

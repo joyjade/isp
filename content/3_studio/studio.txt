@@ -1,4 +1,4 @@
-Title: Studio
+Title: Art Studio
 
 ----
 
@@ -12,7 +12,7 @@ Subheader: Co-Creation
 
 ----
 
-Description: An art studio
+Description: The Co-Creation Art Studio will be a place for our community to gather, create art, and imagine a world beyond surveillance and without raciliatized trauma. Our intention is to reimagine how we react and respond to and process the trauma of surveillance in meaningful, culturally relevant and imaginative ways.
 
 ----
 
@@ -20,39 +20,19 @@ Banner-color: nostalgia
 
 ----
 
-Purpose-header: About the Art Studio
+Notes-header: Note on Access
 
 ----
 
-Purpose-description: This art studio is about
+Notes-color: forest
 
 ----
 
-Purpose:
+Notes:
 
 - 
-  value: One thing
-  explanation: >
-    collectively from years of traumatic and
-    violent state-sponsored surveillance
+  note: '<p>The Co-Creation Art Studio and workshops <u>specifically</u> will serve as a safe spaces for our community to discuss and heal from traumatic experiences, <strong>participation is prioritized for Muslim and/or Arab identifying community members</strong> who have endured government surveillance, personally and/or collectively.</p>'
 - 
-  value: Two things
-  explanation: >
-    those most impacted by years of
-    surveillance in a non-extractive way
+  note: '<p>We invite other BIPOC communities to visit the Installation during open hours throughout ___.</p>'
 - 
-  value: Three things
-  explanation: >
-    an intentional process of co-creation
-    that benefits the community and
-    reimagines power and culture building
-- 
-  value: Four things
-  explanation: >
-    as a community by practicing our sacred
-    traditions of togetherness, hospitality
-    and creating art
-
-----
-
-Purpose-color: forest
+  note: '<p>If you do not identify with any of the aforementioned identities you are welcome to visit the installation between July 7th and 9th when it opens to the general public and<u><a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" rel="noopener noreferrer"> </a></u><a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" rel="noopener noreferrer">support our work here</a>.</p>'
