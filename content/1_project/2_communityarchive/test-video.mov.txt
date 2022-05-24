@@ -1,1 +1,17 @@
-Template: cover, video
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Autoplay: true
+
+----
+
+Loop: true
+
+----
+
+Template: video

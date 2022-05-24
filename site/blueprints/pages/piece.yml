@@ -7,15 +7,19 @@ columns:
         headline: Photo
         type: files
         multiple: false
-        uploads: 
-          cover
-          video
+        uploads: cover
         layout: cards
         image: 
           back: white
           ratio: 3/2	
           cover: true
         size: medium
+      videos:
+        type: files
+        label: Upload videos
+        uploads: video
+        layout: cards
+        query: page.videos
         
   - width: 2/3
     sections:

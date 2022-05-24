@@ -9,9 +9,13 @@
     </div>
     <div class="image">
       <div class="sticky">
-        <?php if($page->videos()->isNotEmpty()):
-          foreach($page->videos() as $video): ?>
-            <video width="<?=$video->width() ?>" height="<?=$video->height() ?>" autoplay >
+        <?php if($page->gallery()->isNotEmpty()):
+          foreach($page->gallery()->toFiles() as $video): ?>
+            <video 
+              width="<?=$video->width()?>" 
+              height="<?=$video->height()?>" 
+              <?=$video->autoplay()->bool() ? 'autoplay': ''?> 
+              <?=$video->loop()->bool() ? 'loop' : ''?> >
               <source src="<?= $video->url() ?>">
             </video>
           <?php endforeach ?>
