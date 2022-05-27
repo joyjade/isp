@@ -2,15 +2,13 @@ Title: Immersive Community Archive
 
 ----
 
-Photo: 
+Photo:
+
+- hv_collage_2.png
 
 ----
 
-Videos:
-
-- >
-  screen-recording-2022-05-14-at-6.27.21-pm.mov
-- test-video.mov
+Videos: 
 
 ----
 
@@ -18,7 +16,7 @@ Heading: Immersive Community Archive
 
 ----
 
-Description: <p>This Immersive Community Archive is a <em>historic </em>endeavor and unapologetic refusal to allow the Islamophobic lens of the FBI shape our narrative or dictate our stories. We are honored to be partnering with dozens of family's from our community in co-creating this archive and thrilled at the prospect of creating a representative, nuanced, rich, and beautiful archive of our community! We invite you and your family to participate and submit home videos and photos that will be memorialized in the physical Inverse Surveillance Project exhibit and later online for generations to come to explore!</p>
+Description: <p>This Immersive Community Archive is a <em>historic</em> endeavor and unapologetic refusal to allow the Islamophobic lens of the FBI shape our narrative or dictate our stories. We are honored to be partnering with dozens of family's from our community in co-creating this archive and thrilled at the prospect of creating a representative, nuanced, rich, and beautiful archive of our community! We invite you and your family to participate and submit home videos and photos that will be memorialized in the physical Inverse Surveillance Project exhibit and later online for generations to come to explore!</p>
 
 ----
 

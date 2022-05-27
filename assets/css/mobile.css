@@ -1,5 +1,5 @@
 /* TABLET DOWN */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   /* NAV */
   nav {
     justify-content: left;
@@ -108,17 +108,21 @@
   .cocreation figure.tatreez-bg img {
     width: 100%;
   }
+
+  .events ul li {
+    width: 100%;
+  }
 }
 
 /* MOBILE DOWN */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
 
   /* LAYOUT */
   :root {
     --block-pad: 1rem;
   }
 
-  figure.collage img, .cocreation figure.collage img {
+  figure.collage img, .cocreation figure.collage img  {
     width: 70%;
     padding: 0;
   }
@@ -173,9 +177,24 @@
     width: auto;
   }
 
-  .cocreation figure, .about figure {
+  .cocreation figure, .about figure, .studio figure {
     min-height: 75vh;
     height: 80vh;
+  }
+
+  .events ul li {
+    flex-flow: column;
+    width: 100vw;
+    min-width: 100%;
+  }
+
+  .events li .image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .events li img {
+    padding-bottom: 0;
   }
 
   .team {
@@ -201,4 +220,6 @@
     padding-top: 1rem;
     padding-left:0;
   }
+
+  
 }

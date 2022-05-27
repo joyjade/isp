@@ -1,0 +1,29 @@
+Title: Community Art Studio
+
+----
+
+Photo:
+
+- hv_collage_2.png
+
+----
+
+Description: <p>The Community Art Studio will be a place for our community to gather, create art, and imagine a world beyond surveillance and without raciliatized trauma. Our intention is to reimagine how we react and respond to and process the trauma of surveillance in meaningful, culturally relevant and imaginative ways.</p><p>We invite our community to join Embroidery 101 classes every Tuesday-Saturday, Arts and Power building workshops every Wednesday, and Community Healing Workshops every Saturday. Every workshop is meant to offer different mediums that can offer us a path to healing from the violence of state sponsored trauma <em>in</em> <em>community</em>. </p>
+
+----
+
+Linktype: Internal Page
+
+----
+
+Linktext: See Classes and Workshops
+
+----
+
+Linkedpage:
+
+- studio
+
+----
+
+Externallink: 

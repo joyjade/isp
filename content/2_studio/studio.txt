@@ -1,18 +1,18 @@
-Title: Art Studio
+Title: Events
 
 ----
 
 Banner-image:
 
-- basketball.jpg
+- coche-1408x.jpeg
 
 ----
 
-Subheader: Co-Creation
+Subheader: Community Art Studio
 
 ----
 
-Description: The Co-Creation Art Studio will be a place for our community to gather, create art, and imagine a world beyond surveillance and without raciliatized trauma. Our intention is to reimagine how we react and respond to and process the trauma of surveillance in meaningful, culturally relevant and imaginative ways.
+Description: The Community Art Studio will be a place for our community to gather, create art, and imagine a world beyond surveillance and without raciliatized trauma. Our intention is to reimagine how we react and respond to and process the trauma of surveillance in meaningful, culturally relevant and imaginative ways.
 
 ----
 

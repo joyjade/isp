@@ -1,0 +1,23 @@
+Title: Opening Night
+
+----
+
+Event-image:
+
+- event-photo-test.png
+
+----
+
+Short-description: Come for the opening!
+
+----
+
+Date: June 13th
+
+----
+
+Days-times: Saturday, 5-8pm
+
+----
+
+Description: 

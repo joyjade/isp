@@ -1,14 +1,12 @@
-Title: Process
+Title: Co-Creation
 
 ----
 
-Banner-image:
-
-- coche.jpg
+Banner-image: - coche.jpg
 
 ----
 
-Subheader: Co-creation as
+Subheader: Process
 
 ----
 
@@ -75,6 +73,4 @@ Block-color: moss
 
 ----
 
-Cover-image:
-
-- hugs.jpg
+Cover-image: - hugs.jpg

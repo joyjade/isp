@@ -24,7 +24,7 @@ columns:
             type: text
           description:
             label: Overview Statement
-            type: writer
+            type: textarea
           banner_color:
             label: Banner Color 
             extends: fields/color

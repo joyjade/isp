@@ -11,8 +11,8 @@ Elements:
 - 
   before: >
     is a new-media project that includes
-    designing a co-creation
-  word: process
+    designing a
+  word: co-creation process
   after: >
     with the Arab and Muslim American
     community in the Chicagoland area.
@@ -30,7 +30,7 @@ Elements:
   linked_page:
     - project/labyrinth
   color: nostalgia
-  side: left
+  side: right
 - 
   before: and the creation of an
   word: immersive community archive,
@@ -43,12 +43,29 @@ Elements:
   linked_page:
     - project/communityarchive
   color: moss
-  side: right
+  side: left
 - 
-  before: 'A sentence about the '
-  word: co-creation studio
-  after: that has events and programming.
+  before: The
+  word: community art studio
+  after: >
+    is a place for our community to gather,
+    create art, and imagine a world beyond
+    surveillance and without raciliatized
+    trauma.
   linked_page:
     - studio
   color: forest
   side: right
+- 
+  before: ""
+  word: Events
+  after: >
+    ranging from community healing
+    workshops, tatreez embroidery classes,
+    somatic movement classes, and folk music
+    jam sessions will be hosted in the space
+    from June 15th-July 9th.
+  linked_page:
+    - studio
+  color: ivory
+  side: left
