@@ -14,7 +14,7 @@ columns:
           ratio: 3/2	
           cover: true
         size: medium
-      videos:
+      gallery:
         type: files
         label: Upload videos
         uploads: video
