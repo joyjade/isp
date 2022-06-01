@@ -4,20 +4,20 @@ Title: Opening Night
 
 Event-image:
 
-- event-photo-test.png
+- photo-for-website-2-snowy-backyard.jpg
 
 ----
 
-Short-description: Come for the opening!
+Short-description: Join us for the community opening of the Inverse Surveillance Project: an Immersive Community Archive
 
 ----
 
-Date: June 13th
+Date: June 15th
 
 ----
 
-Days-times: Saturday, 5-8pm
+Days-times: <p>Wednesday | 5-8 pm</p>
 
 ----
 
-Description: 
+Description: <p>Join us for the community opening of the Inverse Surveillance Project: an Immersive Community Archive</p>

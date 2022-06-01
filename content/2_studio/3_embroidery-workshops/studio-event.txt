@@ -4,7 +4,7 @@ Title: Embroidery Workshops
 
 Event-image:
 
-- event-photo-test.png
+- asma-and-nouha.jpg
 
 ----
 
@@ -18,7 +18,7 @@ Date: June 15th - July 8th
 
 Days-times:
 
-Tues, Thurs, & Fridays |  9am-12pm and 3pm-5pm 
+Tues, Thurs, &amp; Fridays |  9am-12pm and 3pm-5pm 
 Wednesdays | 9am-12pm and 1pm-4pm
 
 ----

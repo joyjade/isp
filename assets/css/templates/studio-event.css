@@ -30,11 +30,12 @@ p.large {
 section .image {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 section .image figure {
   width: 80%;
+  height: auto;
 }
 
 @media screen and (max-width: 1000px) {

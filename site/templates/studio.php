@@ -4,7 +4,7 @@
     <div class="content <?= $page->banner_color() ?>">
       <h6 class="uppercase"><?= $page->subheader() ?></h6>
       <h1 class="large"><?=$page ->title() ?></h1>
-      <p class="large"><?= $page -> description() ?></p>
+      <?= $page -> description() ?>
     </div>
     <div>
       <figure>

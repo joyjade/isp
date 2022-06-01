@@ -25,7 +25,7 @@ columns:
       days_times:
         width: 2/3
         label: Days and Times
-        type: textarea
+        type: writer
         buttons: false
       description:
         label: Event Description

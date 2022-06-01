@@ -9,6 +9,10 @@ section.banner.split {
   padding-top: calc(var(--block-pad) +var(--nav-height));
 }
 
+.banner .content p {
+  font-size: 1.6rem;
+}
+
 .banner .content h1 {
  flex-grow: 1;
 }
