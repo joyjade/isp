@@ -50,6 +50,6 @@ Elements:
     surveillance and without raciliatized
     trauma.
   linked_page:
-    - studio
+    - events
   color: forest
   side: right

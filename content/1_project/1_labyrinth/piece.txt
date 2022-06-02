@@ -4,11 +4,11 @@ Title: Labyrinth
 
 Photo:
 
-- labyrinth-picture.png
+- lab-pic-square.png
 
 ----
 
-Videos: 
+Gallery: 
 
 ----
 
@@ -21,6 +21,10 @@ Description: The walls of the life-sized labyrinth will be comprised of more tha
 ----
 
 Embed: 
+
+----
+
+Videos: 
 
 ----
 

@@ -54,13 +54,8 @@ columns:
           width: 1/2
 
         notes:
-          label: Notes section
-          help: Each line will have a green line underneath it. 
-          type: structure
-          fields:
-            note: 
-              label: Line
-              type: writer
+          label: Notes
+          type: writer
 
         line_b: 
           type: line

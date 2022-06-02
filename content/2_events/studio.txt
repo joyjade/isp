@@ -28,11 +28,4 @@ Notes-color: forest
 
 ----
 
-Notes:
-
-- 
-  note: '<p>The Co-Creation Art Studio and workshops <u>specifically</u> will serve as a safe spaces for our community to discuss and heal from traumatic experiences, <strong>participation is prioritized for Muslim and/or Arab identifying community members</strong> who have endured government surveillance, personally and/or collectively.</p>'
-- 
-  note: '<p>We invite other BIPOC communities to visit the Installation during open hours throughout ___.</p>'
-- 
-  note: '<p>If you do not identify with any of the aforementioned identities you are welcome to visit the installation between July 7th and 9th when it opens to the general public and<u><a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" rel="noopener noreferrer"> </a></u><a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" rel="noopener noreferrer">support our work here</a>.</p>'
+Notes: <p>The Community Art Studio and workshops will serve as a safe spaces for our community to discuss and heal from traumatic experiences, <strong>participation is prioritized for Muslim and/or Arab identifying community members</strong> who have endured government surveillance, personally and/or collectively.</p><p>We invite other BIPOC to visit the installation between July 5th - July 9th. For those<strong> </strong>who do not identify with the aforementioned identities, you are welcome to support our work <a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" target="_blank" rel="noopener noreferrer">here</a>. '</p>
