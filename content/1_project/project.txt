@@ -10,7 +10,7 @@ Elements:
 
 - 
   before: 'is an immersive '
-  word: 'co-created '
+  word: co-created
   after: >
     art installation designed and produced
     by the Arab and Muslim American
@@ -21,7 +21,7 @@ Elements:
   side: left
 - 
   before: >
-    The installation will take the form of a
+    The installation takes the form of a
     life-sized
   word: labyrinth
   after: ""
@@ -31,13 +31,12 @@ Elements:
   side: right
 - 
   before: that will be the canvas for an
-  word: immersive community archive,
+  word: immersive community archive
   after: >
-    repurposing thousands of records
+    that repurposes thousands of records
     collected during a decade of FBI
-    surveillance, as a site of collective
-    disruption and a reclaiming of
-    narrative.
+    surveillance as a site of collective
+    healing and a reclaiming of narrative.
   linked_page:
     - project/communityarchive
   color: moss
@@ -54,16 +53,3 @@ Elements:
     - studio
   color: forest
   side: right
-- 
-  before: ""
-  word: Events
-  after: >
-    ranging from community healing
-    workshops, tatreez embroidery classes,
-    somatic movement classes, and folk music
-    jam sessions will be hosted in the space
-    from June 15th-July 9th.
-  linked_page:
-    - studio
-  color: ivory
-  side: left
