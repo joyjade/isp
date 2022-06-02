@@ -2,11 +2,13 @@
   <div class="main">
     <section class="split divider">
       <div class="image">
-        <figure>
-          <?php if($image = $page->event_image()->toFile()): ?>
-            <img src="<?= $image->url() ?>">
+        <div class="sticky">
+          <figure>
+            <?php if($image = $page->event_image()->toFile()): ?>
+              <img src="<?= $image->url() ?>">
             <?php endif ?>
           </figure>
+        </div>
         </div>
       <div class="content">
         <h6><a href="<?=$page->parent()->url()?>">← Back to Studio</a></h6>

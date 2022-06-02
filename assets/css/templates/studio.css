@@ -80,12 +80,9 @@ section.events {
   padding: 1rem 0;
 }
 
-.events ul h4 {
-  padding-top: 1.25rem;
-}
 
 .events h2 {
-  padding: 1rem 0;
+  padding: var(--block-pad) 0 1rem;
 }
 
 .events li .copy {

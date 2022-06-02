@@ -27,10 +27,10 @@
           </div>
           <div class="copy">
             <a href="<?=$event -> url() ?>">
+              <h2><?= $event-> title()?> </h2>
               <h4 class="header">
                 <?=$event -> date()?>
               </h4>
-            <h2><?= $event-> title()?> </h2>
             <div class="details">
               <p><?= $event-> days_times() ?></p>  
             </div>

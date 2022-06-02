@@ -16,10 +16,7 @@ Date: June 15th - July 8th
 
 ----
 
-Days-times:
-
-Tues, Thurs, &amp; Fridays |  9am-12pm and 3pm-5pm 
-Wednesdays | 9am-12pm and 1pm-4pm
+Days-times: <p>Tues, Thurs, &amp; Fridays | 9am-12pm and 3pm-5pm <br>Wednesdays | 9am-12pm and 1pm-4pm</p>
 
 ----
 
