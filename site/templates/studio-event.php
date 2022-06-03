@@ -1,5 +1,5 @@
 <?php snippet('nav')?>
-  <div class="main">
+  <div class="main studio-event">
     <section class="split divider">
       <div class="image">
         <div class="sticky">
@@ -14,7 +14,7 @@
         <h6><a href="<?=$page->parent()->url()?>">← Back to Studio</a></h6>
         <h1><?=$page->title()?></h1>
         <div class="details">
-          <p><?= $page-> date()?></p>  
+          <h4><?= $page-> date()?></h4>  
           <?= $page-> days_times()?>
         </div>
         <p><?=$page->description()?></p>

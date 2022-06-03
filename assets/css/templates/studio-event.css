@@ -1,7 +1,7 @@
 
-section {
+.studio-event section {
   padding: 2rem;
-  padding-top: calc(2rem + var(--nav-height)) !important;
+  padding-top: calc(2rem + var(--nav-height));
   position: relative;
   height: var(--screen-height);
 }
@@ -14,7 +14,6 @@ body {
   background-color: var(--ivory);
 }
 
-
 h1 {
   margin: 1rem 0 0;
   padding-bottom: 1rem;
@@ -22,6 +21,10 @@ h1 {
 
 p.large {
   font-size: 2rem;
+}
+
+section.split .details p {
+  padding-bottom: 0.25rem; 
 }
 
 .sticky {

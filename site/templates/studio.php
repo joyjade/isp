@@ -13,6 +13,15 @@
         <?php endif ?>
       </figure>
     </div>
+    <?php if($page->notes()->isNotEmpty()): ?>
+      <div class="notice">
+        <div>
+          <h4><?=$page->notes_header()?></h4>
+          <?=$page->notes() ?>
+          <div class="close"><img src="/assets/icons/x.svg" alt="Close Button" class=""></div>
+        </div>
+      </div>
+    <?php endif ?>
   </section>
   <section class="padded events">
     <ul>
@@ -32,7 +41,7 @@
                 <?=$event -> date()?>
               </h4>
             <div class="details">
-              <p><?= $event-> days_times() ?></p>  
+              <?= $event-> days_times() ?>
             </div>
             <p><?= $event-> short_description()?></p>  
             </a>

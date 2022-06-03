@@ -188,13 +188,36 @@
     min-width: 100%;
   }
 
+  .events li .copy {
+    width: 100%;
+  }
+
   .events li .image {
     width: 100%;
     max-width: 100%;
   }
 
+  .events ul li:last-of-type {
+    border-bottom: none;
+  }
+  
   .events li img {
     padding-bottom: 0;
+  }
+
+  .studio .notice {
+    width: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .studio-event section {
+    padding-top: calc(var(--nav-height));
+  }
+
+  .studio-event section .image figure {
+    width: 100%;
   }
 
   .team {

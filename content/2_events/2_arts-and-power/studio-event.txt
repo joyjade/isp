@@ -12,11 +12,11 @@ Short-description: Join us every Wednesday for Arts and Power building workshops
 
 ----
 
-Date: June 22nd, 29th, and July 6th
+Date: June 22nd, 29th, & July 6th
 
 ----
 
-Days-times: <p>Wednesdays | 6-8pm</p>
+Days-times: <h4>Wednesdays | 6-8pm</h4>
 
 ----
 

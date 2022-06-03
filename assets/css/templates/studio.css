@@ -1,3 +1,6 @@
+main {
+  position: relative;
+}
 
 section.banner.split {
   height: var(--screen-height);
@@ -80,6 +83,9 @@ section.events {
   padding: 1rem 0;
 }
 
+.events li h4 {
+  padding-bottom: 0.25rem; 
+}
 
 .events h2 {
   padding: var(--block-pad) 0 1rem;
@@ -101,6 +107,7 @@ section.events {
   padding-bottom: 1rem;
 }
 
+ 
 
 .sticky.arrow {
   padding-top: 2rem;
@@ -136,4 +143,41 @@ h1:not(.large) {
   display: inline;
   object-fit: contain;
   padding-left: 2rem;
+}
+
+.notice.show {
+  display: block;
+}
+
+.notice {
+  display: none;
+}
+
+.notice {
+  position: fixed;
+  background: var(--ivory);
+  bottom: 0;
+  right: 0;
+  padding: 2.5rem;
+  margin: var(--block-pad);
+  z-index: 100;
+}
+
+.notice h4 {
+  padding-bottom: var(--block-pad);
+}
+
+.notice p {
+  padding-bottom: 0.75rem;
+}
+
+.notice > div {
+  position: relative;
+}
+
+.notice .close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 20px;
 }

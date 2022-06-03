@@ -12,11 +12,11 @@ Short-description: Join us every Saturday for Community Healing Workshops
 
 ----
 
-Date: June 18th, June 25th, July 2nd, July 9th
+Date: June 18th, June 25th, July 2nd, & July 9th
 
 ----
 
-Days-times: <p>Saturdays</p><p>Somatic Movement Classes | 10am - 11:30am <br>Community Healing Circles | 1pm - 2:30 pm</p>
+Days-times: <h4>Saturdays</h4><h4>Somatic Movement Classes | 10am - 11:30am <br>Community Healing Circles | 1pm - 2:30 pm</h4>
 
 ----
 

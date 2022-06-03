@@ -17,7 +17,7 @@ Date: June 15th
 
 ----
 
-Days-times: <p>Wednesday | 5-8 pm</p>
+Days-times: <h4>Wednesday | 5-8 pm</h4>
 
 ----
 

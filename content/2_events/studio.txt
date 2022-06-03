@@ -12,7 +12,7 @@ Subheader: Community Art Studio
 
 ----
 
-Description: <p>The Community Art Studio will be a place for our people to gather, create art, and imagine a world beyond surveillance and without racialized trauma. Join us for Embroidery, Arts &amp; Power Building, and Community Healing workshops Tuesdays through Saturdays from June 15th to July 9th.</p><p>Community Art Studio Hours<br>Tue to Sat | 10-5pm</p>
+Description: <p>The Community Art Studio will be a place for our people to gather, create art, and imagine a world beyond surveillance and without racialized trauma. Join us for Embroidery, Arts &amp; Power Building, and Community Healing workshops Tuesdays through Saturdays from June 15th to July 9th.</p><h4>Community Art Studio Hours<br>Wed | 10-8pm<br>Tue, Thur, Fri &amp; Sat | 10-5pm </h4>
 
 ----
 
