@@ -21,7 +21,7 @@ Elements:
   side: left
 - 
   before: >
-    The installation takes the form of a
+    The installation will take the form of a
     life-sized
   word: labyrinth
   after: ""
@@ -41,15 +41,3 @@ Elements:
     - project/communityarchive
   color: moss
   side: left
-- 
-  before: The
-  word: community art studio
-  after: >
-    is a place for our community to gather,
-    create art, and imagine a world beyond
-    surveillance and without raciliatized
-    trauma.
-  linked_page:
-    - events
-  color: forest
-  side: right
