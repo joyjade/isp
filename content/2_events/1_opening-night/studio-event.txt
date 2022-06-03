@@ -4,7 +4,8 @@ Title: Opening Night
 
 Event-image:
 
-- photo-for-website-2-snowy-backyard.jpg
+- >
+  photo-for-website-1-kids-at-breakfats-table.jpg
 
 ----
 
