@@ -3,7 +3,7 @@
   padding: 2rem;
   padding-top: calc(2rem + var(--nav-height));
   position: relative;
-  height: var(--screen-height);
+  height: 100%;
 }
 
 section.split .content {
