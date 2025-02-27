@@ -5,7 +5,7 @@ section.banner.split {
 .banner .content {
   display: flex;
   flex-flow: column;
-  padding-top: calc(var(--block-pad) +var(--nav-height));
+  padding-top: calc(var(--block-pad) + var(--nav-height));
 }
 
 .banner .content h1 {
