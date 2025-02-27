@@ -15,11 +15,12 @@
       </p>
     </div>
     <div class="image">
-      <?php foreach( $elements as $element) :
+      <?php foreach( $elements as $element) : 
         $piece = $element->linked_page()->toPage();
+        $image = $piece->photo()->toFile() ? $piece->photo()->toFile() : $piece->image()
         ?>
         <figure class="hidden <?= $element->side() ?> <?= $element->color() ?>" id="<?= $piece->id() ?>">
-          <img src="<?= $piece->image()->url() ?>" alt="">
+          <img src="<?= $image->url() ?>" alt="">
         </figure>
       <?php endforeach?>
     </div>

@@ -4,8 +4,22 @@ columns:
   - width: 1/3
     fields:
       photo: 
-        extends: fields/cover
+        headline: Photo
+        type: files
+        multiple: false
+        uploads: cover
+        layout: cards
+        image: 
+          back: white
+          ratio: 3/2	
+          cover: true
         size: medium
+      gallery:
+        type: files
+        label: Upload videos
+        uploads: video
+        layout: cards
+        query: page.videos
         
   - width: 2/3
     sections:
@@ -17,3 +31,8 @@ columns:
             label: Heading 
           description: 
             type: writer 
+          embed: 
+            type: textarea
+            label: Code Embed
+            font: monospace
+            buttons: false

@@ -1,0 +1,183 @@
+main {
+  position: relative;
+}
+
+section.banner.split {
+  height: var(--screen-height);
+}
+
+.banner .content {
+  display: flex;
+  flex-flow: column;
+  padding-top: calc(var(--block-pad) +var(--nav-height));
+}
+
+.banner .content p {
+  font-size: 1.6rem;
+}
+
+.banner .content h1 {
+ flex-grow: 1;
+}
+
+section.split .ivory.content ul p  {
+  padding-bottom: 1.5rem;
+}
+
+.content b {
+  font-weight: 700;
+}
+
+/* EVENTS */
+
+section.events {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.events ul h1 {
+  width: 60%;
+}
+
+.events ul {
+ font-family: var(--grotesk);
+ font-weight: 500;
+ font-size: 2rem;
+ margin: 0.75rem 0 var(--block-pad);
+}
+
+.events ul li:first-of-type {
+  border-top: 2px solid black;
+}
+
+.events ul li {
+  border-bottom: 2px solid black;
+  display: flex;
+}
+
+.events ul li > div {
+  width: inherit;
+}
+
+.events ul {
+  display: flex;
+  flex-flow:column; 
+  align-items: center;
+}
+
+.events ul li {
+  width: 60%;
+  min-width: 700px;
+}
+
+.events li .image {
+  width: 40%;
+  max-width: 300px;
+}
+
+.events li img {
+  padding: 1rem;
+}
+
+.events ul h6 {
+  padding: 1rem 0;
+}
+
+.events li h4 {
+  padding-bottom: 0.25rem; 
+}
+
+.events h2 {
+  padding: var(--block-pad) 0 1rem;
+}
+
+.events li .copy {
+  width: 60%;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 2rem;
+}
+
+.events li .copy a {
+  align-self: baseline;
+}
+
+.events .details {
+  padding-bottom: 1rem;
+}
+
+ 
+
+.sticky.arrow {
+  padding-top: 2rem;
+  display: flex;
+  align-content: center;
+}
+.sticky.arrow h3 {
+  padding-bottom: 0.2rem !important;
+}
+.color-blocks {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.color-blocks li {
+  display: flex;
+  flex-flow: column;
+  border-bottom: 2px solid var(--moss); 
+  padding-top: var(--block-pad);
+}
+
+h1.large {
+  padding-bottom: 1rem;
+}
+h1:not(.large) {
+  padding: 1rem 2rem 1rem 0;
+}
+
+.inline-arrow {
+  width: 120px;
+  height: auto;
+  display: inline;
+  object-fit: contain;
+  padding-left: 2rem;
+}
+
+.notice.show {
+  display: block;
+}
+
+.notice {
+  display: none;
+}
+
+.notice {
+  position: fixed;
+  background: var(--ivory);
+  bottom: 0;
+  right: 0;
+  padding: 2.5rem;
+  margin: var(--block-pad);
+  z-index: 100;
+}
+
+.notice h4 {
+  padding-bottom: var(--block-pad);
+}
+
+.notice p {
+  padding-bottom: 0.75rem;
+}
+
+.notice > div {
+  position: relative;
+}
+
+.notice .close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 20px;
+}

@@ -4,11 +4,11 @@ Title: Labyrinth
 
 Photo:
 
-- lab.png
+- lab-pic-square.png
 
 ----
 
-Color: nostalgia
+Gallery: 
 
 ----
 
@@ -17,3 +17,15 @@ Heading: Labyrinth
 ----
 
 Description: The walls of the life-sized labyrinth will be comprised of more than 33,000 pages of FOIA documents collected during a decade of FBI surveillance of the community. Within the labyrinth, the redacted spaces in the documents — white holes where the government has disappeared information — will be transformed into spaces of possibility. The community archive, consisting of fragments of collective memory in the form of home videos and photographs shared by the community, will live in between these redactions and will be mediated using augmented reality. Within the very center of the labyrinth, we invite people in the community to join us to boldly cross-stitch their names into the redacted records, using Palestinian “tatreez” embroidery. Together we’ll create an interconnected textile marking the relationships that gives shape to a network of a tight-knit Arab and Muslim community.
+
+----
+
+Embed: 
+
+----
+
+Videos: 
+
+----
+
+Color: nostalgia

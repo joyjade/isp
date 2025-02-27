@@ -1,0 +1,33 @@
+title: Studio Event
+icon: 🧵
+type: page
+
+columns: 
+  side:
+    width: 1/3
+    fields: 
+      event_image: 
+        label: Event Image
+        type: files
+        layout: cards
+        ratio: 1/1
+  main: 
+    width: 2/3
+    fields:
+      short_description:
+        label: Brief Description
+        type: text
+        help: This copy will show up on the Events page
+      date:
+        width: 1/3
+        label: Date(s)
+        type: text
+      days_times:
+        width: 2/3
+        label: Days and Times
+        type: writer
+        buttons: false
+      description:
+        label: Event Description
+        type: writer
+      

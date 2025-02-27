@@ -1,0 +1,31 @@
+Title: Events
+
+----
+
+Banner-image:
+
+- photo-for-website-2-snowy-backyard.jpg
+
+----
+
+Subheader: Community Art Studio
+
+----
+
+Description: <p>The Community Art Studio will be a place for our people to gather, create art, and imagine a world beyond surveillance and without racialized trauma. Join us for Embroidery, Arts &amp; Power Building, and Community Healing workshops Tuesdays through Saturdays from June 15th to July 9th.</p><h4>Community Art Studio Hours<br>Wed | 10-8pm<br>Tue, Thur, Fri &amp; Sat | 10-5pm </h4>
+
+----
+
+Banner-color: nostalgia
+
+----
+
+Notes-header: Note on Access
+
+----
+
+Notes-color: forest
+
+----
+
+Notes: <p>The Community Art Studio and workshops will serve as a safe spaces for our community to discuss and heal from traumatic experiences, <strong>participation is prioritized for Muslim and/or Arab identifying community members</strong> who have endured government surveillance, personally and/or collectively.</p><p>We invite other BIPOC to visit the installation between July 5th - July 9th. For those<strong> </strong>who do not identify with the aforementioned identities, you are welcome to support our work <a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" target="_blank" rel="noopener noreferrer">here</a>. '</p>

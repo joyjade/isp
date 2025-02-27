@@ -9,39 +9,35 @@ Header: The Inverse Surveillance Project
 Elements:
 
 - 
-  before: >
-    is a new-media project that includes
-    designing a
-  word: co-creation
+  before: 'is an immersive '
+  word: co-created
+  after: >
+    art installation designed and produced
+    by the Arab and Muslim American
+    communities in the Chicagoland area.
   linked_page:
     - cocreation
-  after: >
-    process with the Arab and Muslim
-    American community in the Chicagoland
-    area.
   color: amber
   side: left
 - 
   before: >
-    This process will result in a
-    site-specific installation that takes
-    the form of a
+    The installation will take the form of a
+    life-sized
   word: labyrinth
+  after: ""
   linked_page:
     - project/labyrinth
-  after: ""
   color: nostalgia
-  side: left
+  side: right
 - 
-  before: and the creation of a
-  word: community counter archive,
+  before: that will be the canvas for an
+  word: immersive community archive
+  after: >
+    that repurposes thousands of records
+    collected during a decade of FBI
+    surveillance as a site of collective
+    healing and a reclaiming of narrative.
   linked_page:
     - project/communityarchive
-  after: >
-    repurposing thousands of records
-    collected during a decade of FBI
-    surveillance, as a site of collective
-    disruption and a reclaiming of
-    narrative.
   color: moss
-  side: right
+  side: left

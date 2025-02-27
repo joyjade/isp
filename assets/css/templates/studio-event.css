@@ -1,0 +1,46 @@
+
+.studio-event section {
+  padding: 2rem;
+  padding-top: calc(2rem + var(--nav-height));
+  position: relative;
+  height: 100%;
+}
+
+section.split .content {
+  padding-top: 0.5rem;
+}
+
+body {
+  background-color: var(--ivory);
+}
+
+h1 {
+  margin: 1rem 0 0;
+  padding-bottom: 1rem;
+}
+
+p.large {
+  font-size: 2rem;
+}
+
+section.split .details p {
+  padding-bottom: 0.25rem; 
+}
+
+.sticky {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+}
+
+section .image figure {
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    background: right / 1200px no-repeat url("/assets/icons/pixels_5.svg");
+  }
+}

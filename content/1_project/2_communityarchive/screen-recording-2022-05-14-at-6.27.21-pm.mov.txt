@@ -1,0 +1,17 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Autoplay: true
+
+----
+
+Loop: false
+
+----
+
+Template: video

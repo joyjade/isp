@@ -1,4 +1,4 @@
-Title: Community Archive
+Title: Immersive Community Archive
 
 ----
 
@@ -8,12 +8,24 @@ Photo:
 
 ----
 
+Gallery: 
+
+----
+
+Heading: Immersive Community Archive
+
+----
+
+Description: <p>This Immersive Community Archive is a <em>historic</em> endeavor and unapologetic refusal to allow the Islamophobic lens of the FBI shape our narrative or dictate our stories. We are honored to be partnering with dozens of family's from our community in co-creating this archive and thrilled at the prospect of creating a representative, nuanced, rich, and beautiful archive of our community! We invite you and your family to participate and submit home videos and photos that will be memorialized in the physical Inverse Surveillance Project exhibit and later online for generations to come to explore!</p>
+
+----
+
+Embed: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE9ZVKqVG0swS-uJNpXyEcoyBd4bJ3uNdYh5dieP5n0P6DRw/viewform?embedded=true" width="670" height="1880" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+----
+
+Videos: 
+
+----
+
 Color: moss
-
-----
-
-Heading: Community Archive
-
-----
-
-Description: This project involves inviting dozens of families in the Bridgeview Arab and Muslim community to share their personal home videos and photographs in an attempt to gather and preserve the community's own archive of itself. After decades of state surveillance and thousands of pages of declassified records collected by the U.S. government about us, we think it is a cultural imperative that our community's stories and collective memories are preserved by the community itself. Through our community advisory board we have designed a non-extractive and generative process for gathering archival material and creating an enduring benefit for the community.
