@@ -2,9 +2,7 @@ Title: Immersive Community Archive
 
 ----
 
-Photo:
-
-- hv_collage_2.png
+Photo: - hv_collage_2.png
 
 ----
 
@@ -29,3 +27,7 @@ Videos:
 ----
 
 Color: moss
+
+----
+
+Uuid: FrznS7lqClZboNeO

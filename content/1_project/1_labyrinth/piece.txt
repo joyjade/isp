@@ -2,9 +2,7 @@ Title: Labyrinth
 
 ----
 
-Photo:
-
-- lab-pic-square.png
+Photo: - lab-pic-square.png
 
 ----
 
@@ -29,3 +27,7 @@ Videos:
 ----
 
 Color: nostalgia
+
+----
+
+Uuid: F6DErrz4eNb9hXgv
