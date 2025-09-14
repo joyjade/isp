@@ -2,9 +2,7 @@ Title: Events
 
 ----
 
-Banner-image:
-
-- photo-for-website-2-snowy-backyard.jpg
+Banner-image: - photo-for-website-2-snowy-backyard.jpg
 
 ----
 
@@ -29,3 +27,7 @@ Notes-color: forest
 ----
 
 Notes: <p>The Community Art Studio and workshops will serve as a safe spaces for our community to discuss and heal from traumatic experiences, <strong>participation is prioritized for Muslim and/or Arab identifying community members</strong> who have endured government surveillance, personally and/or collectively.</p><p>We invite other BIPOC to visit the installation between July 5th - July 9th. For those<strong> </strong>who do not identify with the aforementioned identities, you are welcome to support our work <a href="https://www.wmm.com/sponsored-project/the-feeling-of-being-watched/" target="_blank" rel="noopener noreferrer">here</a>. '</p>
+
+----
+
+Uuid: pcNZE43CcK63ZRHO

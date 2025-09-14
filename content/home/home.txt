@@ -2,9 +2,7 @@ Title: Home
 
 ----
 
-Banner:
-
-- banner_final.jpg
+Banner: - banner_final.jpg
 
 ----
 
@@ -16,9 +14,7 @@ Heading: <h2>The Inverse Surveillance Project takes its name from the concept of
 
 ----
 
-Photo:
-
-- collage_4.png
+Photo: - collage_4.png
 
 ----
 
@@ -54,3 +50,7 @@ Cover:
 ----
 
 Description: 
+
+----
+
+Uuid: J7ny4KPmbDWR2EFl

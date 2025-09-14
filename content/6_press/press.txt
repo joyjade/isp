@@ -18,9 +18,7 @@ Color: moss
 
 ----
 
-Cover:
-
-- tribune_3.jpg
+Cover: - tribune_3.jpg
 
 ----
 
@@ -66,3 +64,7 @@ Links:
     https://chicago.suntimes.com/entertainment-and-culture/2022/1/26/22894451/usa-fellowship-chicago-artists-grants-t-ayo-alston-assia-boundaoui
   subheader: Chicago Sun Times
   featured: 'true'
+
+----
+
+Uuid: 70WbaxlSpZ2gT7Rq
